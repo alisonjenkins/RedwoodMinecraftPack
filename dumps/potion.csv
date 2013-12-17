@@ -1,0 +1,97 @@
+ID,Unlocalised name,Class
+0,null,null,null,null
+1,potion.moveSpeed,net.minecraft.potion.Potion
+2,potion.moveSlowdown,net.minecraft.potion.Potion
+3,potion.digSpeed,net.minecraft.potion.Potion
+4,potion.digSlowDown,net.minecraft.potion.Potion
+5,potion.damageBoost,net.minecraft.potion.PotionAttackDamage
+6,potion.heal,net.minecraft.potion.PotionHealth
+7,potion.harm,net.minecraft.potion.PotionHealth
+8,potion.jump,net.minecraft.potion.Potion
+9,potion.confusion,net.minecraft.potion.Potion
+10,potion.regeneration,net.minecraft.potion.Potion
+11,potion.resistance,net.minecraft.potion.Potion
+12,potion.fireResistance,net.minecraft.potion.Potion
+13,potion.waterBreathing,net.minecraft.potion.Potion
+14,potion.invisibility,net.minecraft.potion.Potion
+15,potion.blindness,net.minecraft.potion.Potion
+16,potion.nightVision,net.minecraft.potion.Potion
+17,potion.hunger,net.minecraft.potion.Potion
+18,potion.weakness,net.minecraft.potion.PotionAttackDamage
+19,potion.poison,net.minecraft.potion.Potion
+20,potion.wither,net.minecraft.potion.Potion
+21,potion.radiation,atomicscience.api.poison.PotionRadiation
+22,potion.toxin,icbm.explosion.potion.PDaDu
+23,potion.virus,icbm.explosion.potion.PChuanRanDu
+24,potion.frostBite,icbm.explosion.potion.PDongShang
+25,null,null,null,null
+26,null,null,null,null
+27,null,null,null,null
+28,null,null,null,null
+29,null,null,null,null
+30,potion.fluxtaint,thaumcraft.common.items.PotionFluxTaint
+31,null,null,null,null
+32,Water Breathing,am2.buffs.ArsMagicaPotion
+33,Flight,am2.buffs.ArsMagicaPotion
+34,Feather Fall,am2.buffs.ArsMagicaPotion
+35,Haste,am2.buffs.ArsMagicaPotion
+36,True Sight,am2.buffs.ArsMagicaPotion
+37,Regeneration,am2.buffs.ArsMagicaPotion
+38,Magic Shield,am2.buffs.ArsMagicaPotion
+39,Charmed,am2.buffs.ArsMagicaPotion
+40,Frost Slow,am2.buffs.ArsMagicaPotion
+41,Chrono Anchor,am2.buffs.ArsMagicaPotion
+42,Mana Regen,am2.buffs.ArsMagicaPotion
+43,Draining Poison,am2.buffs.ArsMagicaPotion
+44,Entangled,am2.buffs.ArsMagicaPotion
+45,Watery Grave,am2.buffs.ArsMagicaPotion
+46,Protecting Winds,am2.buffs.ArsMagicaPotion
+47,Parasitic Seed,am2.buffs.ArsMagicaPotion
+48,Spell Reflect,am2.buffs.ArsMagicaPotion
+49,Desert Curse,am2.buffs.ArsMagicaPotion
+50,Kiss of Death,am2.buffs.ArsMagicaPotion
+51,Silence,am2.buffs.ArsMagicaPotion
+52,Swift Swim,am2.buffs.ArsMagicaPotion
+53,Agility,am2.buffs.ArsMagicaPotion
+54,Leap,am2.buffs.ArsMagicaPotion
+55,Mana Boost,am2.buffs.ArsMagicaPotion
+56,Astral Distortion,am2.buffs.ArsMagicaPotion
+57,null,null,null,null
+58,null,null,null,null
+59,null,null,null,null
+60,null,null,null,null
+61,null,null,null,null
+62,null,null,null,null
+63,Illuminated,am2.buffs.ArsMagicaPotion
+64,Greater Mana Restoration,am2.buffs.ManaPotion
+65,Epic Mana Restoration,am2.buffs.ManaPotion
+66,Legendary Mana Restoration,am2.buffs.ManaPotion
+67,null,null,null,null
+68,Gravity Well,am2.buffs.ArsMagicaPotion
+69,Levitation,am2.buffs.ArsMagicaPotion
+70,Clarity,am2.buffs.ArsMagicaPotion
+71,null,null,null,null
+72,null,null,null,null
+73,null,null,null,null
+74,null,null,null,null
+75,null,null,null,null
+76,null,null,null,null
+77,null,null,null,null
+78,null,null,null,null
+79,null,null,null,null
+80,null,null,null,null
+81,null,null,null,null
+82,null,null,null,null
+83,null,null,null,null
+84,null,null,null,null
+85,null,null,null,null
+86,null,null,null,null
+87,null,null,null,null
+88,null,null,null,null
+89,null,null,null,null
+90,null,null,null,null
+91,null,null,null,null
+92,null,null,null,null
+93,null,null,null,null
+94,null,null,null,null
+95,null,null,null,null

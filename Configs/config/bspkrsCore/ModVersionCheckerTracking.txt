@@ -1,0 +1,7 @@
+# Configuration file
+
+version_check_tracker {
+    S:bspkrsCore=v5.0(1.6.4)
+}
+
+

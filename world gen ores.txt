@@ -1,0 +1,50 @@
+Mods that use Ore Gen:
+
+Applied Energistics:
+   - Quartz
+
+Factorization:
+   - Silver
+
+Forestry:
+   - Apatite
+   - Beehives
+   - Copper
+   - Tin
+
+GregTech:
+   - Bauxite
+   - Cassiterite
+   - Cinnabar
+   - Cooperite
+   - Ender Asteroids
+   - Galena
+   - Iridium
+   - Olivine
+   - Pyrite
+   - Ruby
+   - Sapphire
+   - Sodalite
+   - Sphalerite
+   - Tetrahedrite
+   - Tungstate
+
+IC2:
+  - Copper
+  - Tin
+  - Uranium
+  - RubberTrees
+
+Railcraft:
+   - Abyssal
+   - Quarried
+   - Saltpeter
+   - Sulfur
+
+Tinker's Construct:
+   - Village gen
+   - Aluminium
+   - cobalt
+   - Ardite
+   - Copper
+   - Tin
