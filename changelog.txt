@@ -46,4 +46,4 @@ Added:
 - JABBA 1.0.1.
 
 Removed:
-- None.
+- CustomNPC.

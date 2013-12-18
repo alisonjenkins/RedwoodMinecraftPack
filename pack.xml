@@ -1827,18 +1827,6 @@
             md5="f50146f69d3920ca053f027f4f7975a0"
             download="server"
             />
-        <mod name="CustomNPCs"
-            description="Adds a way to make custom NPC's for various uses"
-            website="http://www.minecraftforum.net/topic/833003-162164-custom-npcs-splanmp/"
-            version="1.6.4"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/CustomNPCs_1.6.2.zip"
-            file="CustomNPCs_1.6.2.zip"
-            md5="90ad82f5d7f92099c46c28945eeb1d72"
-            download="server"
-            />
         <mod name="DimensionalAnchors"
             description="Adds highly customisable chunkloaders."
             website="http://www.minecraftforum.net/topic/833003-162164-custom-npcs-splanmp/"
