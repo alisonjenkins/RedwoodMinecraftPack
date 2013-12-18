@@ -20,6 +20,7 @@ Updated:
 - Morph to 0.5.0.
 - Natura to 2.1.14.
 - NotEnoughItems to 1.6.1.8.
+- Nuclear Control to 1.6.2e.
 - OpenBlocks to 1.2.2snapshot502.
 - OpenPeripheral to 0.2.1-snapshot109.
 - Opis to 1.1.2.
