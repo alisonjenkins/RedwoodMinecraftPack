@@ -9,6 +9,7 @@ Updated:
 - NotEnoughItems to 1.6.1.8.
 - Opis to 1.1.2.
 - PneumaticCraft to 1.0.0.
+- RailCraft to 8.3.1.0.
 - Waila to 1.4.3.
 - XACT to 0.4.3.
 
