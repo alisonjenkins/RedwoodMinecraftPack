@@ -7,6 +7,7 @@ Updated:
 - MobiusCore to 1.0.4.
 - NotEnoughItems to 1.6.1.8.
 - PneumaticCraft to 1.0.0.
+- Waila to 1.4.3.
 - XACT to 0.4.3.
 
 Downgraded:
