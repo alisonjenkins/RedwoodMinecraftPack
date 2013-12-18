@@ -2311,6 +2311,17 @@
             md5="d41ab4fc63a03d72ec5b8a186394e118"
             download="server"
             />
+        <mod name="RedstoneArsenal"
+            website="http://www.teamcofh.com/"
+            version="1.0.0.b0e"
+            type="mods"
+            depends="CoFHCore"
+            description="A tech mod that adds weapons and tools powered by ThermalExpansions Redstone Flux."
+            url="packs/RedwoodServer/files/RedstoneArsenal-1.0.0.b0e.jar"
+            file="RedstoneArsenal-1.0.0.b0e.jar"
+            md5="85874c0d71b5fd89d0c1c80cd68a5a93"
+            download="server"
+            />
         <mod name="nHave's OmniWrench"
             description="Adds in the omnitool which will allow you to use 1 wrench for all!"
             website="http://minecraft.curseforge.com/mc-mods/nhaves-omniwrench/"

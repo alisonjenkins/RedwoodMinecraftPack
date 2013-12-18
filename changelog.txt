@@ -57,6 +57,7 @@ Downgraded:
 
 Added:
 - JABBA 1.0.1.
+- RedstoneArsenal 1.0.0.b0e.
 
 Removed:
 - CustomNPC.
