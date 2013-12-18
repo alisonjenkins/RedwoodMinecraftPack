@@ -7,6 +7,7 @@ Updated:
 - Dartcraft to 0.2.14.
 - EiraIRC to 1.4.3b.
 - ExtraCells to 1.6.1.
+- ExtraUtils to 1.0.2.
 - Factorization to 0.8.23.
 - Forestry to 2.3.1.0.
 - ForgeMultipart to 1.0.0.220.
