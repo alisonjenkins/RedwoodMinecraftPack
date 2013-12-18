@@ -13,6 +13,7 @@ Updated:
 - Factorization to 0.8.23.
 - Forestry to 2.3.1.0.
 - ForgeMultipart to 1.0.0.220.
+- GregTech to 4.05s.
 - Immibis Peripherals to 57.0.1.
 - IndustrialCraft2 to 2.0.307.
 - MobiusCore to 1.0.4.
