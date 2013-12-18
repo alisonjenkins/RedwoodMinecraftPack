@@ -18,6 +18,7 @@ Updated:
 - ImmibisCore to 57.1.7.
 - ImmibisMicroblocks to 57.3.2.
 - IndustrialCraft2 to 2.0.307.
+- Infinitubes to 57.0.3.
 - MachineMuse Modular Powersuits to 0.9.0-76.
 - MobiusCore to 1.0.4.
 - Morph to 0.5.0.
