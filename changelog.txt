@@ -1,5 +1,6 @@
 Updated:
 - Backpacks to 1.22.25.
+- Bibliocraft to 1.5.4.
 - Carpenter's Blocks to 1.9.7.
 - CodeChickenCore to CodeChickenLib 1.0.0.45.
 - EiraIRC to 1.4.3b.
