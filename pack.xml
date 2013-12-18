@@ -88,16 +88,16 @@
          />
 
         <mod
-            name="CodeChickenCore"
+            name="CodeChickenLib"
             type="mods"
             description="Needed to run the best recipe finder in Minecraft!"
             website="http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/"
             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
-            version="1.6.4-0.9.0.6"
+            version="1.6.4-1.0.0.45"
             library="yes"
-            url="packs/RedwoodServer/files/CodeChickenCore%200.9.0.6.jar"
-            file="CodeChickenCore 0.9.0.6.jar"
-            md5="a32c204823038b49057d16a13ad8ab41"
+            url="packs/RedwoodServer/files/CodeChickenLib-universal-1.6.4-1.0.0.45.jar"
+            file="CodeChickenLib-universal-1.6.4-1.0.0.45.jar"
+            md5="8148443b4a9d407d5ae1c81686ce91f3"
             download="server"
             />
 
@@ -145,7 +145,7 @@
             description="The best recipe finder in Minecraft!"
             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
             version="1.6.4-1.6.1.5"
-            depends="CodeChickenCore"
+            depends="CodeChickenLib"
             website="http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/"
             optional="no"
             server="yes"
