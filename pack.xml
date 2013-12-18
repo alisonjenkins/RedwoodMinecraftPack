@@ -1055,7 +1055,7 @@
         <mod name="Netherstuffs"
             description="Adds more trees and loads of cool items using the Nether as a base!"
             website="http://www.minecraftforum.net/topic/1563717-152-netherstuffs-0176-enrich-your-nether-with-trees-and-add-soul-energy/"
-            version="1.6.4-0.21.0"
+            version="1.6.4-0.21"
             type="mods"
             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XZ4NCDJLP279G"
             optional="no"
