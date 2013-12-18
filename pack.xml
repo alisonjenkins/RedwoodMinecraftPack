@@ -1751,14 +1751,14 @@
         <mod name="ThaumicTinkerer"
             description="Adds in more Thaumcraft research and cool new items!"
             website="http://www.minecraftforum.net/topic/1813058-thaumic-tinkerer-thaumcraft-addon-evolve-knowledge-v101/"
-            version="1.6.4-2.0-40"
+            version="1.6.4-2.0-47"
             type="mods"
             depends="Thaumcraft"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/ThaumicTinkerer%202.0-40.jar"
-            file="ThaumicTinkerer 2.0-40.jar"
-            md5="86f035ea54878912b574d330e84774d3"
+            url="packs/RedwoodServer/files/ThaumicTinkerer%202.0-47.jar"
+            file="ThaumicTinkerer 2.0-47.jar"
+            md5="c7b4112d6e0a9f7e0836c7e296668d89"
             download="server"
             />
 
