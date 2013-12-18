@@ -19,6 +19,7 @@ Updated:
 - Morph to 0.5.0.
 - Natura to 2.1.14.
 - NotEnoughItems to 1.6.1.8.
+- OpenPeripheral to 0.2.1-snapshot109.
 - Opis to 1.1.2.
 - PneumaticCraft to 1.0.0.
 - RailCraft to 8.3.1.0.
