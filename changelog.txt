@@ -32,6 +32,7 @@ Updated:
 - Steve's Carts to 2.0.0.b3.
 - Thaumic Tinkerer to 2.0.0-47.
 - Tinker's Construct to 1.5.2.2.
+- Tubestuff to 57.1.1.
 - Waila to 1.4.3.
 - XACT to 0.4.3.
 
