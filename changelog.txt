@@ -31,6 +31,7 @@ Updated:
 - Opis to 1.1.2.
 - PneumaticCraft to 1.0.0.
 - RailCraft to 8.3.1.0.
+- Reliquary to 1.1.1.
 - Steve's Carts to 2.0.0.b3.
 - Thaumic Tinkerer to 2.0.0-47.
 - Tinker's Construct to 1.5.2.2.
