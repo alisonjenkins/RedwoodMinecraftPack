@@ -11,6 +11,7 @@ Updated:
 - EiraIRC to 1.4.3b.
 - EmasherResource to 1.2.1.8.
 - EnderIO to 0.5.3.128.
+- EngineersToolbox to 1.1.6.6.
 - ExtraCells to 1.6.1.
 - ExtraUtils to 1.0.2.
 - Factorization to 0.8.23.
