@@ -23,6 +23,7 @@ Updated:
 - ImmibisMicroblocks to 57.3.2.
 - IndustrialCraft2 to 2.0.307.
 - Infinitubes to 57.0.3.
+- MFFS to 3.5.1.269.
 - MachineMuse Modular Powersuits to 0.9.0-76.
 - Mekanism to 5.6.0.660.
 - Mekanism-Generators to 5.6.0.660.
