@@ -1784,7 +1784,6 @@
             depends="ImmibisCore"
             optional="no"
             server="yes"
-            dselby2@cogeco.ca
             url="packs/RedwoodServer/files/immibis-microblocks-57.3.2.jar"
             file="immibis-microblocks-57.3.2.jar"
             md5="79b1da9f8df21f9e5bda2669e3b80084"
