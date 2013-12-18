@@ -112,7 +112,18 @@
             md5="8148443b4a9d407d5ae1c81686ce91f3"
             download="server"
             />
-
+        <mod
+            name="UniversalElectricityCore"
+            type="mods"
+            description="Library required for UE mods!"
+            website="http://universalelectricity.com/universalelectricity/downloads"
+            version="1.6.4-2.3.0.197"
+            library="yes"
+            url="packs/RedwoodServer/files/UniversalElectricity_Core_v2.3.0.197.jar"
+            file="UniversalElectricity_Core_v2.3.0.197.jar"
+            md5="fdd70236923a5233b916553889e05740"
+            download="server"
+            />
         <mod name="AromaCore"
             type="mods"
             description="This is a library for Aroma's mods."
