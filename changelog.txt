@@ -1,6 +1,7 @@
 Updated:
 - CodeChickenCore to CodeChickenLib 1.0.0.45.
 - IndustrialCraft2 to 2.0.307.
+- NotEnoughItems to 1.6.1.8.
 - PneumaticCraft to 1.0.0.
 - XACT to 0.4.3.
 
