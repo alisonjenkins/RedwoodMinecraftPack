@@ -4,6 +4,7 @@ Updated:
 - Bibliocraft to 1.5.4.
 - Carpenter's Blocks to 1.9.7.
 - CodeChickenCore to CodeChickenLib 1.0.0.45.
+- Dartcraft to 0.2.14.
 - EiraIRC to 1.4.3b.
 - ExtraCells to 1.6.1.
 - Factorization to 0.8.23.
