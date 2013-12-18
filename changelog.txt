@@ -26,6 +26,7 @@ Updated:
 - Mekanism to 5.6.0.666.
 - Mekanism-Generators to 5.6.0.666.
 - Mekanism-Induction to 5.6.0.666.
+- Mekanism-Tools to 5.6.0.666.
 - MicdoodleCore to 2.0.7.904.
 - MobiusCore to 1.0.4.
 - Morph to 0.5.0.
