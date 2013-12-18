@@ -6,6 +6,7 @@ Updated:
 - CodeChickenCore to CodeChickenLib 1.0.0.45.
 - Computercraft to 1.58.
 - Dartcraft to 0.2.14.
+- Dimensional Anchor to 57.1.5.
 - EiraIRC to 1.4.3b.
 - EnderIO to 0.5.3.128.
 - ExtraCells to 1.6.1.
