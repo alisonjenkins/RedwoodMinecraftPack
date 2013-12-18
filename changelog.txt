@@ -3,6 +3,7 @@ Updated:
 - Carpenter's Blocks to 1.9.7.
 - CodeChickenCore to CodeChickenLib 1.0.0.45.
 - EiraIRC to 1.4.3b.
+- Factorization to 0.8.23.
 - Forestry to 2.3.1.0.
 - IndustrialCraft2 to 2.0.307.
 - MobiusCore to 1.0.4.
