@@ -467,9 +467,9 @@
             depends="MobiusCore"
             optional="yes"
             group="maps"
-            url="packs/RedwoodServer/files/1.6.4/Opis_1.0.4_alpha.zip"
-            file="Opis_1.0.4_alpha.zip"
-            md5="aea7e08c0ac8ee2a0f9f1bdce2f63c5c"
+            url="packs/RedwoodServer/files/Opis_1.1.2_alpha.zip"
+            file="Opis_1.1.2_alpha.zip"
+            md5="04656d9f60e1f9ef41722d4c1c166f36"
             download="server"
             />
         <mod name="VoxelMap"
