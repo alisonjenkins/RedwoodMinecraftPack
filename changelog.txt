@@ -56,6 +56,7 @@ Downgraded:
 - None.
 
 Added:
+- Big Reactors 0.2.8a.
 - CodeChickenLib 1.0.0.45.
 - JABBA 1.0.1.
 - OpenComputers 1.0.1.
