@@ -58,6 +58,7 @@ Downgraded:
 Added:
 - CodeChickenLib 1.0.0.45.
 - JABBA 1.0.1.
+- OpenComputers 1.0.1.
 - RedstoneArsenal 1.0.0.b0e.
 
 Removed:

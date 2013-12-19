@@ -1526,6 +1526,18 @@
             download="server"
             />
 
+        <mod name="OpenComputers"
+            type="mods"
+            description="Adds programmable computers to Minecraft, like Computercraft but different."
+            website="https://github.com/MightyPirates/OpenComputers/releases"
+            version="1.0.1"
+            optional="no"
+            server="yes"
+            url="packs/RedwoodServer/files/OpenComputers-1.0.1.zip"
+            file="OpenComputers-1.0.1.zip"
+            md5="59b6ddff7c7962885a7d6a9d6450d61e"
+            download="server"
+            />
         <!-- Computercraft -->
         <mod name="ComputerCraft"
             type="mods"
