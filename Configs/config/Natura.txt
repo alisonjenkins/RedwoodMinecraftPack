@@ -71,7 +71,7 @@ block {
     I:"Nether Berry Bush"=3255
     I:"Nether Dispenser"=3365
     I:"Nether Dropper"=3364
-    I:"Nether Glass"=1
+    I:"Nether Glass"=1886
     I:"Nether Lever"=1777
     I:"Netherrack Button"=3367
     I:"Netherrack Furnace"=1774
