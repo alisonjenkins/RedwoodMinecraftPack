@@ -20,11 +20,11 @@ Updated:
 - ForgeMultipart to 1.0.0.220.
 - Galacticraft to 2.0.7.904.
 - Galacticraft-Planets to 2.0.7.904.
-- GregTech to 4.05s.
+- GregTech to 4.05t.
 - Immibis Peripherals to 57.0.1.
 - ImmibisCore to 57.1.7.
 - ImmibisMicroblocks to 57.3.2.
-- IndustrialCraft2 to 2.0.307.
+- IndustrialCraft2 to 2.0.334.
 - Infinitubes to 57.0.3.
 - MFFS to 3.5.1.269.
 - MachineMuse Modular Powersuits to 0.9.0-76.
