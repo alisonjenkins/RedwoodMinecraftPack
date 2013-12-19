@@ -16,7 +16,7 @@ Updated:
 - ExtraCells to 1.6.1.
 - ExtraUtils to 1.0.2.
 - Factorization to 0.8.23.
-- Forestry to 2.3.1.0.
+- Forestry to 2.3.0.7.
 - ForgeMultipart to 1.0.0.220.
 - Galacticraft to 2.0.7.904.
 - Galacticraft-Planets to 2.0.7.904.
