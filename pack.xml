@@ -226,8 +226,8 @@
             version="1.6.4-2.3.1.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/forestry-A-2.3.1.0.jar"
-            file="forestry-A-2.3.1.0.jar"
+            url="packs/RedwoodServer/files/forestry-A-2.3.1.0%20(1).jar"
+            file="forestry-A-2.3.1.0 (1).jar"
             md5="2399212f03f59a53787ad43bb98f9060"
             download="server"
             />
