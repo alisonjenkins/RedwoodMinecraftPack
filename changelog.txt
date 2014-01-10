@@ -16,6 +16,7 @@ Updated:
 - Optifine to C8.
 - Railcraft to 8.3.1.0
 - Thermal Expansion to 3.0.0.2
+- Pneaumatic Craft to 1.0.5
 
 Downgraded:
 - None.
