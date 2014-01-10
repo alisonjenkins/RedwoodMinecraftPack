@@ -26,6 +26,7 @@ Updated:
 - Shatter to 2.0.2.
 - Steve's Carts to b9
 - Thermal Expansion to 3.0.0.2
+- Waila to 1.4.4b.
 
 Downgraded:
 - None.

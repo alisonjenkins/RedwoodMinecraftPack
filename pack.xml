@@ -1536,14 +1536,14 @@
             description="This is an addon for NEI to enable you to find out what mod an item or block is from."
             website="http://www.minecraftforum.net/topic/1846244-152-waila-134-block-and-mod-info-ingame/"
             type="mods"
-            version="1.6.4-1.4.1"
+            version="1.4.4b"
             server="yes"
             optional="yes"
             serveroptional="no"
             depends="NotEnoughItems"
-            url="packs/RedwoodServer/files/Waila_1.4.1.zip"
-            file="Waila_1.4.1.zip"
-            md5="402c381d816e5312cd8501f8ffb07327"
+            url="packs/RedwoodServer/files//Waila_1.4.4b.zip"
+            file="Waila_1.4.4b.zip"
+            md5="ab5943849deb513b095f33737d3f8318"
             download="server"
             />
 
