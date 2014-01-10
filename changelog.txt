@@ -1,66 +1,18 @@
 Updated:
-- Applied Energistics to Rv14finale2.
-- AtomicScience to 1.0.0.160.
-- Backpacks to 1.22.25.
-- Bibliocraft to 1.5.4.
-- Carpenter's Blocks to 1.9.7.
-- CoFHCore to 2.0.0.b9e.
-- CodeChickenCore to 0.9.0.7.
-- Computercraft to 1.58.
-- Dartcraft to 0.2.14.
-- Dimensional Anchor to 57.1.5.
-- EiraIRC to 1.4.3b.
-- EmasherResource to 1.2.1.8.
-- EnderIO to 0.5.3.128.
-- EngineersToolbox to 1.1.6.6.
-- ExtraCells to 1.6.1.
-- ExtraUtils to 1.0.2.
-- Factorization to 0.8.23.
-- Forestry to 2.3.0.7.
-- ForgeMultipart to 1.0.0.220.
-- Galacticraft to 2.0.7.904.
-- Galacticraft-Planets to 2.0.7.904.
-- GregTech to 4.05t.
-- Immibis Peripherals to 57.0.1.
-- ImmibisCore to 57.1.7.
-- ImmibisMicroblocks to 57.3.2.
-- IndustrialCraft2 to 2.0.334.
-- Infinitubes to 57.0.3.
-- MFFS to 3.5.1.269.
-- MachineMuse Modular Powersuits to 0.9.0-76.
-- Mekanism to 5.6.0.660.
-- Mekanism-Generators to 5.6.0.660.
-- Mekanism-Induction to 5.6.0.660.
-- Mekanism-Tools to 5.6.0.660.
-- MicdoodleCore to 2.0.7.904.
-- MobiusCore to 1.0.4.
-- Morph to 0.5.0.
-- Natura to 2.1.14.
-- NotEnoughItems to 1.6.1.8.
-- Nuclear Control to 1.6.2e.
-- OpenBlocks to 1.2.2snapshot502.
-- OpenPeripheral to 0.2.1-snapshot109.
-- Opis to 1.1.2.
-- PneumaticCraft to 1.0.0.
-- RailCraft to 8.3.1.0.
-- Reliquary to 1.1.1.
-- Steve's Carts to 2.0.0.b3.
-- Thaumic Tinkerer to 2.0.0-47.
-- ThermalExpansion to 3.0.0.b9e.
-- Tinker's Construct to 1.5.2.2.
-- Tubestuff to 57.1.1.
-- Waila to 1.4.3.
-- XACT to 0.4.3.
+- Buildcraft to 4.2.1.
+- ExtraCells to 1.5.8.
+- ICBMContraption to 1.3.4-179.
+- ICBMExplosion to 1.3.4-179.
+- ICBMSentry to 1.3.4-179.
+- NEIPlugins to 1.1.0.6.
+- OpenPeripheral to 0.2.1-103.
+- ThaumicTinkerer to 2.0-40.
 
 Downgraded:
 - None.
 
 Added:
-- Big Reactors 0.2.8a.
-- CodeChickenLib 1.0.0.45.
-- JABBA 1.0.1.
-- OpenComputers 1.0.1.
-- RedstoneArsenal 1.0.0.b0e.
+- None.
 
 Removed:
-- CustomNPC.
+- None.
