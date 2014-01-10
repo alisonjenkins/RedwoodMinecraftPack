@@ -5,6 +5,7 @@ Updated:
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
 - NotEnoughItems to 1.6.1.8.
+- Optifine to C8.
 
 Downgraded:
 - None.

@@ -164,11 +164,11 @@
             type="mods"
             optional="yes"
             server="no"
-            version="1.6.4-C7"
+            version="1.6.4-C8"
             group="graphics"
-            url="packs/RedwoodServer/files/OptiFine_1.6.4_HD_U_C7.jar"
-            file="OptiFine_1.6.4_HD_U_C7.jar"
-            md5="28c3cf3e1f853262b0148ca1f072c5dc"
+            url="packs/RedwoodServer/files//OptiFine_1.6.4_HD_U_C8.jar"
+            file="OptiFine_1.6.4_HD_U_C8.jar"
+            md5="ed26247711028090f3669f809f37d04b"
             download="server"
             />
 
