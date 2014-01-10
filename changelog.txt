@@ -1,11 +1,13 @@
 Updated:
 - MagicBees to 2.1.9
 - ChickenCodeCore to 0.9.0.7
+- Forestry to 2.3.1.0.
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
 - NotEnoughItems to 1.6.1.8.
+- Optifine to C8.
 
 Downgraded:
 - None.
