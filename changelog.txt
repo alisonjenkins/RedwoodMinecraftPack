@@ -6,6 +6,9 @@ Updated:
 - ChickenCodeCore to 0.9.0.7
 - CoFHCore to 3.0.0.2
 - DamageIndicators to 2.9.2.3.
+- EiraIRC to 1.5.0.
+- EmashersResource to 1.2.1.8
+- EngineersToolBox to 1.1.6.6
 - Forestry to 2.3.1.0.
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
@@ -13,17 +16,15 @@ Updated:
 - IndustrialCraft2 to 2.0.361-experimental.
 - MagicBees to 2.1.9
 - MagicBees to 2.1.9
+- MagicBees to 2.1.9
+- MagicBees to 2.1.9
 - NotEnoughItems to 1.6.1.8.
 - Optifine to C8.
+- Pneaumatic Craft to 1.0.5
 - Railcraft to 8.3.1.0
-- MagicBees to 2.1.9
+- Steve's Carts to b9
 - Steve's Carts to b9
 - Thermal Expansion to 3.0.0.2
-- Pneaumatic Craft to 1.0.5
-- MagicBees to 2.1.9
-- Steve's Carts to b9
-- EngineersToolBox to 1.1.6.6
-- EmashersResource to 1.2.1.8
 
 Downgraded:
 - None.
