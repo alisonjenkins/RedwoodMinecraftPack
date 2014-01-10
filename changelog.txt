@@ -1,6 +1,8 @@
 Updated:
 - ArsMagicka2 to 1.1.1c.
 - Backpacks to 1.26.29.
+- Backtools to 2.0.1.
+- BspkrsCore to 5.2.
 - ChickenCodeCore to 0.9.0.7
 - CoFHCore to 3.0.0.2
 - Forestry to 2.3.1.0.
@@ -9,10 +11,14 @@ Updated:
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
 - MagicBees to 2.1.9
+- MagicBees to 2.1.9
 - NotEnoughItems to 1.6.1.8.
 - Optifine to C8.
-- Thermal Expansion to 3.0.0.2
 - Railcraft to 8.3.1.0
+- MagicBees to 2.1.9
+- Steve's Carts to b9
+- Thermal Expansion to 3.0.0.2
+- Pneaumatic Craft to 1.0.5
 - MagicBees to 2.1.9
 - Steve's Carts to b9
 
@@ -24,6 +30,7 @@ Added:
 
 Removed:
 - AtomicScience.
+- BasicComponents.
 - ICBMContraption.
 - ICBMExplosion.
 - ICBMSentry.
