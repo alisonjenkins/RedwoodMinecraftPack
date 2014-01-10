@@ -18,6 +18,7 @@ Updated:
 - IndustrialCraft2 to 2.0.361-experimental.
 - IronChests to 5.4.1.675
 - MagicBees to 2.1.9
+- Mapwriter to 2.0.16.
 - Micdoodle to 2.0.8.908
 - MobiusCore to 1.0.4.
 - NotEnoughItems to 1.6.1.8.
