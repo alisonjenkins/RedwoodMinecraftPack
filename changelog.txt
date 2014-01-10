@@ -5,6 +5,7 @@ Updated:
 - BspkrsCore to 5.2.
 - ChickenCodeCore to 0.9.0.7
 - CoFHCore to 3.0.0.2
+- DamageIndicators to 2.9.2.3.
 - Forestry to 2.3.1.0.
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
@@ -21,6 +22,8 @@ Updated:
 - Pneaumatic Craft to 1.0.5
 - MagicBees to 2.1.9
 - Steve's Carts to b9
+- EngineersToolBox to 1.1.6.6
+- EmashersResource to 1.2.1.8
 - Updated IronChests to 5.4.1.675
 
 Downgraded:
@@ -32,6 +35,7 @@ Added:
 Removed:
 - AtomicScience.
 - BasicComponents.
+- Highlands.
 - ICBMContraption.
 - ICBMExplosion.
 - ICBMSentry.
