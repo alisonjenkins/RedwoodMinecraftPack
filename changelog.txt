@@ -11,4 +11,12 @@ Added:
 - None.
 
 Removed:
-- None.
+- AtomicScience.
+- ICBMContraption.
+- ICBMExplosion.
+- ICBMSentry.
+- Mekanism-Generators.
+- Mekanism-Induction.
+- Mekanism-Tools.
+- Mekanism.
+- ModularForcefieldSystem.
