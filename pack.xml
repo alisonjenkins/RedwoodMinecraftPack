@@ -1020,13 +1020,13 @@
         <mod name="Steve'sCarts2"
             type="mods"
             description="Adds more carts to minecraft that will do all sorts of jobs for you!"
-            version="1.6.4-2.0.0.b1"
+            version="1.6.4-2.0.0.b9"
             website="http://stevescarts2.wikispaces.com/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/StevesCarts2.0.0.b1.zip"
-            file="StevesCarts2.0.0.b1.zip"
-            md5="e50118f36e42bf38797bd554c250e929"
+            url="packs/RedwoodServer/files//StevesCarts2.0.0.b9.zip"
+            file="StevesCarts2.0.0.b9.zip"
+            md5="abc476cf48ee84b5b4da867cb4ec7628"
             download="server"
             />
          <mod name="SolitaryCraft Ore Mod"
@@ -2642,19 +2642,6 @@
             download="server"
             />
 
-        <mod name="BasicComponents"
-            description="Library mod for all things UE"
-            website="http://universalelectricity.com/basiccomponents/downloads"
-            version="1.6.4-1.0.0.19"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Basic_Components_v1.0.0.19.jar"
-            file="Basic_Components_v1.0.0.19.jar"
-            md5="fbcbd5ee2b6a22c2cf4b267e4ab35e23"
-            download="server"
-            />
-
         <mod name="Galacticraft"
             description="Now fly...to the moon"
             website="http://www.micdoodle8.com/mods/galacticraft/"
@@ -2766,9 +2753,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip" 
-			file="PneumaticCraft-1.0.5.zip" 
-			md5="c9f3f79e964ed0379c1675b0b72f60b1" 
+            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip"
+			file="PneumaticCraft-1.0.5.zip"
+			md5="c9f3f79e964ed0379c1675b0b72f60b1"
 			download="server"
             />
 
@@ -2810,19 +2797,6 @@
             download="server"
             />
 
-        <mod name="Highlands"
-            description="Adds 40 new biomes, 14 types of trees and 256 block high mountains."
-            website="http://www.minecraftforum.net/topic/1602064-164-forge-highlands-biomes-trees-and-more-v214/"
-            version="1.6.4-2.1.4"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Highlands2.1.4_MC1.6.4.zip"
-            file="Highlands2.1.4_MC1.6.4.zip"
-            md5="ea967d37af9961787d3f23d3aef089b3"
-            download="server"
-            />
-
         <!-- Thermal Expansion -->
         <mod name="CoFHCore"
             website="http://www.teamcofh.com/"
@@ -2830,9 +2804,9 @@
             library="yes"
             type="mods"
             description="A tech mod that allows you to make compact ore processing facilities"
-            url="packs/RedwoodServer/files/1.6.4/CoFHCore-2.0.0.2.jar" 
-			file="CoFHCore-2.0.0.2.jar" 
-			md5="ade9ade85b385827f56de0432d290665" 
+            url="packs/RedwoodServer/files/1.6.4/CoFHCore-2.0.0.2.jar"
+			file="CoFHCore-2.0.0.2.jar"
+			md5="ade9ade85b385827f56de0432d290665"
 			download="server"
             />
         <mod name="ThermalExpansion"
@@ -2841,9 +2815,9 @@
             type="mods"
             depends="Cofh Core"
             description="A tech mod that allows you to make compact ore processing facilities"
-            url="packs/RedwoodServer/files/1.6.4/ThermalExpansion-3.0.0.2.jar" 
-			file="ThermalExpansion-3.0.0.2.jar" 
-			md5="3dec4e88dfbb07b7c79f41d89a7faca5" 
+            url="packs/RedwoodServer/files/1.6.4/ThermalExpansion-3.0.0.2.jar"
+			file="ThermalExpansion-3.0.0.2.jar"
+			md5="3dec4e88dfbb07b7c79f41d89a7faca5"
 			download="server"
             />
         <!--<mod name="Omnitools"
