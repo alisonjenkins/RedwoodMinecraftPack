@@ -471,13 +471,13 @@
             description="Mobs shatter when you kill them."
             website="http://ichun.us/mods/shatter/"
             type="mods"
-            version="1.6.4-2.0.1"
+            version="1.6.4-2.0.2"
             server="no"
             optional="yes"
             depends="iChunUtil"
-            url="packs/RedwoodServer/files/Shatter2.0.1.zip"
-            file="Shatter2.0.1.zip"
-            md5="877d37d56bfe52a1fc0e9a3efb36dab7"
+            url="packs/RedwoodServer/files//Shatter2.0.2.zip"
+            file="Shatter2.0.2.zip"
+            md5="d5cdea7cb854f07206dfe61c28681dae"
             download="server"
             />
 
