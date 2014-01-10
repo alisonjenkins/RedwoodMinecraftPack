@@ -646,7 +646,7 @@
             description="Adds cool weapons."
             website="http://www.minecraftforum.net/topic/211517-162forge-balkons-weaponmod-v113-now-with-flintlock-pistol/"
             type="mods"
-            version="1.6.4-1.13"
+            version="1.13"
             optional="no"
             server="yes"
             url="packs/RedwoodServer/files/1.6.4/WeaponMod.zip"
