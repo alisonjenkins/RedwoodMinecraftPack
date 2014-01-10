@@ -1,4 +1,5 @@
 Updated:
+- MagicBees to 2.1.9
 - ChickenCodeCore to 0.9.0.7
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
