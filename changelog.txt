@@ -22,6 +22,8 @@ Updated:
 - Pneaumatic Craft to 1.0.5
 - MagicBees to 2.1.9
 - Steve's Carts to b9
+- EngineersToolBox to 1.1.6.6
+- EmashersResource to 1.2.1.8
 
 Downgraded:
 - None.
