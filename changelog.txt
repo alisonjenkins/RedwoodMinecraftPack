@@ -5,6 +5,7 @@ Updated:
 - BspkrsCore to 5.2.
 - ChickenCodeCore to 0.9.0.7
 - CoFHCore to 3.0.0.2
+- DamageIndicators to 2.9.2.3.
 - Forestry to 2.3.1.0.
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
