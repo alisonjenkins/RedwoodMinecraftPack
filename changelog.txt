@@ -14,15 +14,12 @@ Updated:
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
-- MagicBees to 2.1.9
-- MagicBees to 2.1.9
-- MagicBees to 2.1.9
+- IronChests to 5.4.1.675
 - MagicBees to 2.1.9
 - NotEnoughItems to 1.6.1.8.
 - Optifine to C8.
 - Pneaumatic Craft to 1.0.5
 - Railcraft to 8.3.1.0
-- Steve's Carts to b9
 - Steve's Carts to b9
 - Thermal Expansion to 3.0.0.2
 
