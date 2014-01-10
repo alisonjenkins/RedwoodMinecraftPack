@@ -29,6 +29,7 @@ Updated:
 - Micdoodle to 2.0.8.908
 - Galacticraft to 2.0.8.908
 - GalacticraftPlanets to 2.0.8.908
+- qCraft 1.1 (1.6.4 version)
 
 Downgraded:
 - None.
