@@ -117,7 +117,7 @@
         <mod name="Dynmap"
             type="mods"
             description="This mod generates maps of the worlds and enables people to chat with people ingame."
-            version="1.6.4-1.9"
+            version="1.9"
             website="http://www.minecraftforum.net/topic/1543523-dynmap-dynamic-web-based-maps-for-minecraft/"
             server="yes"
             optional="no"
