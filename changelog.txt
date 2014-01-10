@@ -1,5 +1,6 @@
 Updated:
 - ArsMagicka2 to 1.1.1c.
+- Backpacks to 1.26.29.
 - ChickenCodeCore to 0.9.0.7
 - CoFHCore to 3.0.0.2
 - Forestry to 2.3.1.0.
