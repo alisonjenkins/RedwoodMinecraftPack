@@ -12,6 +12,7 @@ IF IT CRASHES - 1. Open up the launcher and click on open folder under RW's inst
                     from here you need to edit the config file of the mod to an ID that's free (this includes Items ID's too, Item ID's are offset by 265 meaning if it says the item ID is 26000 on the notepad the physical ID in game is 26256, keep this in mind when trying to find free Item Ids using the pack dumps we have
                  4. Once conflicts have been sorted load MC and make sure it gets to the main screen, check the forgemodloader-0.log for any other conflicts (you can get Item ID conflicts even if the  main screen loads up!)
                  5. If you have changed any configs at all you'll need to also save them to the git repository folder under the configs folder. IMPORTANT, otherwise people aren't going to get your changes
+                 6. Also if you have added a mod and there wasn't any config issue whatsoever, you still need to update the configs in git hub as above, this is so anything new added will get saved for the rest of us too
 IF THE ABOVE IS FINE OR YOU HAVE DONE THE CHANGES CARRY ON:
 Now that everything is ok and MC runs fine with no conflicts or issues copy over the new mod info to the pack.xml, this will change things for other people.
 Once you have done that save the new info and commit the changes, then push.
