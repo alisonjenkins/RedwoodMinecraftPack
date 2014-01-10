@@ -229,14 +229,14 @@
 
         <mod name="ArsMagica2"
             description="A mod that adds cool magic spells items and research."
-            website="http://www.minecraftforum.net/topic/1857899-164-152forge-archimedes-ships-v14-passenger-seats/"
+            website="http://www.minecraftforum.net/topic/2028696-ars-magica-2-164-version-111c-updated-jan-3/"
             type="mods"
             optional="no"
             server="yes"
-            version="1.6.4-1.0.2b"
-            url="packs/RedwoodServer/files/1.6.4/AM2_1.0.2b.zip"
-            file="AM2_1.0.2b.zip"
-            md5="1ba71fcfed89022233bddc4e09a9d337"
+            version="1.1.1c"
+            url="packs/RedwoodServer/files//AM2_1.1.1c.zip"
+            file="AM2_1.1.1c.zip"
+            md5="db4ab30072cf1606c042451898c0ffa4"
             download="server"
             />
 

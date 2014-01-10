@@ -1,4 +1,5 @@
 Updated:
+- ArsMagicka2 to 1.1.1c.
 - ChickenCodeCore to 0.9.0.7
 - Forestry to 2.3.1.0.
 - GregTech to 4.07i.
