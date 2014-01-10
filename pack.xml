@@ -248,7 +248,7 @@
             depends="bspkrsCore"
             optional="yes"
             server="no"
-            version="1.6.4-1.15"
+            version="1.15"
             url="packs/RedwoodServer/files/1.6.4/[1.6.4]ArmorStatusHUDv1.15.zip"
             file="[1.6.4]ArmorStatusHUDv1.15.zip"
             md5="d3f6a5bf86864cdbe5fbdf6ffbb99aa5"
