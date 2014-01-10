@@ -88,7 +88,7 @@
          />
 
         <mod
-
+           
             name="CodeChickenCore"
             type="mods"
             description="Needed to run the best recipe finder in Minecraft!"
@@ -96,9 +96,9 @@
             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
             version="1.6.4-0.9.0.7"
             library="yes"
-            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar"
-            file="CodeChickenCore 0.9.0.7.jar"
-            md5="f81ca854f4455259d066708fa729d18c"
+            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar" 
+            file="CodeChickenCore 0.9.0.7.jar" 
+            md5="f81ca854f4455259d066708fa729d18c" 
             download="server"
             />
 
@@ -145,15 +145,16 @@
             type="mods"
             description="The best recipe finder in Minecraft!"
             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
-            version="1.6.4-1.6.1.5"
+            authors="ChickenBones"
+            version="1.6.4-1.6.1.8"
             depends="CodeChickenCore"
             website="http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/"
             optional="no"
             server="yes"
             serveroptional="no"
-            url="packs/RedwoodServer/files/NotEnoughItems%201.6.1.5.jar"
-            file="NotEnoughItems 1.6.1.5.jar"
-            md5="e0cd36018af35adfc2bf2b686dcce7b8"
+            url="packs/RedwoodServer/files/NotEnoughItems 1.6.1.8.jar"
+            file="NotEnoughItems 1.6.1.8.jar"
+            md5="5a1d03896cc9490705de7fdf983582ff"
             download="server"
             />
 
@@ -1522,17 +1523,15 @@
         <mod name="NEIAddons"
             description="This mod adds recipes for mods that do not natively support NEI."
             website="http://www.minecraftforum.net/topic/1803460-nei-addons-v181-with-forestry-2280-support/"
-            donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
-            authors="ChickenBones"
             type="mods"
-            version="1.6.4-1.6.1.8"
+            version="1.6.4-1.9.3"
             optional="no"
             server="yes"
             serveroptional="no"
             depends="NotEnoughItems"
-            url="packs/RedwoodServer/files/NotEnoughItems 1.6.1.8.jar"
-            file="NotEnoughItems 1.6.1.8.jar"
-            md5="5a1d03896cc9490705de7fdf983582ff"
+            url="packs/RedwoodServer/files/1.6.4/neiaddons-1.6.2-1.9.3.r47.jar"
+            file="neiaddons-1.6.2-1.9.3.r47.jar"
+            md5="9e992ca3a408a7eafdb1665da69b2ad1"
             download="server"
             />
 
