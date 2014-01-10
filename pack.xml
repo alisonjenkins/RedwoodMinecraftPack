@@ -2563,14 +2563,14 @@
         <mod name="qCraft"
             description="Quantum mechanics in Minecraft"
             website="http://qcraft.org/downloads/"
-            version="1.6.4-1.02"
+            version="1.6.4-1.01"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/qCraft1.02_mc164.zip"
-            file="qCraft1.02_mc164.zip"
-            md5="c3d470b0e6fc299eb7b8d20e26aa0b7a"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/qCraft1.1.zip" 
+			file="qCraft1.1.zip" 
+			md5="809eb0c95706f3e2807ee1cd62add838" 
+			download="server"
             />
 
         <!--Project Red-->
