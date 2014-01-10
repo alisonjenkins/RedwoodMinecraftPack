@@ -1,17 +1,21 @@
 Updated:
-- MagicBees to 2.1.9
+- ArsMagicka2 to 1.1.1c.
+- Backpacks to 1.26.29.
+- Backtools to 2.0.1.
+- BspkrsCore to 5.2.
 - ChickenCodeCore to 0.9.0.7
+- CoFHCore to 3.0.0.2
 - Forestry to 2.3.1.0.
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
+- MagicBees to 2.1.9
+- MagicBees to 2.1.9
 - NotEnoughItems to 1.6.1.8.
-- 
-- Thermal Expansion to 3.0.0.2
 - Optifine to C8.
-- CoFHCore to 3.0.0.2
-
+- Railcraft to 8.3.1.0
+- Thermal Expansion to 3.0.0.2
 
 Downgraded:
 - None.
