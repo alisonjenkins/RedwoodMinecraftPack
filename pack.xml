@@ -205,12 +205,12 @@
             description="Adds numerous things from Farms to Bees in Minecraft"
             website="http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads"
             type="mods"
-            version="1.6.4-2.3.0.7"
+            version="2.3.1.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/forestry-A-2.3.0.7.jar"
-            file="forestry-A-2.3.0.7.jar"
-            md5="49cb15fb6abb6e655dc90ace5398603e"
+            url="packs/RedwoodServer/files//forestry-A-2.3.1.0.jar"
+            file="forestry-A-2.3.1.0.jar"
+            md5="2399212f03f59a53787ad43bb98f9060"
             download="server"
             />
 
@@ -937,12 +937,12 @@
             description="Addon for Forestry to add Magic Bees."
             website="http://forestry.sengir.net/forum/viewtopic.php?id=17"
             type="mods"
-            version="1.6.4-2.1.7"
+            version="1.6.4-2.1.9"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/magicbees-2.1.7.jar"
-            file="magicbees-2.1.7.jar"
-            md5="0bf1385d956bab96f48de6ddc8b3d17b"
+            url="packs/RedwoodServer/files//magicbees-2.1.9.jar"
+            file="magicbees-2.1.9.jar"
+            md5="16f517b1980a23dd0b5abacf14caf0d7"
             download="server"
             />
         <!-- <mod name="EnchantingPlus" -->
