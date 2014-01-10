@@ -2693,19 +2693,6 @@
             download="server"
             />
 
-        <mod name="ModularForcefieldSystem"
-            description="You can now hide in a shell"
-            website="http://universalelectricity.com/mffs/downloads"
-            version="1.6.4-3.4.0.244"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/MFFS_v3.4.0.244.jar"
-            file="MFFS_v3.4.0.244.jar"
-            md5="d31a12e7dfcd86791d6ebd5a90564ded"
-            download="server"
-            />
-
         <mod name="TabbyChat"
             description="Does summat with chats"
             website="http://www.minecraftforum.net/topic/1540451-164-tabbychat-v1902-smp-chat-overhaul/"
