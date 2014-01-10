@@ -25,6 +25,7 @@ Added:
 
 Removed:
 - AtomicScience.
+- BasicComponents.
 - ICBMContraption.
 - ICBMExplosion.
 - ICBMSentry.

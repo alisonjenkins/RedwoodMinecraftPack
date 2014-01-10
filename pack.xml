@@ -2642,19 +2642,6 @@
             download="server"
             />
 
-        <mod name="BasicComponents"
-            description="Library mod for all things UE"
-            website="http://universalelectricity.com/basiccomponents/downloads"
-            version="1.6.4-1.0.0.19"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Basic_Components_v1.0.0.19.jar"
-            file="Basic_Components_v1.0.0.19.jar"
-            md5="fbcbd5ee2b6a22c2cf4b267e4ab35e23"
-            download="server"
-            />
-
         <mod name="Galacticraft"
             description="Now fly...to the moon"
             website="http://www.micdoodle8.com/mods/galacticraft/"
