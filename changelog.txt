@@ -10,12 +10,16 @@ Updated:
 - EmashersResource to 1.2.1.8
 - EngineersToolBox to 1.1.6.6
 - Forestry to 2.3.1.0.
+- Galacticraft to 2.0.8.908
+- GalacticraftPlanets to 2.0.8.908
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
 - IronChests to 5.4.1.675
 - MagicBees to 2.1.9
+- Mapwriter to 2.0.16.
+- Micdoodle to 2.0.8.908
 - MobiusCore to 1.0.4.
 - NotEnoughItems to 1.6.1.8.
 - Opis to 1.1.2.
@@ -26,10 +30,12 @@ Updated:
 - Shatter to 2.0.2.
 - Steve's Carts to b9
 - Thermal Expansion to 3.0.0.2
+- Waila to 1.4.4b.
 - Micdoodle to 2.0.8.908
 - Galacticraft to 2.0.8.908
 - GalacticraftPlanets to 2.0.8.908
 - qCraft 1.1 (1.6.4 version)
+
 
 Downgraded:
 - None.
