@@ -205,12 +205,12 @@
             description="Adds numerous things from Farms to Bees in Minecraft"
             website="http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads"
             type="mods"
-            version="1.6.4-2.3.0.7"
+            version="2.3.1.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/forestry-A-2.3.0.7.jar"
-            file="forestry-A-2.3.0.7.jar"
-            md5="49cb15fb6abb6e655dc90ace5398603e"
+            url="packs/RedwoodServer/files//forestry-A-2.3.1.0.jar"
+            file="forestry-A-2.3.1.0.jar"
+            md5="2399212f03f59a53787ad43bb98f9060"
             download="server"
             />
 
