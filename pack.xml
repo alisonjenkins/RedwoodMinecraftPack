@@ -510,7 +510,7 @@
             description="Addon that allows you to map the world by exploration. Provides minimap and large map of world ingame."
             website="http://www.minecraftforum.net/topic/1570989-162-forge-mapwriter-an-open-source-mini-map/"
             type="mods"
-            version="1.6.4-2.0.16"
+            version="2.0.16"
             server="no"
             optional="yes"
             group="maps"
