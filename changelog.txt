@@ -1,5 +1,5 @@
 Updated:
-- ChickenCodeCore to .9.0.7
+- ChickenCodeCore to 0.9.0.7
 - GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
