@@ -27,6 +27,7 @@ Added:
 Removed:
 - AtomicScience.
 - BasicComponents.
+- Highlands.
 - ICBMContraption.
 - ICBMExplosion.
 - ICBMSentry.

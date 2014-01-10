@@ -2753,9 +2753,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip" 
-			file="PneumaticCraft-1.0.5.zip" 
-			md5="c9f3f79e964ed0379c1675b0b72f60b1" 
+            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip"
+			file="PneumaticCraft-1.0.5.zip"
+			md5="c9f3f79e964ed0379c1675b0b72f60b1"
 			download="server"
             />
 
@@ -2797,19 +2797,6 @@
             download="server"
             />
 
-        <mod name="Highlands"
-            description="Adds 40 new biomes, 14 types of trees and 256 block high mountains."
-            website="http://www.minecraftforum.net/topic/1602064-164-forge-highlands-biomes-trees-and-more-v214/"
-            version="1.6.4-2.1.4"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Highlands2.1.4_MC1.6.4.zip"
-            file="Highlands2.1.4_MC1.6.4.zip"
-            md5="ea967d37af9961787d3f23d3aef089b3"
-            download="server"
-            />
-
         <!-- Thermal Expansion -->
         <mod name="CoFHCore"
             website="http://www.teamcofh.com/"
@@ -2817,9 +2804,9 @@
             library="yes"
             type="mods"
             description="A tech mod that allows you to make compact ore processing facilities"
-            url="packs/RedwoodServer/files/1.6.4/CoFHCore-2.0.0.2.jar" 
-			file="CoFHCore-2.0.0.2.jar" 
-			md5="ade9ade85b385827f56de0432d290665" 
+            url="packs/RedwoodServer/files/1.6.4/CoFHCore-2.0.0.2.jar"
+			file="CoFHCore-2.0.0.2.jar"
+			md5="ade9ade85b385827f56de0432d290665"
 			download="server"
             />
         <mod name="ThermalExpansion"
@@ -2828,9 +2815,9 @@
             type="mods"
             depends="Cofh Core"
             description="A tech mod that allows you to make compact ore processing facilities"
-            url="packs/RedwoodServer/files/1.6.4/ThermalExpansion-3.0.0.2.jar" 
-			file="ThermalExpansion-3.0.0.2.jar" 
-			md5="3dec4e88dfbb07b7c79f41d89a7faca5" 
+            url="packs/RedwoodServer/files/1.6.4/ThermalExpansion-3.0.0.2.jar"
+			file="ThermalExpansion-3.0.0.2.jar"
+			md5="3dec4e88dfbb07b7c79f41d89a7faca5"
 			download="server"
             />
         <!--<mod name="Omnitools"
