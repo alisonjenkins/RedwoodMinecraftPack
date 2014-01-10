@@ -1,4 +1,5 @@
 Updated:
+- GregTech to 4.07i.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
@@ -10,4 +11,12 @@ Added:
 - None.
 
 Removed:
-- None.
+- AtomicScience.
+- ICBMContraption.
+- ICBMExplosion.
+- ICBMSentry.
+- Mekanism-Generators.
+- Mekanism-Induction.
+- Mekanism-Tools.
+- Mekanism.
+- ModularForcefieldSystem.
