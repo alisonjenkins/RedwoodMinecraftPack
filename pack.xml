@@ -88,7 +88,6 @@
          />
 
         <mod
-           
             name="CodeChickenCore"
             type="mods"
             description="Needed to run the best recipe finder in Minecraft!"
@@ -96,9 +95,9 @@
             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
             version="1.6.4-0.9.0.7"
             library="yes"
-            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar" 
-            file="CodeChickenCore 0.9.0.7.jar" 
-            md5="f81ca854f4455259d066708fa729d18c" 
+            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar"
+            file="CodeChickenCore 0.9.0.7.jar"
+            md5="f81ca854f4455259d066708fa729d18c"
             download="server"
             />
 
