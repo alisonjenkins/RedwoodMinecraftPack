@@ -5,8 +5,12 @@ Updated:
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
 - NotEnoughItems to 1.6.1.8.
-- CoFHCore to 3.0.0.2
+- 
 - Thermal Expansion to 3.0.0.2
+- Optifine to C8.
+- CoFHCore to 3.0.0.2
+
+
 Downgraded:
 - None.
 

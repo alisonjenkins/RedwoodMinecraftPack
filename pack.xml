@@ -88,7 +88,6 @@
          />
 
         <mod
-           
             name="CodeChickenCore"
             type="mods"
             description="Needed to run the best recipe finder in Minecraft!"
@@ -96,9 +95,9 @@
             donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
             version="1.6.4-0.9.0.7"
             library="yes"
-            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar" 
-            file="CodeChickenCore 0.9.0.7.jar" 
-            md5="f81ca854f4455259d066708fa729d18c" 
+            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar"
+            file="CodeChickenCore 0.9.0.7.jar"
+            md5="f81ca854f4455259d066708fa729d18c"
             download="server"
             />
 
@@ -118,7 +117,7 @@
         <mod name="Dynmap"
             type="mods"
             description="This mod generates maps of the worlds and enables people to chat with people ingame."
-            version="1.6.4-1.9"
+            version="1.9"
             website="http://www.minecraftforum.net/topic/1543523-dynmap-dynamic-web-based-maps-for-minecraft/"
             server="yes"
             optional="no"
@@ -165,11 +164,11 @@
             type="mods"
             optional="yes"
             server="no"
-            version="1.6.4-C7"
+            version="1.6.4-C8"
             group="graphics"
-            url="packs/RedwoodServer/files/OptiFine_1.6.4_HD_U_C7.jar"
-            file="OptiFine_1.6.4_HD_U_C7.jar"
-            md5="28c3cf3e1f853262b0148ca1f072c5dc"
+            url="packs/RedwoodServer/files//OptiFine_1.6.4_HD_U_C8.jar"
+            file="OptiFine_1.6.4_HD_U_C8.jar"
+            md5="ed26247711028090f3669f809f37d04b"
             download="server"
             />
 
