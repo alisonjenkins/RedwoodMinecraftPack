@@ -2226,7 +2226,7 @@
         <!-- PowerCrystals Mods -->
         <mod name="PowerCrystalsCore"
             website="http://www.minecraftforum.net/topic/2016680-162164-powercrystals-mods-minefactoryreloaded-powercrystalscore-and-netherores-updated/"
-            version="1.1.8-9"
+            version="1.1.8"
             type="mods"
             description="Needed for Minefactory Reloaded"
             optional="no"
