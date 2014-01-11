@@ -1,4 +1,5 @@
 Updated:
+- AdditionalBuildcraftPipes to 2.6.0.
 - AppliedEnergistics to rv14.finale3.
 - AromaCore to 1.0.1.2.
 - ArsMagicka2 to 1.1.1c.
@@ -68,6 +69,7 @@ Updated:
 - TinkersConstruct to 1.5.2.6.
 - TubeStuff to 57.1.3.
 - Waila to 1.4.4b.
+- XACT to 0.4.3.
 - qCraft 1.1 (1.6.4 version).
 
 Downgraded:
