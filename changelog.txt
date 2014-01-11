@@ -65,6 +65,7 @@ Added:
 Removed:
 - AtomicScience.
 - BasicComponents.
+- CustomNPCs.
 - Highlands.
 - ICBMContraption.
 - ICBMExplosion.
