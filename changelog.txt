@@ -23,6 +23,7 @@ Updated:
 - IndustrialCraft2 to 2.0.361-experimental.
 - IronChests to 5.4.1.675.
 - Keithy-Utils to 1.2b.
+- LogisticsPipes to 0.7.4-95.
 - MagicBees to 2.1.9.
 - Mapwriter to 2.0.16.
 - Micdoodle to 2.0.8.908.

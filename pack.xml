@@ -1918,12 +1918,12 @@
             description="Adds Buildcraft pipes capable of requesting items from remote inventories and automatically crafting."
             website="https://github.com/RS485/LogisticsPipes"
             type="mods"
-            version="0.7.4-80"
+            version="0.7.4-95"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/LogisticsPipes-MC1.6.4-0.7.4.dev.80.jar"
-            file="LogisticsPipes-MC1.6.4-0.7.4.dev.80.jar"
-            md5="ac947789474225d5f5c8c584039c5902"
+            url="packs/RedwoodServer/files//LogisticsPipes-MC1.6.4-0.7.4.dev.95.jar"
+            file="LogisticsPipes-MC1.6.4-0.7.4.dev.95.jar"
+            md5="5c7be2e0de17671b29709670d69e3b5d"
             download="server"
             />
 
