@@ -1209,6 +1209,18 @@
             md5="c805037fbf495622ac0cfdc31cc3b702"
             download="server"
             />
+        <mod name="CodeChickenLib"
+            type="mods"
+            description="Library used by many mods."
+            version="1.0.0.50"
+            website="http://www.minecraftforum.net/topic/909223-162-smp-chickenbones-mods/"
+            server="yes"
+            optional="no"
+            url="packs/RedwoodServer/files//CodeChickenLib-universal-1.6.4-1.0.0.50.jar"
+            file="CodeChickenLib-universal-1.6.4-1.0.0.50.jar"
+            md5="5a61c82117dbff356575f84206b12192"
+            download="server"
+            />
         <mod name="WR-CBE"
             type="mods"
             description="Adds a way to allow you to have Wireless Redstone!"

@@ -58,7 +58,7 @@ Downgraded:
 - None.
 
 Added:
-- None.
+- CodeChickenLib 1.0.0.50.
 
 Removed:
 - AtomicScience.
