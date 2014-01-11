@@ -42,6 +42,7 @@ Updated:
 - Natura to 2.1.14.
 - Netherstuffs to 0.21.
 - NotEnoughItems to 1.6.1.8.
+- NuclearControl to 1.6.2e.
 - OpenPeripheral to 0.2.1-snapshot-114.
 - Opis to 1.1.2.
 - Optifine to C8.
