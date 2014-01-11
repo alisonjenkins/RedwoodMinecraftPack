@@ -2456,13 +2456,13 @@
         <mod name="FlenixCitiesCore"
             description="A core mod for Flenix's Mods"
             website="http://silvania.co.uk/mods/downloads/flenixcities.html"
-            version="0.4.2"
+            version="0.6.2.1"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/FlenixCitiesCore_0.4.2.jar"
-            file="FlenixCitiesCore_0.4.2.jar"
-            md5="82f951243352fefccc431077075bf3c3"
+            url="packs/RedwoodServer/files//FlenixCitiesCore_0.6.2.1.jar"
+            file="FlenixCitiesCore_0.6.2.1.jar"
+            md5="90c2d5ef43e7a64c49d895dd31247034"
             download="server"
             />
 

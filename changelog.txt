@@ -23,6 +23,7 @@ Updated:
 - ExtraCells to 1.6.5.
 - ExtraUtils to 1.0.2.
 - Factorization to 0.8.25.
+- FlenixCitiesCore to 0.6.2.1.
 - Forestry to 2.3.1.0.
 - ForgeMultipart to 1.0.0.234.
 - Galacticraft to 2.0.8.908.
