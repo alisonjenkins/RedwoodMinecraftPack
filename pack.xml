@@ -1653,19 +1653,18 @@
             download="server"
             />
 
-        <!-- <mod name="TheBarrelsMod" -->
-        <!--     description="Adds barrels for bulk storage of a type of item." -->
-        <!--     website="http://www.minecraftforum.net/topic/1694276-the-barrels-mod/" -->
-        <!--     type="mods" -->
-        <!--     version="3.2-1.6.4" -->
-        <!--     library="yes" -->
-        <!--     server="no" -->
-        <!--     optional="yes" -->
-        <!--     url="packs/RedwoodServer/files/1.6.4/Barrels%203.2-1.6.4.jar" -->
-        <!--     file="Barrels 3.2-1.6.4.jar" -->
-        <!--     md5="eb2d85147796ba8acc4e5dd6eef18662" -->
-        <!--     download="server" -->
-        <!--     /> -->
+        <mod name="JABBA"
+            type="mods"
+            description="Adds improved upgradable barrels and a 'dolly' which can be used to move various blocks without having to destroy them."
+            website="http://www.minecraftforum.net/topic/2182366-16x-jabba-103-just-another-better-barrel-attempt/"
+            version="1.0.3"
+            optional="no"
+            server="yes"
+            url="packs/RedwoodServer/files//JABBA_1.0.3.zip"
+            file="JABBA_1.0.3.zip"
+            md5="142b9440b195d15c6f918155b8050027"
+            download="server"
+            />
 
         <mod name="TwilightForest"
             description="Adds a new dimension... The Twilight Forest."
