@@ -29,6 +29,7 @@ Updated:
 - ImmibisMicroblocks to 57.5.0.
 - ImmibisPeripherals to 57.0.1.
 - IndustrialCraft2 to 2.0.361-experimental.
+- Infinitubes to 57.0.5.
 - IronChests to 5.4.1.675.
 - Keithy-Utils to 1.2b.
 - LogisticsPipes to 0.7.4-95.
