@@ -5,6 +5,7 @@ Downgraded:
 - None.
 
 Added:
+- BigReactors 0.2.14A.
 - JABBA 1.0.3.
 - NotEnoughKeys 0.0.4.
 - OpenComputers 1.1.0.
