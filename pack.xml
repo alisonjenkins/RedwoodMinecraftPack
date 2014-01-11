@@ -2804,29 +2804,6 @@
 			md5="3dec4e88dfbb07b7c79f41d89a7faca5"
 			download="server"
             />
-        <!--<mod name="Omnitools"
-            file="OmniTools-3.1.5.0.jar"
-            url="packs/SolitaryCraftOrigins/files/OmniTools-3.1.5.0.jar"
-            website="http://thermalexpansion.wikispaces.com/"
-            download="server"
-            version=""
-            md5="b154eb3f974189041247b095704f2daa"
-            type="mods"
-            linked="Cofh Core"
-            description="Adds in the omnitool which will allow you to use 1 wrench for all!"
-            />-->
-        <mod name="nHave's OmniWrench"
-            description="Adds in the omnitool which will allow you to use 1 wrench for all!"
-            website="http://minecraft.curseforge.com/mc-mods/nhaves-omniwrench/"
-            version="1.0.5"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/nhwrench-1.0.5.jar"
-            file="nhwrench-1.0.5.jar"
-            md5="bae5ffce295258158d8bee635291734d"
-            download="server"
-            />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
      <!--<actions>

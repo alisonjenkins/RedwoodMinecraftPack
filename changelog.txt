@@ -3,47 +3,45 @@ Updated:
 - Backpacks to 1.26.29.
 - Backtools to 2.0.1.
 - BspkrsCore to 5.2.
-- ChickenCodeCore to 0.9.0.7
-- CoFHCore to 3.0.0.2
+- ChickenCodeCore to 0.9.0.7.
+- CoFHCore to 3.0.0.2.
 - DamageIndicators to 2.9.2.3.
 - EiraIRC to 1.5.0.
-- EmashersResource to 1.2.1.8
-- EngineersToolBox to 1.1.6.6
-- ExtraUtils to 1.0.2
+- EmashersResource to 1.2.1.8.
+- EngineersToolBox to 1.1.6.6.
+- ExtraUtils to 1.0.2.
 - Forestry to 2.3.1.0.
-- Galacticraft to 2.0.8.908
-- Galacticraft to 2.0.8.908
-- GalacticraftPlanets to 2.0.8.908
-- GalacticraftPlanets to 2.0.8.908
+- Galacticraft to 2.0.8.908.
+- GalacticraftPlanets to 2.0.8.908.
 - GregTech to 4.07i.
-- Hardcore Ender Expansion to 1.3
+- Hardcore Ender Expansion to 1.3.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
 - IndustrialCraft2 to 2.0.361-experimental.
-- IronChests to 5.4.1.675
-- Keithy-Utils to 1.2b
-- MagicBees to 2.1.9
+- IronChests to 5.4.1.675.
+- Keithy-Utils to 1.2b.
+- MagicBees to 2.1.9.
 - Mapwriter to 2.0.16.
-- Micdoodle to 2.0.8.908
-- Micdoodle to 2.0.8.908
+- Micdoodle to 2.0.8.908.
+- MinecraftForge to 9.11.1.965.
 - MobiusCore to 1.0.4.
-- Morph to 0.6.0
-- NEIAddons to 1.6.2-1.9.2r51
-- Netherstuffs to .21
+- Morph to 0.6.0.
+- NEIAddons to 1.6.2-1.9.2r51.
+- Netherstuffs to 0.21.
 - NotEnoughItems to 1.6.1.8.
 - Opis to 1.1.2.
 - Optifine to C8.
-- Pneaumatic Craft to 1.0.5
-- PortalGun to 2.0.2
-- Railcraft to 8.3.1.0
-- RandomThings to 1.8.8
-- Reliquary to 1.1.1
+- Pneaumatic Craft to 1.0.5.
+- PortalGun to 2.0.2.
+- Railcraft to 8.3.2.0.
+- RandomThings to 1.8.8.
+- Reliquary to 1.1.1.
 - Schematica to 1.5.3.58.
 - Shatter to 2.0.2.
-- Steve's Carts to b9
-- Thermal Expansion to 3.0.0.2
+- Steve's Carts to b9.
+- Thermal Expansion to 3.0.0.2.
 - Waila to 1.4.4b.
-- qCraft 1.1 (1.6.4 version)
+- qCraft 1.1 (1.6.4 version).
 
 Downgraded:
 - None.
@@ -63,3 +61,4 @@ Removed:
 - Mekanism-Tools.
 - Mekanism.
 - ModularForcefieldSystem.
+- Nhave's Omniwrench.
