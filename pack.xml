@@ -390,6 +390,18 @@
             md5="8477a13ba8668edcee63bd497db2a0c8"
             download="server"
             />
+        <mod name="NotEnoughKeys"
+            description="A very simple mod created to clean up and organize the keybinds gui, organizing mods into their own category and sub menu."
+            website="http://www.minecraftforum.net/topic/2189371-164-not-enough-keys-004-organizing-the-keybinds-menu/"
+            type="mods"
+            version="0.0.4"
+            server="no"
+            optional="yes"
+            url="packs/RedwoodServer/files//NotEnoughKeys-1.6.4-0.0.4.jar"
+            file="NotEnoughKeys-1.6.4-0.0.4.jar"
+            md5="1b9f6f8785e38d50bbfff129dbf90ec2"
+            download="server"
+            />
         <mod name="NoSoundLag"
             description="Makes block break sounds client side rather than server."
             website="http://www.minecraftforum.net/topic/1885783-162-nosoundlag-2/"
