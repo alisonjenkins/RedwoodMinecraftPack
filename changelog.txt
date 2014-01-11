@@ -41,6 +41,8 @@ Updated:
 - Netherstuffs to .21
 - RandomThings to 1.8.8
 - ExtraUtils to 1.0.2
+- NEIAddons to 1.6.2-1.9.2r51
+
 Downgraded:
 - None.
 
