@@ -1,7 +1,7 @@
 <!-- vim: set ft=xml syntax=xml et fenc= ff=dos sts=4 sw=4 ts=4 : -->
 <version>
     <pack>
-        <version>2.0.1-BETA22</version>
+        <version>2.0.1-BETA23</version>
         <minecraft>1.6.4</minecraft>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
         <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker server=redwood-guild.com --port=25565</extraarguments>
@@ -2289,20 +2289,6 @@
             url="packs/RedwoodServer/files//immibis-core-57.1.92.jar"
             file="immibis-core-57.1.92.jar"
             md5="a0d01e04dd5840d45dbb7106e4d9c067"
-            download="server"
-            />
-        <mod name="ImmibisMicroblocks"
-            description="Adds an equivalent to RP's Microblocks!"
-            website="http://immibis.com/mcmoddl/"
-            version="57.5.0"
-            authors="immibis"
-            type="mods"
-            depends="ImmibisCore"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files//immibis-microblocks-57.5.0.jar"
-            file="immibis-microblocks-57.5.0.jar"
-            md5="3d4179622afaed5af99770a0d6469e87"
             download="server"
             />
         <!-- <mod name="RedLogic" -->

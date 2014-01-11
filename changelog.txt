@@ -1,99 +1,11 @@
 Updated:
-- AdditionalBuildcraftPipes to 2.6.0.
-- AppliedEnergistics to rv14.finale3.
-- AromaCore to 1.0.1.2.
-- ArsMagicka2 to 1.1.1c.
-- Backpacks to 1.26.29.
-- Backtools to 2.0.1.
-- BiblioCraft to 1.5.4.
-- BinniesMods to 1.8-pre1.
-- BspkrsCore to 5.2.
-- Buildcraft to 4.2.2.
-- ChickenCodeCore to 0.9.0.7.
-- CoFHCore to 3.0.0.2.
-- ComputerCraft to 1.58.
-- DamageIndicators to 2.9.2.3.
-- DartCraft to 0.2.14.
-- DimensionalAnchors to 57.1.9.
-- DimensionalWorld to 1.0.2.12.
-- EiraIRC to 1.5.0.
-- EmashersResource to 1.2.1.8.
-- EnderIO to 0.6.0.156.
-- EngineersToolBox to 1.1.6.6.
-- ExtraCells to 1.6.5.
-- ExtraUtils to 1.0.2.
-- Factorization to 0.8.25.
-- FlenixCitiesCore to 0.6.2.1.
-- Forestry to 2.3.1.0.
-- ForgeMultipart to 1.0.0.234.
-- Galacticraft to 2.0.8.908.
-- GalacticraftPlanets to 2.0.8.908.
-- GregTech to 4.07k.
-- Hardcore Ender Expansion to 1.3.
-- ImmibisCore to 57.1.92.
-- ImmibisMicroblocks to 57.5.0.
-- ImmibisPeripherals to 57.0.1.
-- IndustrialCraft2 to 2.0.361-experimental.
-- Infinitubes to 57.0.5.
-- IronChests to 5.4.1.675.
-- Keithy-Utils to 1.2b.
-- LogisticsPipes to 0.7.4-95.
-- MagicBees to 2.1.9.
-- Mapwriter to 2.0.16.
-- Micdoodle to 2.0.8.908.
-- MinecraftForge to 9.11.1.965.
-- MinefactoryReloaded to 2.7.4-255.
-- MobiusCore to 1.0.4.
-- ModularPowersuits to 0.9.0-76.
-- Morph to 0.6.0.
-- NEIAddons to 1.6.2-1.9.2r51.
-- Natura to 2.1.14.
-- Netherstuffs to 0.21.
-- NotEnoughItems to 1.6.1.8.
-- NuclearControl to 1.6.2e.
-- OpenBlocks to 1.2.2-snapshot-131.
-- OpenPeripheral to 0.2.1-snapshot-114.
-- Opis to 1.1.2.
-- Optifine to C8.
-- OreConverter to 1.4.2.
-- Pneaumatic Craft to 1.0.5.
-- PortalGun to 2.0.2.
-- ProjectRed to 4.2.2.19.
-- Railcraft to 8.3.2.0.
-- RandomThings to 1.8.8.
-- Reliquary to 1.1.1.
-- Schematica to 1.5.3.58.
-- Shatter to 2.0.2.
-- Steve's Carts to b9.
-- ThaumicTinkerer to 2.1.63.
-- Thermal Expansion to 3.0.0.2.
-- TinkersConstruct to 1.5.2.6.
-- TubeStuff to 57.1.3.
-- Waila to 1.4.4b.
-- XACT to 0.4.3.
-- qCraft 1.1 (1.6.4 version).
+- None.
 
 Downgraded:
 - None.
 
 Added:
-- CodeChickenLib 1.0.0.50.
-- OpenModsLib 0.1-snapshot96.
-- OpenPeripheralAddons 0.1-snapshot-37.
+- None.
 
 Removed:
-- AtomicScience.
-- BasicComponents.
-- BiblioWoods[Highlands].
-- CustomNPCs.
-- EnergyManipulation.
-- Highlands.
-- ICBMContraption.
-- ICBMExplosion.
-- ICBMSentry.
-- Mekanism-Generators.
-- Mekanism-Induction.
-- Mekanism-Tools.
-- Mekanism.
-- ModularForcefieldSystem.
-- Nhave's Omniwrench.
+- ImmibisMicroBlocks.
