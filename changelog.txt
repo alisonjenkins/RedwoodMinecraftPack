@@ -57,6 +57,7 @@ Updated:
 - Schematica to 1.5.3.58.
 - Shatter to 2.0.2.
 - Steve's Carts to b9.
+- ThaumicTinkerer to 2.1.63.
 - Thermal Expansion to 3.0.0.2.
 - TinkersConstruct to 1.5.2.6.
 - Waila to 1.4.4b.
