@@ -53,6 +53,7 @@ Updated:
 - OpenPeripheral to 0.2.1-snapshot-114.
 - Opis to 1.1.2.
 - Optifine to C8.
+- OreConverter to 1.4.2.
 - Pneaumatic Craft to 1.0.5.
 - PortalGun to 2.0.2.
 - ProjectRed to 4.2.2.19.
