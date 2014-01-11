@@ -1905,12 +1905,12 @@
             website="http://www.minecraftforum.net/topic/1937619-162152-ender-io-how-many-pipes-in-one-block-now-with-mj-storage-blocks-youtube-tutorial/page__st__0"
             description="This mod adds multi pipes and the Ender IO."
             type="mods"
-            version="0.4.6.78"
+            version="0.6.0.156"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/EnderIO-1.6.4-0.4.6.78.jar"
-            file="EnderIO-1.6.4-0.4.6.78.jar"
-            md5="eec2c8d4327e1dc78719d8959150b4d4"
+            url="packs/RedwoodServer/files//EnderIO-1.6.4-0.6.0.156.jar"
+            file="EnderIO-1.6.4-0.6.0.156.jar"
+            md5="d32deddb5cbb7afb3655ca23f58588fa"
             download="server"
             />
 
