@@ -34,3 +34,10 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Vim files
+*.swp
+*.swo
+
+# Files that should not be in the repo
+Configs/Configs.zip
