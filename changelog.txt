@@ -6,6 +6,7 @@ Downgraded:
 
 Added:
 - NotEnoughKeys 0.0.4.
+- OpenComputers 1.1.0.
 
 Removed:
 - ImmibisMicroBlocks.

@@ -1927,6 +1927,18 @@
             />
 
         <!-- Computercraft -->
+        <mod name="OpenComputers"
+            type="mods"
+            description="Adds programmable computers to Minecraft"
+            website="http://www.minecraftforum.net/topic/2201440-opencomputers-v11/"
+            version="1.1.0"
+            optional="no"
+            server="yes"
+            url="packs/RedwoodServer/files//OpenComputers-1.1.0.zip"
+            file="OpenComputers-1.1.0.zip"
+            md5="d945ceb78e471e4410056450a543bfb8"
+            download="server"
+            />
         <mod name="ComputerCraft"
             type="mods"
             description="Adds programmable computers to Minecraft"
