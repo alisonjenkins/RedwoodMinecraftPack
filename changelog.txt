@@ -1,5 +1,5 @@
 Updated:
-- None.
+- InfernalMobs config to nerf mob's health.
 
 Downgraded:
 - None.
