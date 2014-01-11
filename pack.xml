@@ -945,7 +945,7 @@
             description="Adds Extra Bees and Extra Trees to Forestry."
             website="http://extratrees.accudio.com/"
             type="mods"
-            version="1.6.2-1.8-pre1"
+            version="1.8-pre1"
             optional="no"
             server="yes"
             url="packs/RedwoodServer/files//binnie-mods-1.8-pre1.jar"
