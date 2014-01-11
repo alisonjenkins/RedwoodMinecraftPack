@@ -1623,10 +1623,10 @@
             depends="iChunUtil"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PortalGun2.0.1.zip"
-            file="PortalGun2.0.1.zip"
-            md5="ea2eef7ee8b876dbd6adf6f8967b84d4"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/PortalGun2.0.2.zip" 
+			file="PortalGun2.0.2.zip" 
+			md5="076162ae7debc0dae697534e439ff499" 
+			download="server"
             />
 
         <mod name="RedstoneInMotion"
