@@ -23,7 +23,7 @@ Updated:
 - ForgeMultipart to 1.0.0.234.
 - Galacticraft to 2.0.8.908.
 - GalacticraftPlanets to 2.0.8.908.
-- GregTech to 4.07i.
+- GregTech to 4.07k.
 - Hardcore Ender Expansion to 1.3.
 - ImmibisCore to 57.1.92.
 - ImmibisMicroblocks to 57.5.0.
