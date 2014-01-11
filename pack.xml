@@ -341,18 +341,6 @@
             md5="3ec482a041657a5585d098f1da4daa96"
             download="server"
             />
-        <mod name="EnergyManipulation"
-            description="Adds Equivalent Exchange 2 style energy energy storage."
-            website="http://www.minecraftforum.net/topic/1866335-164162152147-energy-manipulation-118-stable/"
-            type="mods"
-            version="1.1.8"
-            server="yes"
-            optional="no"
-            url="packs/RedwoodServer/files/1.6.4/EM1.6.4%201.1.8.zip"
-            file="EM1.6.4 1.1.8.zip"
-            md5="99d8db313edf76090560500a318b98ce"
-            download="server"
-            />
         <mod name="OreConverter"
             description="Adds various tools for converting types of ores in the ore dictionary."
             website="http://www.minecraftforum.net/topic/1580364-162164forge-ore-dictionary-converter/"

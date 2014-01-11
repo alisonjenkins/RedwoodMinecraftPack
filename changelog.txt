@@ -78,6 +78,7 @@ Removed:
 - AtomicScience.
 - BasicComponents.
 - CustomNPCs.
+- EnergyManipulation.
 - Highlands.
 - ICBMContraption.
 - ICBMExplosion.
