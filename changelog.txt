@@ -38,6 +38,7 @@ Updated:
 - Hardcore Ender Expansion to 1.3
 - Keithy-Utils to 1.2b
 - Reliquary to 1.1.1
+- Netherstuffs to .21
 
 Downgraded:
 - None.
