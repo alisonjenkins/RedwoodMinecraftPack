@@ -36,6 +36,7 @@ Updated:
 - GalacticraftPlanets to 2.0.8.908
 - qCraft 1.1 (1.6.4 version)
 - Hardcore Ender Expansion to 1.3
+- Keithy-Utils to 1.2b
 
 Downgraded:
 - None.
