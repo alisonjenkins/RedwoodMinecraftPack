@@ -4,6 +4,7 @@ Updated:
 - Backtools to 2.0.1.
 - BinniesMods to 1.8-pre1.
 - BspkrsCore to 5.2.
+- Buildcraft to 4.2.2.
 - ChickenCodeCore to 0.9.0.7.
 - CoFHCore to 3.0.0.2.
 - DamageIndicators to 2.9.2.3.
