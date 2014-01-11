@@ -43,6 +43,7 @@ Updated:
 - ExtraUtils to 1.0.2
 - NEIAddons to 1.6.2-1.9.2r51
 - PortalGun to 2.0.2
+- Morph to 0.6.0
 
 Downgraded:
 - None.
