@@ -1150,14 +1150,14 @@
             />
         <mod name="DartCraft"
             website="http://www.minecraftforum.net/topic/1686840-151-152-dartcraft-beta-0117/"
-            version="0.2.13"
+            version="0.2.14"
             type="mods"
             optional="no"
             server="yes"
             description="This mod adds engines, ores and upgradable backpacks! Amongst other awesome stuff"
-            url="packs/RedwoodServer/files/1.6.4/DartCraft%20Beta%200.2.13.jar"
-            file="DartCraft Beta 0.2.13.jar"
-            md5="94465ce48240de67eb72243391c4ffe3"
+            url="packs/RedwoodServer/files/DartCraft Beta 0.2.14.jar"
+            file="DartCraft Beta 0.2.14.jar"
+            md5="49248e4b2822724c11361559008c8ebe"
             download="server"
             />
         <mod name="Natura"
