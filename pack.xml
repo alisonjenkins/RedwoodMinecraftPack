@@ -460,7 +460,6 @@
             version="2.0.2"
             server="no"
             optional="yes"
-            depends="iChunUtil"
             url="packs/RedwoodServer/files//Shatter2.0.2.zip"
             file="Shatter2.0.2.zip"
             md5="d5cdea7cb854f07206dfe61c28681dae"
