@@ -40,7 +40,7 @@ Updated:
 - Reliquary to 1.1.1
 - Netherstuffs to .21
 - RandomThings to 1.8.8
-
+- ExtraUtils to 1.0.2
 Downgraded:
 - None.
 
