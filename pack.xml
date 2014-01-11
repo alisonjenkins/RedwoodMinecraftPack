@@ -80,10 +80,10 @@
             type="jar"
             description="This is the API that all mods in the pack need to work"
             website="http://files.minecraftforge.net/"
-            version="9.11.1.953"
-            url="packs/RedwoodServer/files/1.6.4/forge-1.6.4-9.11.1.953-universal.jar"
-            file="forge-1.6.4-9.11.1.953-universal.jar"
-            md5="0bf5250f9ff4b7b0f3bcc41893010781"
+            version="9.11.1.965"
+            url="packs/RedwoodServer/files//forge-1.6.4-9.11.1.965-universal.jar"
+            file="forge-1.6.4-9.11.1.965-universal.jar"
+            md5="02efbef58dbd39fccead94777b611fce"
             download="server"
          />
 
