@@ -1,5 +1,6 @@
 Updated:
 - AppliedEnergistics to rv14.finale3.
+- AromaCore to 1.0.1.2.
 - ArsMagicka2 to 1.1.1c.
 - Backpacks to 1.26.29.
 - Backtools to 2.0.1.

@@ -104,13 +104,13 @@
         <mod name="AromaCore"
             type="mods"
             description="This is a library for Aroma's mods."
-            version="1.0.1.0"
+            version="1.0.1.2"
             website="http://www.minecraftforum.net/topic/1679684-forge-164-aroma1997s-mods/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/Aroma1997Core%20MC.1.6.4%20v.1.0.1.0.jar"
-            file="Aroma1997Core MC.1.6.4 v.1.0.1.0.jar"
-            md5="69d0e2bdb6b5020abca61273a2fae190"
+            url="packs/RedwoodServer/files//Aroma1997Core MC.1.6.4 v.1.0.1.2.jar"
+            file="Aroma1997Core MC.1.6.4 v.1.0.1.2.jar"
+            md5="39e4fa23bc6692eefbf9291f92686082"
             download="server"
             />
 
