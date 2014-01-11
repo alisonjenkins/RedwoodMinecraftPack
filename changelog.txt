@@ -84,6 +84,7 @@ Added:
 Removed:
 - AtomicScience.
 - BasicComponents.
+- BiblioWoods[Highlands].
 - CustomNPCs.
 - EnergyManipulation.
 - Highlands.
