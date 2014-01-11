@@ -1519,7 +1519,7 @@
             description="This mod adds recipes for mods that do not natively support NEI."
             website="http://www.minecraftforum.net/topic/1803460-nei-addons-v181-with-forestry-2280-support/"
             type="mods"
-            version="1.9.4.r51"
+            version="1.9.4"
             optional="no"
             server="yes"
             serveroptional="no"
