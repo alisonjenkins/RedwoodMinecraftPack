@@ -2014,19 +2014,19 @@
             md5="856d9a4163105af3cfdd33caf7afbb67"
             download="server"
             />
-        <mod name="CCTransport"
-            description="Adds a single stack buffer to computers for moving items programatically."
-            website="http://www.computercraft.info/forums2/index.php?/topic/15384-cctransport-v101-inventory-management-add-on-for-openperipherals/"
-            type="mods"
-            version="1.0.1"
-            optional="no"
-            server="yes"
-            depends="OpenPeripheral"
-            url="packs/RedwoodServer/files/1.6.4/CCTransport-1.0.1.jar"
-            file="CCTransport-1.0.1.jar"
-            md5="afd7267ba8d5c275fe3b586c886894d6"
-            download="server"
-            />
+        <!-- <mod name="CCTransport" -->
+        <!--     description="Adds a single stack buffer to computers for moving items programatically." -->
+        <!--     website="http://www.computercraft.info/forums2/index.php?/topic/15384&#45;cctransport&#45;v101&#45;inventory&#45;management&#45;add&#45;on&#45;for&#45;openperipherals/" -->
+        <!--     type="mods" -->
+        <!--     version="1.0.1" -->
+        <!--     optional="no" -->
+        <!--     server="yes" -->
+        <!--     depends="OpenPeripheral" -->
+        <!--     url="packs/RedwoodServer/files/1.6.4/CCTransport&#45;1.0.1.jar" -->
+        <!--     file="CCTransport&#45;1.0.1.jar" -->
+        <!--     md5="afd7267ba8d5c275fe3b586c886894d6" -->
+        <!--     download="server" -->
+        <!--     /> -->
         <mod name="CCAdvHTTP"
             description="Adds a peripheral block with a better HTTP API for ComputerCraft."
             website="http://www.computercraft.info/forums2/index.php?/topic/15697-ccadvhttp-advanced-http/"
