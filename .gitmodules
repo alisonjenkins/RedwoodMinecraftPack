@@ -1,0 +1,3 @@
+[submodule "pacgen"]
+	path = pacgen
+	url = git@github.com:demon012/pacgen.git
