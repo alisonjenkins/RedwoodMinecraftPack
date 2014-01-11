@@ -12,6 +12,7 @@ Updated:
 - ComputerCraft to 1.58.
 - DamageIndicators to 2.9.2.3.
 - DartCraft to 0.2.14.
+- DimensionalAnchors to 57.1.9.
 - EiraIRC to 1.5.0.
 - EmashersResource to 1.2.1.8.
 - EnderIO to 0.6.0.156.
