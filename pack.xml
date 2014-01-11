@@ -77,7 +77,7 @@
         <!-- Jar Mods -->
         <mod
             name="MinecraftForge"
-            type="jar"
+            type="forge"
             description="This is the API that all mods in the pack need to work"
             website="http://files.minecraftforge.net/"
             version="9.11.1.965"
@@ -2335,14 +2335,14 @@
         <mod name="InfiniTubes"
             description="Adds in a load of tube stuff!"
             website="http://immibis.com/mcmoddl/"
-            version="57.0.2"
+            version="57.0.5"
             type="mods"
             depends="ImmibisCore"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/infinitubes-57.0.2.jar"
-            file="infinitubes-57.0.2.jar"
-            md5="638d93792d4a382e1536f63971436d46"
+            url="packs/RedwoodServer/files//infinitubes-57.0.5.jar"
+            file="infinitubes-57.0.5.jar"
+            md5="0bbd903117ed9142e687f4e4de462520"
             download="server"
             />
 
