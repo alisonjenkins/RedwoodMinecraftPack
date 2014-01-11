@@ -990,15 +990,15 @@
             download="server"
             />
         <mod name="Railcraft"
-            version="8.3.1.0"
+            version="8.3.2.0"
             type="mods"
             optional="no"
             server="yes"
             description="Adds a lot of new tracks and carts to minecraft as well as a new steam system"
             website="http://www.railcraft.info/releases"
-            url="packs/RedwoodServer/files//Railcraft_1.6.4-8.3.1.0.jar"
-            file="Railcraft_1.6.4-8.3.1.0.jar"
-            md5="17bc0161dacd7e10168a26067d9cabf1"
+            url="packs/RedwoodServer/files//Railcraft_1.6.4-8.3.2.0.jar"
+            file="Railcraft_1.6.4-8.3.2.0.jar"
+            md5="16a8a7720b8041bd97d3c723da5fa21a"
             download="server"
             />
         <mod name="Steve'sCarts2"
@@ -1180,9 +1180,9 @@
             depends="AromaCore"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/HEE_1.6.4_release-1.3.zip" 
-			file="HEE_1.6.4_release-1.3.zip" 
-			md5="34a363ed1a06b324904fea370627ebda" 
+            url="packs/RedwoodServer/files/1.6.4/HEE_1.6.4_release-1.3.zip"
+			file="HEE_1.6.4_release-1.3.zip"
+			md5="34a363ed1a06b324904fea370627ebda"
 			download="server"
             />
         <mod name="DimensionalWorld"
@@ -1230,9 +1230,9 @@
             library="yes"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/KeithyUtils-1.6.2-1.2b.jar" 
-			file="KeithyUtils-1.6.2-1.2b.jar" 
-			md5="8576f92c2693035b088d0258ea2b56a7" 
+            url="packs/RedwoodServer/files/1.6.4/KeithyUtils-1.6.2-1.2b.jar"
+			file="KeithyUtils-1.6.2-1.2b.jar"
+			md5="8576f92c2693035b088d0258ea2b56a7"
 			download="server"
             />
         <mod name="Metallurgy"
@@ -1294,9 +1294,9 @@
             donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XZ4NCDJLP279G"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/mod_NetherStuffs_0.21.jar" 
-			file="mod_NetherStuffs_0.21.jar" 
-			md5="da27faff2faf00a6f76458df78fca73d" 
+            url="packs/RedwoodServer/files/1.6.4/mod_NetherStuffs_0.21.jar"
+			file="mod_NetherStuffs_0.21.jar"
+			md5="da27faff2faf00a6f76458df78fca73d"
 			download="server"
             />
         <mod name="Aquaculture"
@@ -1447,9 +1447,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Random Things v. 1.8.8 [MC 1.6.4].jar" 
-			file="Random Things v. 1.8.8 [MC 1.6.4].jar" 
-			md5="42d7f8b7f9bdf4fbf0577883211a7583" 
+            url="packs/RedwoodServer/files/1.6.4/Random Things v. 1.8.8 [MC 1.6.4].jar"
+			file="Random Things v. 1.8.8 [MC 1.6.4].jar"
+			md5="42d7f8b7f9bdf4fbf0577883211a7583"
 			download="server"
             />
         <mod name="ExtraUtilities"
@@ -1459,9 +1459,9 @@
             optional="no"
             server="yes"
             type="mods"
-            url="packs/RedwoodServer/files/1.6.4/extrautils-1.0.2.zip" 
-			file="extrautils-1.0.2.zip" 
-			md5="ebe7ffa7897685278b1d3b66a79a7c1d" 
+            url="packs/RedwoodServer/files/1.6.4/extrautils-1.0.2.zip"
+			file="extrautils-1.0.2.zip"
+			md5="ebe7ffa7897685278b1d3b66a79a7c1d"
 			download="server"
             />
 
@@ -1512,9 +1512,9 @@
             server="yes"
             serveroptional="no"
             depends="NotEnoughItems"
-            url="packs/RedwoodServer/files/1.6.4/neiaddons-1.6.2-1.9.4.r51.jar" 
-			file="neiaddons-1.6.2-1.9.4.r51.jar" 
-			md5="27d539bb3c2419205ba92e0525176028" 
+            url="packs/RedwoodServer/files/1.6.4/neiaddons-1.6.2-1.9.4.r51.jar"
+			file="neiaddons-1.6.2-1.9.4.r51.jar"
+			md5="27d539bb3c2419205ba92e0525176028"
 			download="server"
             />
 
@@ -1609,9 +1609,9 @@
             depends="iChunUtil"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PortalGun2.0.2.zip" 
-			file="PortalGun2.0.2.zip" 
-			md5="076162ae7debc0dae697534e439ff499" 
+            url="packs/RedwoodServer/files/1.6.4/PortalGun2.0.2.zip"
+			file="PortalGun2.0.2.zip"
+			md5="076162ae7debc0dae697534e439ff499"
 			download="server"
             />
 
@@ -1767,9 +1767,9 @@
             version="0.6.0"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Morph-Beta-0.6.0.zip" 
-			file="Morph-Beta-0.6.0.zip" 
-			md5="da8a31822217a67f25bf5dce54520d71" 
+            url="packs/RedwoodServer/files/1.6.4/Morph-Beta-0.6.0.zip"
+			file="Morph-Beta-0.6.0.zip"
+			md5="da8a31822217a67f25bf5dce54520d71"
 			download="server"
             />
 
@@ -2435,9 +2435,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Reliquary-1.6.4-1.1.1.jar" 
-			file="Reliquary-1.6.4-1.1.1.jar" 
-			md5="43b1629c43a06fdf8b2438a62c8170a0" 
+            url="packs/RedwoodServer/files/1.6.4/Reliquary-1.6.4-1.1.1.jar"
+			file="Reliquary-1.6.4-1.1.1.jar"
+			md5="43b1629c43a06fdf8b2438a62c8170a0"
 			download="server"
             />
         <!---Flenix Mods-->
@@ -2540,9 +2540,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/StargateTech2-Alpha-0-5-1-MC164-Forge942.jar" 
-			file="StargateTech2-Alpha-0-5-1-MC164-Forge942.jar" 
-			md5="f7c42a1bf458645fcea96948c41d09dc" 
+            url="packs/RedwoodServer/files/1.6.4/StargateTech2-Alpha-0-5-1-MC164-Forge942.jar"
+			file="StargateTech2-Alpha-0-5-1-MC164-Forge942.jar"
+			md5="f7c42a1bf458645fcea96948c41d09dc"
 			download="server"
             />
 
@@ -2553,9 +2553,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/qCraft1.1.zip" 
-			file="qCraft1.1.zip" 
-			md5="809eb0c95706f3e2807ee1cd62add838" 
+            url="packs/RedwoodServer/files/1.6.4/qCraft1.1.zip"
+			file="qCraft1.1.zip"
+			md5="809eb0c95706f3e2807ee1cd62add838"
 			download="server"
             />
 
@@ -2633,9 +2633,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Galacticraft-1.6.4-2.0.8.908.jar" 
-			file="Galacticraft-1.6.4-2.0.8.908.jar" 
-			md5="772ba88f55671e22f20a8ed8d1347164" 
+            url="packs/RedwoodServer/files/1.6.4/Galacticraft-1.6.4-2.0.8.908.jar"
+			file="Galacticraft-1.6.4-2.0.8.908.jar"
+			md5="772ba88f55671e22f20a8ed8d1347164"
 			download="server"
             />
 
@@ -2646,9 +2646,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Galacticraft-Planets-1.6.4-2.0.8.908.jar" 
-			file="Galacticraft-Planets-1.6.4-2.0.8.908.jar" 
-			md5="38de7f31a507b9685f317ad148a0c163" 
+            url="packs/RedwoodServer/files/1.6.4/Galacticraft-Planets-1.6.4-2.0.8.908.jar"
+			file="Galacticraft-Planets-1.6.4-2.0.8.908.jar"
+			md5="38de7f31a507b9685f317ad148a0c163"
 			download="server"
             />
 
@@ -2659,9 +2659,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/MicdoodleCore-1.6.4-2.0.8.908.jar" 
-			file="MicdoodleCore-1.6.4-2.0.8.908.jar" 
-			md5="fa834ede2b361f856ea1d09150abc8a9" 
+            url="packs/RedwoodServer/files/1.6.4/MicdoodleCore-1.6.4-2.0.8.908.jar"
+			file="MicdoodleCore-1.6.4-2.0.8.908.jar"
+			md5="fa834ede2b361f856ea1d09150abc8a9"
 			download="server"
             />
 
@@ -2672,9 +2672,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/TabbyChat-1.10.00.jar" 
-			file="TabbyChat-1.10.00.jar" 
-			md5="beff943f7e9df52cede5646a32f1e6c0" 
+            url="packs/RedwoodServer/files/1.6.4/TabbyChat-1.10.00.jar"
+			file="TabbyChat-1.10.00.jar"
+			md5="beff943f7e9df52cede5646a32f1e6c0"
 			download="server"
             />
 
@@ -2698,9 +2698,9 @@
             type="mods"
             optional="no"
             server="yes"
-			url="packs/RedwoodServer/files/1.6.4/EmasherResource-1.2.1.8.zip" 
-			file="EmasherResource-1.2.1.8.zip" 
-			md5="e05e3b144ba56e20c08d3de75288c72a" 
+			url="packs/RedwoodServer/files/1.6.4/EmasherResource-1.2.1.8.zip"
+			file="EmasherResource-1.2.1.8.zip"
+			md5="e05e3b144ba56e20c08d3de75288c72a"
 			download="server"
             />
 
@@ -2711,9 +2711,9 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/EngineersToolbox-1.1.6.6.zip" 
-			file="EngineersToolbox-1.1.6.6.zip" 
-			md5="382c4e180ae3410c6c4639d3ee11edb6" 
+            url="packs/RedwoodServer/files/1.6.4/EngineersToolbox-1.1.6.6.zip"
+			file="EngineersToolbox-1.1.6.6.zip"
+			md5="382c4e180ae3410c6c4639d3ee11edb6"
 			download="server"
             />
 
