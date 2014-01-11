@@ -1778,13 +1778,13 @@
             description="Allows you to change the shape and appearance of yourself!"
             website="http://ichun.us/morph-beta-0-1-0-released/"
             type="mods"
-            version="0.4.0"
+            version="0.6.0"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Morph-Beta-0.4.0.zip"
-            file="Morph-Beta-0.4.0.zip"
-            md5="5b403bf2ef37d8f02fa9fcf3b2e1ec26"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/Morph-Beta-0.6.0.zip" 
+			file="Morph-Beta-0.6.0.zip" 
+			md5="da8a31822217a67f25bf5dce54520d71" 
+			download="server"
             />
 
         <mod name="BILLUND"
