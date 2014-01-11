@@ -43,6 +43,7 @@ Updated:
 - Optifine to C8.
 - Pneaumatic Craft to 1.0.5.
 - PortalGun to 2.0.2.
+- ProjectRed to 4.2.2.19.
 - Railcraft to 8.3.2.0.
 - RandomThings to 1.8.8.
 - Reliquary to 1.1.1.
