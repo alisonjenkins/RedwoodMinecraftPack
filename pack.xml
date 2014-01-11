@@ -2204,12 +2204,12 @@
             description="Adds Modular Power suits armour."
             website="http://machinemuse.net/download.php"
             type="mods"
-            version="0.8.0-44"
+            version="0.9.0-76"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/ModularPowersuits-1.6.2-0.8.0-44.jar"
-            file="ModularPowersuits-1.6.2-0.8.0-44.jar"
-            md5="3a80e47cabca87fe354400360b4c886a"
+            url="packs/RedwoodServer/files//ModularPowersuits-1.6.2-0.9.0-76.jar"
+            file="ModularPowersuits-1.6.2-0.9.0-76.jar"
+            md5="97ca440147358aadcf485c824704aad6"
             download="server"
             />
 
