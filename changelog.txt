@@ -46,6 +46,7 @@ Updated:
 - Netherstuffs to 0.21.
 - NotEnoughItems to 1.6.1.8.
 - NuclearControl to 1.6.2e.
+- OpenBlocks to 1.2.2-snapshot-131.
 - OpenPeripheral to 0.2.1-snapshot-114.
 - Opis to 1.1.2.
 - Optifine to C8.
@@ -70,6 +71,8 @@ Downgraded:
 
 Added:
 - CodeChickenLib 1.0.0.50.
+- OpenModsLib 0.1-snapshot96.
+- OpenPeripheralAddons 0.1-snapshot-37.
 
 Removed:
 - AtomicScience.
