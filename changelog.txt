@@ -11,6 +11,7 @@ Updated:
 - EmashersResource to 1.2.1.8.
 - EngineersToolBox to 1.1.6.6.
 - ExtraUtils to 1.0.2.
+- Factorization to 0.8.25.
 - Forestry to 2.3.1.0.
 - Galacticraft to 2.0.8.908.
 - GalacticraftPlanets to 2.0.8.908.
