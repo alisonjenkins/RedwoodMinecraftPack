@@ -2239,14 +2239,14 @@
         <mod name="MinefactoryReloaded"
             website="http://www.minecraftforum.net/topic/2016680-162164-powercrystals-mods-minefactoryreloaded-powercrystalscore-and-netherores-updated/"
             description="Adds efficient farms, a redstone network and compact storage systems."
-            version="2.7.3-179"
+            version="2.7.4-255"
             type="mods"
             depends="PowerCrystalsCore"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/MineFactoryReloaded-2.7.3-179.jar"
-            file="MineFactoryReloaded-2.7.3-179.jar"
-            md5="ccabb10a56bd8f6af66f943b28ab8674"
+            url="packs/RedwoodServer/files//MineFactoryReloaded-2.7.4-255.jar"
+            file="MineFactoryReloaded-2.7.4-255.jar"
+            md5="c8f1dca675db22a7739f4fe013bd50da"
             download="server"
             />
 

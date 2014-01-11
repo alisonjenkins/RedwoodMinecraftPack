@@ -36,6 +36,7 @@ Updated:
 - Mapwriter to 2.0.16.
 - Micdoodle to 2.0.8.908.
 - MinecraftForge to 9.11.1.965.
+- MinefactoryReloaded to 2.7.4-255.
 - MobiusCore to 1.0.4.
 - ModularPowersuits to 0.9.0-76.
 - Morph to 0.6.0.
