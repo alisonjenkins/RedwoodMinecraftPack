@@ -2810,6 +2810,16 @@
             md5="3dec4e88dfbb07b7c79f41d89a7faca5"
             download="server"
             />
+		<mod name="Power Boxes"
+            website="http://www.minecraftforum.net/topic/1953987-164-power-boxes-112-get-the-cables-now-while-theyre-hot-1000-downloads/"
+            version="1.1.2"
+            type="mods"
+            description="Power Conversion and Storage in One Mod"
+            url="packs/RedwoodServer/files/1.6.4/PowerBoxes_1.1.2.zip"
+            file="PowerBoxes_1.1.2.zip"
+            md5="10ca20ce352aec420206f17c7fd9ab5b"
+            download="server"
+           />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
      <!--<actions>
