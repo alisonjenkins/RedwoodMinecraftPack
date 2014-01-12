@@ -2820,6 +2820,16 @@
             md5="10ca20ce352aec420206f17c7fd9ab5b"
             download="server"
             />
+        <mod name="Morpheus"
+            website="http://www.minecraftforum.net/topic/1953987-164-power-boxes-112-get-the-cables-now-while-theyre-hot-1000-downloads/"
+            version="1.2.32"
+            type="mods"
+            description="Adds sleep voting to servers. Also notifies people that there are people wanting to sleep and allows sleeping even if some are not in a bed (based on a percentage of how many people are on (default 50%))."
+            url="packs/RedwoodServer/files//Morpheus-1.6.4-1.2.32.jar"
+            file="Morpheus-1.6.4-1.2.32.jar"
+            md5="1493f287af37618e3bc6ca3bc9744a7a"
+            download="server"
+            />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>
