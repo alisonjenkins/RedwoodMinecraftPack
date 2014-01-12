@@ -1,5 +1,6 @@
 Updated:
 - InfernalMobs config to nerf mob's health.
+- Random Things Config to Disable changes to Xact crafting tables
 
 Downgraded:
 - None.
