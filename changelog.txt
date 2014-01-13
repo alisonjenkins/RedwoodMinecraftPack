@@ -5,6 +5,7 @@ Updated:
 - KeithyUtils to 1.2
 - LogisticsPipes to 0.7.4-96
 - MagicBees to 2.1.10
+- Pneumaticraft to 1.0.5
 
 Downgraded:
 - None.
