@@ -1,5 +1,6 @@
 Updated:
 - EnderIO to 0.7.0.165
+- GregTech to 4.07m
 
 Downgraded:
 - None.
