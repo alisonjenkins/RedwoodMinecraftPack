@@ -1,12 +1,13 @@
 Updated:
 - EnderIO to 0.7.0.165
 - GregTech to 4.07m
+- Thaumic Tinkerer to 2.1-65
 
 Downgraded:
 - None.
 
 Added:
-- None.
+- Thaumic Tinkerer KAMI
 
 Removed:
 - None.
