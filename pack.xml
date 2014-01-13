@@ -2854,6 +2854,16 @@
             md5="6078a2832a96f377d5561369b440879d"
             download="server"
             />
+        <mod name="Steve'sFactoryManager"
+            website="http://stevesfactorymanager.wikispaces.com/Download"
+            version="A22"
+            type="mods"
+            description="Unique Inventory Management!"
+            url="packs/RedwoodServer/files//StevesFactoryManagerA22.zip"
+            file="StevesFactoryManagerA22.zip"
+            md5="9788e581ffdffb91e42a96b9ea25218c"
+            download="server"
+            />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>

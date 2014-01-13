@@ -9,6 +9,7 @@ Downgraded:
 Added:
 - Thaumic Tinkerer KAMI
 - Player Beacons 1.2.0a
+- Steve's Factory Manager A22
 
 Removed:
 - None.
