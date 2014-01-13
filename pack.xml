@@ -1,7 +1,7 @@
 <!-- vim: set ft=xml syntax=xml et fenc= ff=dos sts=4 sw=4 ts=4 : -->
 <version>
     <pack>
-        <version>2.0.1-BETA25</version>
+        <version>2.0.1-BETA26</version>
         <minecraft>1.6.4</minecraft>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
         <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker server=redwood-guild.com --port=25565</extraarguments>
@@ -2295,7 +2295,7 @@
             md5="c9db2eb0fb159c6e1a40b794d2023bf6"
             download="server"
             />
-        
+
         <mod name="ThaumicTinkererKAMI"
             description="Adds in more Thaumcraft research and cool new items!"
             website="http://www.minecraftforum.net/topic/1813058-thaumic-tinkerer-thaumcraft-addon-evolve-knowledge-v101/"
