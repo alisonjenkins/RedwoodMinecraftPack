@@ -2743,10 +2743,10 @@
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip"
-            file="PneumaticCraft-1.0.5.zip"
-            md5="c9f3f79e964ed0379c1675b0b72f60b1"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip" 
+			file="PneumaticCraft-1.0.5.zip" 
+			md5="c9f3f79e964ed0379c1675b0b72f60b1" 
+			download="server"
             />
 
         <!--<mod name="ExtraTiC"
