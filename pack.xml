@@ -907,13 +907,13 @@
             description="Addon for Forestry to add Magic Bees."
             website="http://forestry.sengir.net/forum/viewtopic.php?id=17"
             type="mods"
-            version="2.1.9"
+            version="2.1.10"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//magicbees-2.1.9.jar"
-            file="magicbees-2.1.9.jar"
-            md5="16f517b1980a23dd0b5abacf14caf0d7"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/magicbees-2.1.10.jar" 
+			file="magicbees-2.1.10.jar" 
+			md5="c457fb1cf92266c8a07d42671a5d9add" 
+			download="server"
             />
         <!-- <mod name="EnchantingPlus" -->
             <!--     description="Addon to enhance the enchanting system." -->
