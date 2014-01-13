@@ -1,18 +1,14 @@
 Updated:
-- BCTools to 1.4-a-12
-- Dartcraft to 0.2.15
-- IronChests to 5.4.1.676
-- KeithyUtils to 1.2
-- LogisticsPipes to 0.7.4-96
-- MagicBees to 2.1.10
-- OpenComputers to 1.1.1
-- Pneumaticraft to 1.0.5
+- EnderIO to 0.7.0.165
 
 Downgraded:
 - None.
 
 Added:
-- Morpheus 1.2.32.
+- None.
 
 Removed:
 - None.
+
+Fixed:
+- Big Reactors
