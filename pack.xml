@@ -2844,6 +2844,16 @@
             md5="1493f287af37618e3bc6ca3bc9744a7a"
             download="server"
             />
+        <mod name="PlayerBeacons"
+            website="http://kihirakreations.co.uk/mcmods/player-beacons/"
+            version="1.2.0a"
+            type="mods"
+            description="Dimension wide buffs!"
+            url="packs/RedwoodServer/files//PlayerBeacons-1.6.2-1.2.0a.zip"
+            file="PlayerBeacons-1.6.2-1.2.0a.zip"
+            md5="6078a2832a96f377d5561369b440879d"
+            download="server"
+            />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>

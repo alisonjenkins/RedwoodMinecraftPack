@@ -8,6 +8,7 @@ Downgraded:
 
 Added:
 - Thaumic Tinkerer KAMI
+- Player Beacons 1.2.0a
 
 Removed:
 - None.
