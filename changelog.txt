@@ -1,6 +1,7 @@
 Updated:
 - IronChests to 5.4.1.676
 - KeithyUtils to 1.2
+- LogisticsPipes to 0.7.4-96
 
 Downgraded:
 - None.
