@@ -1,18 +1,14 @@
 Updated:
-- EnderIO to 0.7.0.165
-- GregTech to 4.07m
-- Thaumic Tinkerer to 2.1-65
+- GregTech configs to disable Crafting Unification.
 
 Downgraded:
 - None.
 
 Added:
-- Thaumic Tinkerer KAMI
-- Player Beacons 1.2.0a
-- Steve's Factory Manager A22
+- None.
 
 Removed:
 - None.
 
 Fixed:
-- Big Reactors
+- None.
