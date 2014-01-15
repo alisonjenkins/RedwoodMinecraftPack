@@ -1,5 +1,6 @@
 Updated:
 - GregTech configs to disable Crafting Unification.
+- HardcoreEnderExpansion to 1.3.1
 
 Downgraded:
 - None.
