@@ -1,5 +1,6 @@
 Updated:
-- GregTech configs to disable Crafting Unification.
+- GregTech configs to disable Crafting Unification and disable the *stupid*
+invincible monster spawners.
 - HardcoreEnderExpansion to 1.3.1
 
 Downgraded:
