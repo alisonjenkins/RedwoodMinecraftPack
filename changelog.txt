@@ -1,7 +1,7 @@
 Updated:
-- EnderIO to 0.7.0.165
-- GregTech to 4.07m
-- Thaumic Tinkerer to 2.1-65
+- GregTech configs to disable Crafting Unification and disable the *stupid*
+invincible monster spawners.
+- HardcoreEnderExpansion to 1.3.1
 
 Downgraded:
 - None.
@@ -15,4 +15,4 @@ Removed:
 - None.
 
 Fixed:
-- Big Reactors
+- None.
