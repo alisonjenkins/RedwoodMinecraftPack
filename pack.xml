@@ -2856,13 +2856,13 @@
             />
         <mod name="Steve'sFactoryManager"
             website="http://stevesfactorymanager.wikispaces.com/Download"
-            version="A22"
+            version="A29"
             type="mods"
             description="Unique Inventory Management!"
-            url="packs/RedwoodServer/files//StevesFactoryManagerA22.zip"
-            file="StevesFactoryManagerA22.zip"
-            md5="9788e581ffdffb91e42a96b9ea25218c"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/StevesFactoryManagerA29.zip" 
+			file="StevesFactoryManagerA29.zip" 
+			md5="0c0acd1709bf30fedb5d2603a5b4fee2" 
+			download="server"
             />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
