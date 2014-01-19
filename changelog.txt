@@ -1,5 +1,6 @@
 Updated:
 - BinniesMods to 1.8.0.
+- ExtraCells to 1.6.7.
 - Factorization to 0.8.28.
 - HardcoreEnderExpansion to 1.3.1
 - LogisticsPipes to 0.7.4-98
