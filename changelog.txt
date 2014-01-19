@@ -23,7 +23,12 @@ Added:
 - None.
 
 Removed:
-- None.
+- FlenixCitiesCore.
+- FlenixCitiesFood.
+- FlenixCitiesLargeBuildings.
+- FlenixCitiesOffices.
+- FlenixCitiesStreets.
+- FlenixRoads.
 
 Fixed:
 - None.
