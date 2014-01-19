@@ -1161,7 +1161,7 @@
         <mod name="HardcoreEnderExpansion"
             type="mods"
             description="This mod extends the End to make it more than just an island, enjoy death... I mean the adventure."
-            version="1.3"
+            version="1.3.1"
             website="http://www.minecraftforum.net/topic/1066990-hardcore-ender-expansion-v112-former-hardcore-enderdragon-mod-18000-dls/"
             depends="AromaCore"
             server="yes"
