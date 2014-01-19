@@ -2160,7 +2160,7 @@
             version="1.6.2e"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/IC2NuclearControl-1.6.2e-ic2-experimental.zip"
+            url="packs/RedwoodServer/files//IC2NuclearControl-1.6.2e-ic2-experimental.zip"
             file="IC2NuclearControl-1.6.2e-ic2-experimental.zip"
             md5="e70955cad99fa6b4cd0f66de357bacb3"
             download="server"
