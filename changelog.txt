@@ -14,6 +14,7 @@ Updated:
 - StargateTech2 to 0.6.1
 - SteveFactoryManager to A29
 - StevesCarts to 2.0.0.b10.
+- ThaumicTinkerer to 2.1-66.
 
 Downgraded:
 - None.
