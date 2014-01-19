@@ -1,5 +1,6 @@
 Updated:
 - BinniesMods to 1.8.0.
+- EnderIO to 0.7.1.
 - ExtraCells to 1.6.7.
 - Factorization to 0.8.28.
 - ForgeMultipart to 1.0.0.236.
