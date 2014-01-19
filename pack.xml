@@ -1912,13 +1912,13 @@
             description="Adds Buildcraft pipes capable of requesting items from remote inventories and automatically crafting."
             website="https://github.com/RS485/LogisticsPipes"
             type="mods"
-            version="0.7.4-96"
+            version="0.7.4-98"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/LogisticsPipes-MC1.6.4-0.7.4.dev.96.jar"
-            file="LogisticsPipes-MC1.6.4-0.7.4.dev.96.jar"
-            md5="b34ce24d944fac6883a726dc29604e8d"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/LogisticsPipes-MC1.6.4-0.7.4.dev.98.jar" 
+			file="LogisticsPipes-MC1.6.4-0.7.4.dev.98.jar" 
+			md5="7c75c4365dd74902eaf78365ff3fcdb3" 
+			download="server"
             />
 
         <!-- Computercraft -->
@@ -2553,14 +2553,14 @@
         <mod name="StargateTech2"
             description="A stargates and technical shizzwazz"
             website="http://mod-stargatetech.com/"
-            version="0.5.1"
+            version="0.6.1"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/StargateTech2-Alpha-0-5-1-MC164-Forge942.jar"
-            file="StargateTech2-Alpha-0-5-1-MC164-Forge942.jar"
-            md5="f7c42a1bf458645fcea96948c41d09dc"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/StargateTech2-Alpha-0-6-1-MC164-Forge965.jar" 
+			file="StargateTech2-Alpha-0-6-1-MC164-Forge965.jar" 
+			md5="1030ac094c5ffc4c3d5ac97e8a9bfd31" 
+			download="server"
             />
 
         <mod name="qCraft"
@@ -2750,14 +2750,14 @@
         <mod name="PneumaticCraft"
             description="Adds tools and machines powered by compressed air."
             website="http://www.minecraftforum.net/topic/1841226-164forgesspsmptechmodwip-pneumaticcraft/"
-            version="1.0.5"
+            version="1.0.6"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.5.zip"
-            file="PneumaticCraft-1.0.5.zip"
-            md5="c9f3f79e964ed0379c1675b0b72f60b1"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.6.zip" 
+			file="PneumaticCraft-1.0.6.zip" 
+			md5="9907aaf2e01ba77e98bf2a3b69a350db" 
+			download="server"
             />
 
         <!--<mod name="ExtraTiC"
@@ -2856,13 +2856,13 @@
             />
         <mod name="Steve'sFactoryManager"
             website="http://stevesfactorymanager.wikispaces.com/Download"
-            version="A22"
+            version="A29"
             type="mods"
             description="Unique Inventory Management!"
-            url="packs/RedwoodServer/files//StevesFactoryManagerA22.zip"
-            file="StevesFactoryManagerA22.zip"
-            md5="9788e581ffdffb91e42a96b9ea25218c"
-            download="server"
+            url="packs/RedwoodServer/files/1.6.4/StevesFactoryManagerA29.zip" 
+			file="StevesFactoryManagerA29.zip" 
+			md5="0c0acd1709bf30fedb5d2603a5b4fee2" 
+			download="server"
             />
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
