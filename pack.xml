@@ -2785,6 +2785,16 @@
             md5="0c0acd1709bf30fedb5d2603a5b4fee2"
             download="server"
             />
+	    <mod name="Witchery"
+		    website="http://www.minecraftforum.net/topic/1992544-"
+			version="0-13-1"
+			type="mods"
+			description="Extending Minecraft with Witchcraft"
+			url="packs/RedwoodServer/files/1.6.4/Witchery_0-13-1_164.zip"
+			file="Witchery_0-13-1_164.zip" 
+			md5="e41498bd464f8f1cb436602396c90bad"
+			download="server"
+			/>
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>
