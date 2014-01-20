@@ -20,7 +20,7 @@ Downgraded:
 - None.
 
 Added:
-- None.
+- Witchery 0.13.1
 
 Removed:
 - FlenixCitiesCore.
