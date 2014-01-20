@@ -2805,6 +2805,16 @@
 			md5="aeae01ac3a183f8736f60cb2718d5cde"
 			download="server"
 			/>
+		<mod name="HungerOverhaul"
+			website="http://www.minecraftforum.net/topic/1813158-"
+			version="2l-build3"
+			type="mods"
+			description="Making food worth less and also give bonuses"
+			url="packs/RedwoodServer/files/1.6.4/hungeroverhaul-1.6.X-2l-build3.zip"
+			file="hungeroverhaul-1.6.X-2l-build3.zip"
+			md5="770f92c1e4fdbc1f24faa5dcc96ec202"
+			download="server"
+			/>
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>
