@@ -2795,6 +2795,16 @@
 			md5="e41498bd464f8f1cb436602396c90bad"
 			download="server"
 			/>
+	    <mod name="Lycanite'sMobs"
+			website="http://www.minecraftforum.net/topic/1966252-"
+			version="1.4.1"
+			type="mods"
+			description="Lycanites Mobs is a project that adds a wide range of new mobs to Minecraft."
+			url="packs/RedwoodServer/files/1.6.4/LycanitesMobsComplete 1.4.1 [1.6.4].jar"
+			file="LycanitesMobsComplete 1.4.1 [1.6.4].jar"
+			md5="aeae01ac3a183f8736f60cb2718d5cde"
+			download="server"
+			/>
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>

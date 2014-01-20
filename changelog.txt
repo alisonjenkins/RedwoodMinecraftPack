@@ -21,6 +21,7 @@ Downgraded:
 
 Added:
 - Witchery 0.13.1
+- Lycanite'sMobs 1.4.1
 
 Removed:
 - FlenixCitiesCore.
