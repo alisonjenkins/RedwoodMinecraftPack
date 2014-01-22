@@ -2605,19 +2605,6 @@
             download="server"
             />
 
-        <mod name="BetterDungeons"
-            description="Adds cool dungeons, better than the vanilla minecraft shit"
-            website="http://www.minecraftforum.net/topic/746330-16chocolate-quest-mods-for-the-adventurers/"
-            version="1.6.4-203"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/BetterDungeons1.6.4_203.zip"
-            file="BetterDungeons1.6.4_203.zip"
-            md5="07141b6ff56c56d8ee635b7f92320741"
-            download="server"
-            />
-
         <mod name="EmasherResource"
             description="Adds a tonne of stuff, can't describe the amazingness"
             website="http://emashersmods.wikispaces.com/Downloads"
