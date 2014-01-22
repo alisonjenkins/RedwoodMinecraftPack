@@ -1,9 +1,0 @@
-#MLProperties: name (type:default) min:max -- information
-#MLProp : EnableRMBTweak (int:1,>=0.0,<=1.0) -- Enable RMB Tweak
-#MLProp : EnableLMBTweakWithoutItem (int:1,>=0.0,<=1.0) -- Enable LMB Tweak when item is not being held "on mouse"
-#MLProp : EnableLMBTweakWithItem (int:1,>=0.0,<=1.0) -- Enable LMB Tweak when item is being held "on mouse"
-#
-#Thu Jul 25 18:02:39 BST 2013
-EnableRMBTweak=1
-EnableLMBTweakWithoutItem=1
-EnableLMBTweakWithItem=1
