@@ -341,6 +341,18 @@
             md5="3ec482a041657a5585d098f1da4daa96"
             download="server"
             />
+        <mod name="DeadlyWorld"
+            description="Addon that makes the world more difficult. Silverfish veins etc."
+            website="http://www.minecraftforum.net/topic/1737378-16xforgefather-toasts-server-mods-lost-books-deadly-world-mob-properties-and-more/"
+            type="mods"
+            version="1.0.1"
+            server="yes"
+            optional="no"
+            url="packs/RedwoodServer/files//DeadlyWorld 1.0.1 for MC 1.6.2.zip"
+            file="DeadlyWorld 1.0.1 for MC 1.6.2.zip"
+            md5="d98b65b90967ab10edb1987a72ebbb1b"
+            download="server"
+            />
         <mod name="OreConverter"
             description="Adds various tools for converting types of ores in the ore dictionary."
             website="http://www.minecraftforum.net/topic/1580364-162164forge-ore-dictionary-converter/"

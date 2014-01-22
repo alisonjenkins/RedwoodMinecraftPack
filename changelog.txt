@@ -5,10 +5,11 @@ Downgraded:
 - None.
 
 Added:
-- Witchery 0.13.1
-- Lycanite'sMobs 1.4.1
-- HungerOverhaul 21-build3
+- DeadlyWorld 1.0.1.
 - DungeonPack 1.6.4
+- HungerOverhaul 21-build3
+- Lycanite'sMobs 1.4.1
+- Witchery 0.13.1
 
 Removed:
 - CraftGuide.
