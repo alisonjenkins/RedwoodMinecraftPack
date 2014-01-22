@@ -567,18 +567,6 @@
             md5="8ce24e7aa9e292d623589fad822d3816"
             download="server"
             />
-        <mod name="CraftGuide"
-            website="http://www.minecraftforum.net/topic/731133-162-craftguide-v1674/#download"
-            description="This mod adds a book that lists all the crafting recipes (Think backup NEI)."
-            type="mods"
-            version="1.6.7.4"
-            server="yes"
-            optional="no"
-            url="packs/RedwoodServer/files/1.6.4/CraftGuide-1.6.7.4.zip"
-            file="CraftGuide-1.6.7.4.zip"
-            md5="bef3b8239fee002e2d59241e807ca1d3"
-            download="server"
-            />
         <mod name="denLib"
             website="http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/"
             description="Dependency for various mods."
