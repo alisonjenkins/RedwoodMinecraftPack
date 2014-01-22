@@ -652,19 +652,19 @@
             md5="957b8a4255318ea4bfad3aa26e770f40"
             download="server"
             />
-        <!-- <mod name="BiblioWoods[BiomesOPlenty]" -->
-            <!--     description="Adds ability to make Bibliocraft blocks from the BiomesOPlenty woods." -->
-            <!--     website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/" -->
-            <!--     type="mods" -->
-            <!--     version="1.6.4-1.3" -->
-            <!--     optional="no" -->
-            <!--     server="yes" -->
-            <!--     depends="BiblioCraft,BiomesOPlenty" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/BiblioWoods[BiomesOPlenty][v1.3].zip" -->
-            <!--     file="BiblioWoods[BiomesOPlenty][v1.3].zip" -->
-            <!--     md5="b4171a695cbbdda3aca2f8617b88468a" -->
-            <!--     download="server" -->
-            <!--     /> -->
+        <mod name="BiblioWoods[BiomesOPlenty]"
+             description="Adds ability to make Bibliocraft blocks from the BiomesOPlenty woods."
+             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
+             type="mods"
+             version="1.6.4-1.3"
+             optional="no"
+             server="yes"
+             depends="BiblioCraft,BiomesOPlenty"
+             url="packs/RedwoodServer/files/1.6.4/BiblioWoods[BiomesOPlenty][v1.3].zip"
+             file="BiblioWoods[BiomesOPlenty][v1.3].zip"
+             md5="b4171a695cbbdda3aca2f8617b88468a"
+             download="server"
+             />
         <mod name="BiblioWoods[Natura]"
             description="Adds ability to make Bibliocraft blocks from the Natura woods."
             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
@@ -678,7 +678,9 @@
             md5="3c6eefb070d5310da42dab30dd14b8c9"
             download="server"
             />
-        <mod name="BiblioWoods[ExtraBiomesXL]"
+
+        <!--
+             <mod name="BiblioWoods[ExtraBiomesXL]"
             description="Adds ability to make Bibliocraft blocks from the ExtraBiomesXL woods."
             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
             type="mods"
@@ -691,6 +693,8 @@
             md5="0be9ddc9977cdf7e94a5455463af8a1e"
             download="server"
             />
+        -->
+
         <mod name="Discocraft"
             description="Adds 6 new records, a disco dance floor and functioning disco ball."
             website="http://www.minecraftforum.net/topic/1845067-"
@@ -752,7 +756,9 @@
             md5="6b2c71d4e72a60b5356cc8b5c814cfa2"
             download="server"
             />
-        <mod name="ExtraBiomesXL"
+
+        <!--
+             <mod name="ExtraBiomesXL"
             description="Extra Biomes for world generation."
             website="http://www.minecraftforum.net/topic/1090288-152-extrabiomesxl-3134/"
             type="mods"
@@ -764,6 +770,8 @@
             md5="e673ad351ef00901a6014d8dc72ef71c"
             download="server"
             />
+        -->
+
         <!--<mod name="ForgeIRC"
             description="Adds the ability to link a Minecraft server to an IRC channel and use the client as an IRC client."
             website="http://www.minecraftforum.net/topic/1475847-152-forgeirc-v1018-soul-shards-v1036-and-recipe-remover-v11-updated-6092013/"
@@ -1036,18 +1044,18 @@
             md5="2dd5d9024752e894500bfe901b08221b"
             download="server"
             />
-        <!-- <mod name="BiomesOPlenty" -->
-            <!--     type="mods" -->
-            <!--     description="Adds more biomes into Minecraft" -->
-            <!--     version="1.6.4-1.1.3.236" -->
-            <!--     website="http://www.minecraftforum.net/topic/1495041-152-forge-biomes-o-plenty-v055-biome-specific-gemstones/" -->
-            <!--     server="yes" -->
-            <!--     optional="no" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/BiomesOPlenty-universal-1.6.4-1.1.3.236.jar" -->
-            <!--     file="BiomesOPlenty-universal-1.6.4-1.1.3.236.jar" -->
-            <!--     md5="0e01e17b38bb31d125fe67c8b6ba03b3" -->
-            <!--     download="server" -->
-            <!--     /> -->
+        <mod name="BiomesOPlenty"
+             type="mods"
+             description="Adds more biomes into Minecraft"
+             version="1.2.1.434"
+             website="http://www.minecraftforum.net/topic/1495041-152-forge-biomes-o-plenty-v055-biome-specific-gemstones/"
+             server="yes"
+             optional="no"
+             url="packs/RedwoodServer/files/1.6.4/BiomesOPlenty-universal-1.6.4-1.2.1.434.jar"
+             file="BiomesOPlenty-universal-1.6.4-1.2.1.434.jar"
+             md5="0cae32c6cd14745e5f7a596e68bee709"
+             download="server"
+             />
         <mod name="BiblioCraft"
             type="mods"
             description="Finally we get a very nice storage mod for your tools, armor and more!"
