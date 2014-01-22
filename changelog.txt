@@ -23,6 +23,7 @@ Added:
 - Witchery 0.13.1
 - Lycanite'sMobs 1.4.1
 - HungerOverhaul 21-build3
+- DungeonPack 1.6.4
 
 Removed:
 - FlenixCitiesCore.
@@ -31,6 +32,7 @@ Removed:
 - FlenixCitiesOffices.
 - FlenixCitiesStreets.
 - FlenixRoads.
+- Underground Biomes.
 
 Fixed:
 - None.

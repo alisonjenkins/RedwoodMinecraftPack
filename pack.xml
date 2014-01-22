@@ -1322,18 +1322,7 @@
             md5="e23856f659fb208189d2f3a18d9c9587"
             download="server"
             />
-        <mod name="UndergroundBiomes"
-            website="http://www.minecraftforum.net/topic/1593704-15x147-underground-biomes-forge-smp-compatible/"
-            description="Adds a very different underground you are used to"
-            version="0.4.2c"
-            type="mods"
-            server="yes"
-            optional="no"
-            url="packs/RedwoodServer/files/1.6.4/UndergroundBiomes%201.6.x%20-%200.4.2c.zip"
-            file="UndergroundBiomes 1.6.x - 0.4.2c.zip"
-            md5="35a3048ba53b34cf5300d9e008fc7f03"
-            download="server"
-            />
+
         <!-- <mod name="PresenceFootsteps" -->
             <!--     type="mods" -->
             <!--     description="Adds a tonne of new sounds!" -->
@@ -2815,6 +2804,17 @@
 			md5="770f92c1e4fdbc1f24faa5dcc96ec202"
 			download="server"
 			/>
+		<mod name="DungeonPack"
+			website="http://www.minecraftforum.net/topic/1340914-164smpbukkitforgedungeonpack24-dungeons3-bosses2-npc-villages-mod-support/"
+			version="1.6.4"
+			type="mods"
+			description="DungeonPack adds a lot of new dungeons."
+			url="packs/RedwoodServer/files/1.6.4/DungeonPack 1.6.4.zip"
+			file="DungeonPack 1.6.4.zip" 
+			md5="eb71455e612d99a4c084ba3d3faf416d"
+			download="server"
+			/>
+			
     </mods>
     <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>
