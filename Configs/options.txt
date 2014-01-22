@@ -1,0 +1,110 @@
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:20
+key_key.playerlist:15
+key_key.pickItem:-98
+key_key.command:53
+key_key.tarmor:24
+key_key.tcapes.reload:88
+key_IC2 ALT Key:56
+key_IC2 Boost Key:29
+key_IC2 Mode Switch Key:50
+key_IC2 Side Inventory Key:46
+key_IC2 Hub Expand Key:45
+key_Gravi Fly Key:33
+key_key.CastingMode:46
+key_key.SpellBookNext:45
+key_key.SpellBookPrev:44
+key_key.BetaParticles:48
+key_key.ToggleManaDisplay:24
+key_BCTools Armor Activation:33
+key_BCTools Scope Activation:219
+key_Open CraftGuide:34
+key_FZ Bag of Holding:41
+key_FZ Pocket Crafting Table:46
+key_Clipboard:46
+key_Ender Pack:45
+key_Force Belt:44
+key_Force Key:33
+key_Force Belt Slot 1:79
+key_Force Belt Slot 2:80
+key_Force Belt Slot 3:81
+key_Force Belt Slot 4:75
+key_Force Belt Slot 5:76
+key_Force Belt Slot 6:77
+key_Force Belt Slot 7:71
+key_Force Belt Slot 8:72
+key_MagicYarn Clientkey:36
+key_MagicYarn Playerkey:37
+key_Pneumatic Helmet Options:33
+key_Reposition Mob Portrait:52
+key_schematica.key.load:181
+key_schematica.key.save:55
+key_schematica.key.control:74
+key_Toggle chunk loading boundries:64
+key_key.archimedes.up:45
+key_key.archimedes.down:44
+key_key.archimedes.brake:46
+key_key.archimedes.align:13
+key_key.backpack.openBackpack:48
+key_Toggle Better Grass & Leaves Mod:67
+key_Better Grass & Leaves Mod Settings:68
+key_Change Wand Focus:33
+key_Show force-loaded chunks:67
+key_[GC] Galaxy Map:39
+key_[GC] Open Spaceship Inventory:33
+key_[GC] Toggle Sensor Goggles Mode:37
+key_[GC] Vehicle Forward Key:17
+key_[GC] Vehicle Backward Key:31
+key_[GC] Vehicle Left Key:30
+key_[GC] Vehicle Right Key:32
+key_[GC] Vehicle Up Key:57
+key_[GC] Vehicle Down Key:42
+key_Open MPS Keybind GUI:37
+key_Go Down (MPS Flight Control):44
+key_Cycle Tool Backward (MPS):-1
+key_Cycle Tool Forward (MPS):-1
+key_Zoom (MPS):21
+key_Cosmetic (MPS):38
+key_morph.keybinds:209
+key_[SGTech2] Activate rings (Up):200
+key_[SGTech2] Activate rings (Down):208
+key_key.mw_open_gui:50
+key_key.mw_new_marker:210
+key_key.mw_next_map_mode:49
+key_key.mw_next_marker_group:51
+key_key.mw_teleport:52
+key_key.mw_zoom_in:201
+key_key.mw_zoom_out:209
+key_key.mw_underground_mode:22
+key_SwapArrowsForward:51
+key_SwapArrowsBackward:52
+key_Change OneWayBlock face:43
+key_key.craftStack:29
+key_Belt Cycle Key + RCtrl:78
+key_key.craftingGrid:46
+key_xact.clear:208
+key_xact.load:200
+key_xact.prev:203
+key_xact.next:205
+key_xact.delete:211
+key_xact.openGrid:46
+key_key.control:29
+key_keybind.loco.faster:52
+key_keybind.loco.slower:51
+key_keybind.loco.mode:50
+key_keybind.loco.whistle:49
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
+key_FZ vanilla sprint:0
