@@ -999,18 +999,6 @@
             md5="9a40fa69737542e4ba0d8ca990bde811"
             download="server"
             />
-        <mod name="SolitaryCraft Ore Mod"
-            type="mods"
-            description="Adds a standard ore to replace all others"
-            website="http://not.a.real.site.com"
-            version="0.3"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/mod_TEOreGen_0.3.jar"
-            file="mod_TEOreGen_0.3.jar"
-            md5="b48c8bd30ccfb6efafb936789e6b35dc"
-            download="server"
-            />
         <mod name="IronChests"
             type="mods"
             description="Different sized chests that only take up one block!"
