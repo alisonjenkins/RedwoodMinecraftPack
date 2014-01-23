@@ -2580,32 +2580,6 @@
             download="server"
             />
 
-        <mod name="emasherresource"
-            description="adds a tonne of stuff, can't describe the amazingness"
-            website="http://emashersmods.wikispaces.com/downloads"
-            version="1.2.1.8"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/redwoodserver/files/1.6.4/emasherresource-1.2.1.8.zip"
-            file="emasherresource-1.2.1.8.zip"
-            md5="e05e3b144ba56e20c08d3de75288c72a"
-            download="server"
-            />
-
-        <mod name="engineerstoolbox"
-            description="adds a tonne of stuff, can't describe the amazingness"
-            website="http://emashersmods.wikispaces.com/downloads"
-            version="1.1.6.6"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/redwoodserver/files/1.6.4/engineerstoolbox-1.1.6.6.zip"
-            file="engineerstoolbox-1.1.6.6.zip"
-            md5="382c4e180ae3410c6c4639d3ee11edb6"
-            download="server"
-            />
-
         <mod name="bctools"
             description="adds buildcraft tools"
             website="http://www.minecraftforum.net/topic/1647902-buildcraft-addon-buildcraft-tools-development-page/"
