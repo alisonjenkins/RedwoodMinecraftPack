@@ -14,6 +14,7 @@ Added:
 
 Removed:
 - CraftGuide.
+- Factorization.
 - Underground Biomes.
 
 Fixed:
