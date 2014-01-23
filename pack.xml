@@ -1011,18 +1011,18 @@
             md5="6f81be30578db80416140e7c652e9ea6"
             download="server"
             />
-        <mod name="Factorization"
-            type="mods"
-            description="A tech mod that adds a bunch of machines to aid in processing ores and a cool new storage system"
-            version="0.8.28"
-            website="http://www.minecraftforum.net/topic/1351802-151-factorization-0737/"
-            server="yes"
-            optional="no"
-            url="packs/RedwoodServer/files//Factorization-0.8.28.jar"
-            file="Factorization-0.8.28.jar"
-            md5="6853827ae108b965181c5af51cb72659"
-            download="server"
-            />
+        <!-- <mod name="Factorization" -->
+        <!--     type="mods" -->
+        <!--     description="A tech mod that adds a bunch of machines to aid in processing ores and a cool new storage system" -->
+        <!--     version="0.8.28" -->
+        <!--     website="http://www.minecraftforum.net/topic/1351802&#45;151&#45;factorization&#45;0737/" -->
+        <!--     server="yes" -->
+        <!--     optional="no" -->
+        <!--     url="packs/RedwoodServer/files//Factorization&#45;0.8.28.jar" -->
+        <!--     file="Factorization&#45;0.8.28.jar" -->
+        <!--     md5="6853827ae108b965181c5af51cb72659" -->
+        <!--     download="server" -->
+        <!--     /> -->
         <mod name="EnderStorage"
             type="mods"
             description="You can create a network of chests, viewable from anywhere in the Minecraft world and beyond!"
@@ -2448,18 +2448,18 @@
             download="server"
             />
 
-        <mod name="StargateTech2"
-            description="A stargates and technical shizzwazz"
-            website="http://mod-stargatetech.com/"
-            version="0.6.1"
-            type="mods"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/StargateTech2-Alpha-0-6-1-MC164-Forge965.jar"
-            file="StargateTech2-Alpha-0-6-1-MC164-Forge965.jar"
-            md5="1030ac094c5ffc4c3d5ac97e8a9bfd31"
-            download="server"
-            />
+        <!-- <mod name="StargateTech2" -->
+        <!--     description="A stargates and technical shizzwazz" -->
+        <!--     website="http://mod&#45;stargatetech.com/" -->
+        <!--     version="0.6.1" -->
+        <!--     type="mods" -->
+        <!--     optional="no" -->
+        <!--     server="yes" -->
+        <!--     url="packs/RedwoodServer/files/1.6.4/StargateTech2&#45;Alpha&#45;0&#45;6&#45;1&#45;MC164&#45;Forge965.jar" -->
+        <!--     file="StargateTech2&#45;Alpha&#45;0&#45;6&#45;1&#45;MC164&#45;Forge965.jar" -->
+        <!--     md5="1030ac094c5ffc4c3d5ac97e8a9bfd31" -->
+        <!--     download="server" -->
+        <!--     /> -->
 
         <mod name="qCraft"
             description="Quantum mechanics in Minecraft"
