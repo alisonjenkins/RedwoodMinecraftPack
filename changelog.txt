@@ -17,7 +17,6 @@ Removed:
 - CraftGuide.
 - Factorization.
 - InfernalMobs (temporarily).
-- MPCP-Plus.
 - StargateTech2.
 - Underground Biomes.
 - Xact Crafting Table.
