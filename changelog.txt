@@ -5,6 +5,7 @@ Downgraded:
 - None.
 
 Added:
+- CraftingSuite 0.2.1.3.
 - DeadlyWorld 1.0.1.
 - DungeonPack 1.6.4
 - HungerOverhaul 21-build3
@@ -18,6 +19,7 @@ Removed:
 - InfernalMobs (temporarily).
 - StargateTech2.
 - Underground Biomes.
+- Xact Crafting Table.
 
 Fixed:
 - None.

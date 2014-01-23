@@ -1298,16 +1298,16 @@
             md5="799b10909d91b0c0f5a0bcf7c7ea9799"
             download="server"
             />
-        <mod name="Xhamolk'sAdvancedCraftingTable"
-            description="A different more Cubed way of automating your Minecraft"
-            website="http://www.minecraftforum.net/topic/1551715-xact-xhamolk-s-advanced-crafting-table-mc-147151/"
-            version="0.4.3"
+        <mod name="CraftingSuite"
+            description="A mod that adds new level of customisation to crafting tables."
+            website="http://www.minecraftforum.net/topic/2076108-164smpcrafting-suite-now-with-plans-v0213forge/"
+            version="0.2.1.3"
             type="mods"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/XACT v0.4.3.jar"
-            file="XACT v0.4.3.jar"
-            md5="e23856f659fb208189d2f3a18d9c9587"
+            url="packs/RedwoodServer/files/CraftingSuite-v0.2.1.3.jar"
+            file="CraftingSuite-v0.2.1.3.jar"
+            md5="8390292cf911de424eb00cba5e63d434"
             download="server"
             />
 
