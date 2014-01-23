@@ -49,19 +49,6 @@
     </libraries>
     <mods>
         <mod
-            name="MCPC-Plus"
-            description="This installs the faithful texture pack customised for our mods."
-            website="http://ci.md-5.net/job/MCPC-Plus/149/"
-            type="mcpc"
-            version="149"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/mcpc-plus-1.6.4-R2.1-forge952-B149.jar"
-            file="mcpc-plus-1.6.4-R2.1-forge952-B149.jar"
-            md5="81dab8202927aeab7e520c3ee47ee014"
-            download="server"
-            />
-        <mod
             name="Faithful texture pack (Redwood edition)"
             type="resourcepack"
             description="This installs the faithful texture pack customised for our mods."

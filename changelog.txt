@@ -18,6 +18,7 @@ Removed:
 - Factorization.
 - InfernalMobs (temporarily).
 - StargateTech2.
+- MCPC-Plus.
 - Underground Biomes.
 - Xact Crafting Table.
 
