@@ -2593,7 +2593,6 @@
             download="server"
             />
 
-<<<<<<< HEAD
         <mod name="bctools"
             description="adds buildcraft tools"
             website="http://www.minecraftforum.net/topic/1647902-buildcraft-addon-buildcraft-tools-development-page/"
