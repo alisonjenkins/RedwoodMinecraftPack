@@ -7,7 +7,6 @@ Downgraded:
 Added:
 - CraftingSuite 0.2.1.3.
 - DeadlyWorld 1.0.1.
-- DungeonPack 1.6.4
 - HungerOverhaul 21-build3
 - Lycanite'sMobs 1.4.1
 - Mariculture 1.1.4e

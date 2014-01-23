@@ -2740,16 +2740,26 @@
             md5="770f92c1e4fdbc1f24faa5dcc96ec202"
             download="server"
             />
-        <mod name="DungeonPack"
-            website="http://www.minecraftforum.net/topic/1340914-164smpbukkitforgedungeonpack24-dungeons3-bosses2-npc-villages-mod-support/"
-            version="1.6.4"
-            type="mods"
-            description="DungeonPack adds a lot of new dungeons."
-            url="packs/RedwoodServer/files/1.6.4/DungeonPack 1.6.4.zip"
-            file="DungeonPack 1.6.4.zip"
-            md5="eb71455e612d99a4c084ba3d3faf416d"
-            download="server"
-            />
+        <!-- <mod name="DungeonPack"\
+ -->
+        <!--     website="http://www.minecraftforum.net/topic/1340914&#45;164smpbukkitforgedungeonpack24&#45;dungeons3&#45;bosses2&#45;npc&#45;villages&#45;mod&#45;support/"\
+ -->
+        <!--     version="1.6.4"\
+ -->
+        <!--     type="mods"\
+ -->
+        <!--     description="DungeonPack adds a lot of new dungeons."\
+ -->
+        <!--     url="packs/RedwoodServer/files/1.6.4/DungeonPack 1.6.4.zip"\
+ -->
+        <!--     file="DungeonPack 1.6.4.zip"\
+ -->
+        <!--     md5="eb71455e612d99a4c084ba3d3faf416d"\
+ -->
+        <!--     download="server"\
+ -->
+        <!--     />\
+ -->
 		<mod name="Mariculture"
 			website="http://www.minecraftforum.net/topic/2049315-16xforgesmp-mariculture-114e/"
 			version="1.1.4e"
