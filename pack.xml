@@ -1,496 +1,483 @@
 <!-- vim: set ft=xml syntax=xml et fenc= ff=dos sts=4 sw=4 ts=4 : -->
 <version>
     <pack>
-        <version>2.0.1-BETA29</version>
+        <version>2.0.1-beta29</version>
         <minecraft>1.6.4</minecraft>
-        <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
-        <extraarguments>--tweakClass=cpw.mods.fml.common.launcher.FMLTweaker server=redwood-guild.com --port=25565</extraarguments>
+        <mainclass>net.minecraft.launchwrapper.launch</mainclass>
+        <extraarguments>--tweakclass=cpw.mods.fml.common.launcher.fmltweaker server=redwood-guild.com --port=25565</extraarguments>
         <memory>1500</memory>
         <permgen>256</permgen>
     </pack>
     <libraries>
         <library
             server="net/minecraft/launchwrapper/1.8/launchwrapper-1.8.jar"
-            url="packs/RedwoodServer/files/forgelibs/launchwrapper-1.8.jar"
+            url="packs/redwoodserver/files/forgelibs/launchwrapper-1.8.jar"
             file="launchwrapper-1.8.jar"
             md5="460ffeedae268dc70c8210ce179fa44a"
             download="server" />
         <library
             server="org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
-            url="packs/RedwoodServer/files/forgelibs/asm-all-4.1.jar"
+            url="packs/redwoodserver/files/forgelibs/asm-all-4.1.jar"
             file="asm-all-4.1.jar"
             md5="d21c2a06a4e6b175aa01e328f38a1182"
             download="server"
             />
         <library
             server="org/scala-lang/scala-compiler/2.10.2/scala-compiler-2.10.2.jar"
-            url="packs/RedwoodServer/files/forgelibs/scala-compiler-2.10.2.jar"
+            url="packs/redwoodserver/files/forgelibs/scala-compiler-2.10.2.jar"
             file="scala-compiler-2.10.2.jar"
             md5="44f4d11085423ebffbfb177c1fe4cc69"
             download="server" />
         <library
             server="org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar"
-            url="packs/RedwoodServer/files/forgelibs/scala-library-2.10.2.jar"
+            url="packs/redwoodserver/files/forgelibs/scala-library-2.10.2.jar"
             file="scala-library-2.10.2.jar"
             md5="8800aafcc03e346dbbde171bef0b2bfe"
             download="server" />
         <library
             server="lzma/lzma/0.0.1/lzma-0.0.1.jar"
-            url="packs/RedwoodServer/files/forgelibs/lzma-0.0.1.jar"
+            url="packs/redwoodserver/files/forgelibs/lzma-0.0.1.jar"
             file="lzma-0.0.1.jar"
             md5="a3e3c3186e41c4a1a3027ba2bb23cdc6"
             download="server" />
         <library
             server="net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
-            url="packs/RedwoodServer/files/forgelibs/jopt-simple-4.5.jar"
+            url="packs/redwoodserver/files/forgelibs/jopt-simple-4.5.jar"
             file="jopt-simple-4.5.jar"
             md5="1372bd4823bb1ef61e7db6724f601150"
             download="server" />
     </libraries>
     <mods>
         <mod
-            name="MCPC-Plus"
-            description="This installs the faithful texture pack customised for our mods."
-            website="http://ci.md-5.net/job/MCPC-Plus/149/"
-            type="mcpc"
-            version="149"
-            optional="no"
-            server="yes"
-            url="packs/RedwoodServer/files/1.6.4/mcpc-plus-1.6.4-R2.1-forge952-B149.jar"
-            file="mcpc-plus-1.6.4-R2.1-forge952-B149.jar"
-            md5="81dab8202927aeab7e520c3ee47ee014"
-            download="server"
-            />
-        <mod
-            name="Faithful texture pack (Redwood edition)"
+            name="faithful texture pack (redwood edition)"
             type="resourcepack"
-            description="This installs the faithful texture pack customised for our mods."
+            description="this installs the faithful texture pack customised for our mods."
             website="http://www.minecraftforum.net/topic/72747-faithful-32x32-pack-updatemore-17-plants-17/"
             version="1.0.1"
             optional="yes"
             server="no"
-            url="packs/RedwoodServer/files/1.6.4/Faithful32x32-RedwoodServer.zip"
-            file="Faithful32x32-RedwoodServer.zip"
+            url="packs/redwoodserver/files/1.6.4/faithful32x32-redwoodserver.zip"
+            file="faithful32x32-redwoodserver.zip"
             md5="cd9bb246a26696d4ca986bcfe1fdbd3a"
             download="server"
             />
-        <!-- Jar Mods -->
+        <!-- jar mods -->
         <mod
-            name="MinecraftForge"
+            name="minecraftforge"
             type="forge"
-            description="This is the API that all mods in the pack need to work"
+            description="this is the api that all mods in the pack need to work"
             website="http://files.minecraftforge.net/"
             version="9.11.1.965"
-            url="packs/RedwoodServer/files//forge-1.6.4-9.11.1.965-universal.jar"
+            url="packs/redwoodserver/files//forge-1.6.4-9.11.1.965-universal.jar"
             file="forge-1.6.4-9.11.1.965-universal.jar"
             md5="02efbef58dbd39fccead94777b611fce"
             download="server"
             />
 
         <mod
-            name="CodeChickenCore"
+            name="codechickencore"
             type="mods"
-            description="Needed to run the best recipe finder in Minecraft!"
+            description="needed to run the best recipe finder in minecraft!"
             website="http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/"
-            donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
+            donation="http://www.chickenbones.craftsaddle.org/pages/donate.php"
             version="0.9.0.7"
             library="yes"
-            url="packs/RedwoodServer/files//CodeChickenCore 0.9.0.7.jar"
-            file="CodeChickenCore 0.9.0.7.jar"
+            url="packs/redwoodserver/files//codechickencore 0.9.0.7.jar"
+            file="codechickencore 0.9.0.7.jar"
             md5="f81ca854f4455259d066708fa729d18c"
             download="server"
             />
 
-        <mod name="AromaCore"
+        <mod name="aromacore"
             type="mods"
-            description="This is a library for Aroma's mods."
+            description="this is a library for aroma's mods."
             version="1.0.1.2"
             website="http://www.minecraftforum.net/topic/1679684-forge-164-aroma1997s-mods/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//Aroma1997Core MC.1.6.4 v.1.0.1.2.jar"
-            file="Aroma1997Core MC.1.6.4 v.1.0.1.2.jar"
+            url="packs/redwoodserver/files//aroma1997core mc.1.6.4 v.1.0.1.2.jar"
+            file="aroma1997core mc.1.6.4 v.1.0.1.2.jar"
             md5="39e4fa23bc6692eefbf9291f92686082"
             download="server"
             />
 
-        <mod name="Dynmap"
+        <mod name="dynmap"
             type="mods"
-            description="This mod generates maps of the worlds and enables people to chat with people ingame."
+            description="this mod generates maps of the worlds and enables people to chat with people ingame."
             version="1.9"
             website="http://www.minecraftforum.net/topic/1543523-dynmap-dynamic-web-based-maps-for-minecraft/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/Dynmap-1.9-forge-9.10.0.jar"
-            file="Dynmap-1.9-forge-9.10.0.jar"
+            url="packs/redwoodserver/files/1.6.4/dynmap-1.9-forge-9.10.0.jar"
+            file="dynmap-1.9-forge-9.10.0.jar"
             md5="8b9ef27799786412b4e6fc58b6aabf94"
             download="server"
             />
 
-        <mod name="AutoUtils"
+        <mod name="autoutils"
             type="mods"
-            description="This is a library for Automatic_Maiden's mods."
+            description="this is a library for automatic_maiden's mods."
             version="1.0.1"
             website="http://www.minecraftforum.net/topic/1747810-164smpforge-vending-block/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/autoutils-1.6.4-1.0.1.jar"
+            url="packs/redwoodserver/files/1.6.4/autoutils-1.6.4-1.0.1.jar"
             file="autoutils-1.6.4-1.0.1.jar"
             md5="a1ba0914e3b6047906214f3b63ba59d6"
             download="server"
             />
 
-        <mod name="NotEnoughItems"
+        <mod name="notenoughitems"
             type="mods"
-            description="The best recipe finder in Minecraft!"
-            donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
-            authors="ChickenBones"
+            description="the best recipe finder in minecraft!"
+            donation="http://www.chickenbones.craftsaddle.org/pages/donate.php"
+            authors="chickenbones"
             version="1.6.1.8"
-            depends="CodeChickenCore"
+            depends="codechickencore"
             website="http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/"
             optional="no"
             server="yes"
             serveroptional="no"
-            url="packs/RedwoodServer/files/NotEnoughItems 1.6.1.8.jar"
-            file="NotEnoughItems 1.6.1.8.jar"
+            url="packs/redwoodserver/files/notenoughitems 1.6.1.8.jar"
+            file="notenoughitems 1.6.1.8.jar"
             md5="5a1d03896cc9490705de7fdf983582ff"
             download="server"
             />
 
-        <mod name="Optifine"
-            description="Allows you to customize graphic settings to get a cleaner running Minecraft"
+        <mod name="optifine"
+            description="allows you to customize graphic settings to get a cleaner running minecraft"
             website="http://www.minecraftforum.net/topic/249637-152-optifine-hd-d5-fps-boost-hd-textures-aa-af-and-much-more/"
             donation="http://optifine.net/donate.php"
             type="mods"
             optional="yes"
             server="no"
-            version="C8"
+            version="c8"
             group="graphics"
-            url="packs/RedwoodServer/files//OptiFine_1.6.4_HD_U_C8.jar"
-            file="OptiFine_1.6.4_HD_U_C8.jar"
+            url="packs/redwoodserver/files//optifine_1.6.4_hd_u_c8.jar"
+            file="optifine_1.6.4_hd_u_c8.jar"
             md5="ed26247711028090f3669f809f37d04b"
             download="server"
             />
 
-        <mod name="NoVoidFog"
-            description="Allows you to disable void fog while near bedrock when not using OptiFine."
+        <mod name="novoidfog"
+            description="allows you to disable void fog while near bedrock when not using optifine."
             website="http://www.minecraftforum.net/topic/1116564-164-162-mamiyaotarus-mods-voxelmap-chatbubbles-etc/"
             type="mods"
             optional="yes"
             server="no"
             version="1.6.4"
             group="graphics"
-            url="packs/RedwoodServer/files/1.6.4/noVoidFogNoDimming164.zip"
-            file="noVoidFogNoDimming164.zip"
+            url="packs/redwoodserver/files/1.6.4/novoidfognodimming164.zip"
+            file="novoidfognodimming164.zip"
             md5="0a0a6665249bcaa00a1b0fae48e9c515"
             download="server"
             />
 
-        <!-- Base Mods -->
-        <mod name="Forestry"
-            description="Adds numerous things from Farms to Bees in Minecraft"
+        <!-- base mods -->
+        <mod name="forestry"
+            description="adds numerous things from farms to bees in minecraft"
             website="http://forestry.sengir.net/wiki.new/doku.php?id=main:downloads"
             type="mods"
             version="2.3.1.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//forestry-A-2.3.1.0.jar"
-            file="forestry-A-2.3.1.0.jar"
+            url="packs/redwoodserver/files//forestry-a-2.3.1.0.jar"
+            file="forestry-a-2.3.1.0.jar"
             md5="2399212f03f59a53787ad43bb98f9060"
             download="server"
             />
 
-        <mod name="ArchimedesShips"
-            description="This mod allows you to build both water and airbourne ships."
+        <mod name="archimedesships"
+            description="this mod allows you to build both water and airbourne ships."
             website="http://www.minecraftforum.net/topic/1857899-164-152forge-archimedes-ships-v14-passenger-seats/"
             type="mods"
             optional="no"
             server="yes"
             version="1.4.5"
-            url="packs/RedwoodServer/files/1.6.4/ArchimedesShips.zip"
-            file="ArchimedesShips.zip"
+            url="packs/redwoodserver/files/1.6.4/archimedesships.zip"
+            file="archimedesships.zip"
             md5="cfd4ba2d658a3f562fd902b052cd9b4e"
             download="server"
             />
 
-        <mod name="ArsMagica2"
-            description="A mod that adds cool magic spells items and research."
+        <mod name="arsmagica2"
+            description="a mod that adds cool magic spells items and research."
             website="http://www.minecraftforum.net/topic/2028696-ars-magica-2-164-version-111c-updated-jan-3/"
             type="mods"
             optional="no"
             server="yes"
             version="1.1.1c"
-            url="packs/RedwoodServer/files//AM2_1.1.1c.zip"
-            file="AM2_1.1.1c.zip"
+            url="packs/redwoodserver/files//am2_1.1.1c.zip"
+            file="am2_1.1.1c.zip"
             md5="db4ab30072cf1606c042451898c0ffa4"
             download="server"
             />
 
-        <mod name="ArmorStatusHUD"
-            description="This mod provides an overlay to show that status of your armour."
-            website="http://bspk.rs/MC/ArmorStatusHUD/latest/index.html"
+        <mod name="armorstatushud"
+            description="this mod provides an overlay to show that status of your armour."
+            website="http://bspk.rs/mc/armorstatushud/latest/index.html"
             type="mods"
             group="armour_durability"
-            depends="bspkrsCore"
+            depends="bspkrscore"
             optional="yes"
             server="no"
             version="1.15"
-            url="packs/RedwoodServer/files/1.6.4/[1.6.4]ArmorStatusHUDv1.15.zip"
-            file="[1.6.4]ArmorStatusHUDv1.15.zip"
+            url="packs/redwoodserver/files/1.6.4/[1.6.4]armorstatushudv1.15.zip"
+            file="[1.6.4]armorstatushudv1.15.zip"
             md5="d3f6a5bf86864cdbe5fbdf6ffbb99aa5"
             download="server"
             />
 
-        <mod name="TukMC"
-            description="This mod overhauls the UI to look like the TukUI from World of Warcraft."
+        <mod name="tukmc"
+            description="this mod overhauls the ui to look like the tukui from world of warcraft."
             website="http://www.minecraftforum.net/topic/1702641-164162-forge-v325-tukmc-slick-as-ever-now-with-healthbars-45k-dl/"
             type="mods"
             group="armour_durability"
             optional="yes"
             server="no"
             version="3.2.5"
-            url="packs/RedwoodServer/files/1.6.4/TukMC[3.2.5].zip"
-            file="TukMC[3.2.5].zip"
+            url="packs/redwoodserver/files/1.6.4/tukmc[3.2.5].zip"
+            file="tukmc[3.2.5].zip"
             md5="b441fbd43dcf9d3d42f39a7c31ca98ee"
             download="server"
             />
 
-        <mod name="Backpacks"
-            description="This mod adds special backpacks for carrying items, crafting and more."
+        <mod name="backpacks"
+            description="this mod adds special backpacks for carrying items, crafting and more."
             website="http://www.minecraftforum.net/topic/1492661-15x-16x-backpacks-v-11817/"
             type="mods"
             version="1.26.29"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//backpack-1.26.29-1.6.x.jar"
+            url="packs/redwoodserver/files//backpack-1.26.29-1.6.x.jar"
             file="backpack-1.26.29-1.6.x.jar"
             md5="72f64a21506a64b09cdf8e1ee2409997"
             download="server"
             />
 
-        <mod name="BuffBarMod"
-            description="This mod adds a bar showing buffs and their durations."
+        <mod name="buffbarmod"
+            description="this mod adds a bar showing buffs and their durations."
             website="http://projectzulu.blogspot.ca/p/downloads.html"
             type="mods"
             version="0.8.3"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files/1.6.4/BuffBarv0.8.3(1.6).zip"
-            file="BuffBarv0.8.3(1.6).zip"
+            url="packs/redwoodserver/files/1.6.4/buffbarv0.8.3(1.6).zip"
+            file="buffbarv0.8.3(1.6).zip"
             md5="acc0a9c9ae26b60e0aa70162b09f6406"
             download="server"
             />
-        <mod name="bspkrsCore"
-            description="This mod is a library that is a dependency for ArmorStatusHUD and other mods by bspkrs."
-            website="http://bspk.rs/MC/bspkrsCore/latest/index.html"
+        <mod name="bspkrscore"
+            description="this mod is a library that is a dependency for armorstatushud and other mods by bspkrs."
+            website="http://bspk.rs/mc/bspkrscore/latest/index.html"
             type="mods"
             version="5.2"
             library="yes"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files//[1.6.4]bspkrsCorev5.2.zip"
-            file="[1.6.4]bspkrsCorev5.2.zip"
+            url="packs/redwoodserver/files//[1.6.4]bspkrscorev5.2.zip"
+            file="[1.6.4]bspkrscorev5.2.zip"
             md5="f7fed83700375fed9fc961845945109a"
             download="server"
             />
-        <mod name="BackTools"
-            description="Makes players last equipped items appear on their back (looks cool with weapons!)."
+        <mod name="backtools"
+            description="makes players last equipped items appear on their back (looks cool with weapons!)."
             website="http://www.minecraftforum.net/topic/1508046-152-back-tools-v1-sheathed-weapons-tools/"
             type="mods"
             version="2.0.1"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files//BackTools2.0.1.zip"
-            file="BackTools2.0.1.zip"
+            url="packs/redwoodserver/files//backtools2.0.1.zip"
+            file="backtools2.0.1.zip"
             md5="dce0115472a8f9577ed3c5bdb8090ecf"
             download="server"
             />
-        <mod name="ChatBubbles"
-            description="Adds chat bubbles above peoples heads when they speak."
+        <mod name="chatbubbles"
+            description="adds chat bubbles above peoples heads when they speak."
             website="http://www.minecraftforum.net/topic/1116564-162-152-mamiyaotarus-mods-zans-minimap-voxelmap-chatbubbles-etc/"
             type="mods"
             version="1.6.4"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files/1.6.4/ChatBubbles1.6.4.zip"
-            file="ChatBubbles1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/chatbubbles1.6.4.zip"
+            file="chatbubbles1.6.4.zip"
             md5="dfa422b595b03d3b972aed7fe5647931"
             download="server"
             />
-        <mod name="DamageIndicators"
-            description="Addon to provide RPG like health meters for mobs and players."
+        <mod name="damageindicators"
+            description="addon to provide rpg like health meters for mobs and players."
             website="http://www.minecraftforum.net/topic/1536685-151152forge-hit-splat-damage-indicators-v270-rpg-ui-and-damage-amount-mod/"
             type="mods"
             version="2.9.2.3"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files//1.6.4 DamageIndicatorsv2.9.2.3.zip"
-            file="1.6.4 DamageIndicatorsv2.9.2.3.zip"
+            url="packs/redwoodserver/files//1.6.4 damageindicatorsv2.9.2.3.zip"
+            file="1.6.4 damageindicatorsv2.9.2.3.zip"
             md5="d0f4ea50f36ba82fc867c5122c3c07fe"
             download="server"
             />
-        <mod name="DeathCounter"
-            description="Addon to keep track of how many times players die."
+        <mod name="deathcounter"
+            description="addon to keep track of how many times players die."
             website="http://ichun.us/mods/death-counter/"
             type="mods"
             version="2.0.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/DeathCounter2.0.0.zip"
-            file="DeathCounter2.0.0.zip"
+            url="packs/redwoodserver/files/1.6.4/deathcounter2.0.0.zip"
+            file="deathcounter2.0.0.zip"
             md5="3ec482a041657a5585d098f1da4daa96"
             download="server"
             />
-        <mod name="DeadlyWorld"
-            description="Addon that makes the world more difficult. Silverfish veins etc."
+        <mod name="deadlyworld"
+            description="addon that makes the world more difficult. silverfish veins etc."
             website="http://www.minecraftforum.net/topic/1737378-16xforgefather-toasts-server-mods-lost-books-deadly-world-mob-properties-and-more/"
             type="mods"
             version="1.0.1"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//DeadlyWorld 1.0.1 for MC 1.6.2.zip"
-            file="DeadlyWorld 1.0.1 for MC 1.6.2.zip"
+            url="packs/redwoodserver/files//deadlyworld 1.0.1 for mc 1.6.2.zip"
+            file="deadlyworld 1.0.1 for mc 1.6.2.zip"
             md5="d98b65b90967ab10edb1987a72ebbb1b"
             download="server"
             />
-        <mod name="OreConverter"
-            description="Adds various tools for converting types of ores in the ore dictionary."
+        <mod name="oreconverter"
+            description="adds various tools for converting types of ores in the ore dictionary."
             website="http://www.minecraftforum.net/topic/1580364-162164forge-ore-dictionary-converter/"
             type="mods"
             version="1.4.2"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//fodc-1.4.2.zip"
+            url="packs/redwoodserver/files//fodc-1.4.2.zip"
             file="fodc-1.4.2.zip"
             md5="254c35c06fec245b57f2a30b47c120a0"
             download="server"
             />
-        <mod name="EiraIRC"
-            description="IRC client for in Minecraft."
+        <mod name="eirairc"
+            description="irc client for in minecraft."
             website="http://minecraft.curseforge.com/mc-mods/eirairc/"
             type="mods"
             version="1.5.0"
             server="yes"
             serveroptional="no"
             optional="yes"
-            url="packs/RedwoodServer/files//EiraIRC-1.5.0.jar"
-            file="EiraIRC-1.5.0.jar"
+            url="packs/redwoodserver/files//eirairc-1.5.0.jar"
+            file="eirairc-1.5.0.jar"
             md5="2bfede0debafa9d15c4efaf37ea04aab"
             download="server"
             />
-        <mod name="InventoryTweaks"
-            description="Adds tweaks to allow sorting of your inventory and chests."
+        <mod name="inventorytweaks"
+            description="adds tweaks to allow sorting of your inventory and chests."
             website="http://www.minecraftforum.net/topic/1720872-15x-inventory-tweaks-154-may-1/"
             type="mods"
             version="1.56"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files/1.6.4/InventoryTweaks-MC1.6.2-1.56-b77.jar"
-            file="InventoryTweaks-MC1.6.2-1.56-b77.jar"
+            url="packs/redwoodserver/files/1.6.4/inventorytweaks-mc1.6.2-1.56-b77.jar"
+            file="inventorytweaks-mc1.6.2-1.56-b77.jar"
             md5="c325e074d3f9e5ad3290b9c7e0d336c3"
             download="server"
             />
-        <mod name="Schematica"
-            description="Adds the ability to show schematic files in game as a ghost like overlay."
+        <mod name="schematica"
+            description="adds the ability to show schematic files in game as a ghost like overlay."
             website="http://www.minecraftforum.net/topic/1468779-152-schematica/"
             type="mods"
             version="1.5.3.58"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files//[1.6.4]Schematica-v1.5.3.58.jar"
-            file="[1.6.4]Schematica-v1.5.3.58.jar"
+            url="packs/redwoodserver/files//[1.6.4]schematica-v1.5.3.58.jar"
+            file="[1.6.4]schematica-v1.5.3.58.jar"
             md5="8477a13ba8668edcee63bd497db2a0c8"
             download="server"
             />
-        <mod name="NotEnoughKeys"
-            description="A very simple mod created to clean up and organize the keybinds gui, organizing mods into their own category and sub menu."
+        <mod name="notenoughkeys"
+            description="a very simple mod created to clean up and organize the keybinds gui, organizing mods into their own category and sub menu."
             website="http://www.minecraftforum.net/topic/2189371-164-not-enough-keys-004-organizing-the-keybinds-menu/"
             type="mods"
             version="0.0.4"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files//NotEnoughKeys-1.6.4-0.0.4.jar"
-            file="NotEnoughKeys-1.6.4-0.0.4.jar"
+            url="packs/redwoodserver/files//notenoughkeys-1.6.4-0.0.4.jar"
+            file="notenoughkeys-1.6.4-0.0.4.jar"
             md5="1b9f6f8785e38d50bbfff129dbf90ec2"
             download="server"
             />
-        <mod name="NoSoundLag"
-            description="Makes block break sounds client side rather than server."
+        <mod name="nosoundlag"
+            description="makes block break sounds client side rather than server."
             website="http://www.minecraftforum.net/topic/1885783-162-nosoundlag-2/"
             type="jar"
             version="1.6.4"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files/1.6.4/NoSoundLag-1.6.4.zip"
-            file="NoSoundLag-1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/nosoundlag-1.6.4.zip"
+            file="nosoundlag-1.6.4.zip"
             md5="5f03b1d51d048f17eb77c8bad0f95ff8"
             download="server"
             />
-        <!--<mod name="Matmos"
-            description="Adds environment sound effects."
+        <!--<mod name="matmos"
+            description="adds environment sound effects."
             website="http://www.minecraftforum.net/topic/379925-152-matmos-r24-environmental-sound-atmosphere-simulator/"
             type="mods"
             version="1.6.2-r25"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/MAtmos_r25__1_6_2.zip"
-            file="MAtmos_r25__1_6_2.zip"
+            url="packs/solitarycraftorigins/files/matmos_r25__1_6_2.zip"
+            file="matmos_r25__1_6_2.zip"
             md5="a49e43a7977daa112f06cfba64e56843"
             download="server"
             />-->
-        <!-- <mod name="MobAmputation" -->
-            <!--     description="Adds the ability to chop the heads and limbs off mobs." -->
+        <!-- <mod name="mobamputation" -->
+            <!--     description="adds the ability to chop the heads and limbs off mobs." -->
             <!--     website="http://ichun.us/mods/mob-amputation/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-2.0.0" -->
             <!--     server="no" -->
             <!--     optional="yes" -->
-            <!--     depends="iChunUtil" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/MobAmputation2.0.0.zip" -->
-            <!--     file="MobAmputation2.0.0.zip" -->
+            <!--     depends="ichunutil" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/mobamputation2.0.0.zip" -->
+            <!--     file="mobamputation2.0.0.zip" -->
             <!--     md5="54012d42a5a924972057031ba7cc13ac" -->
             <!--     download="server" -->
             <!--     /> -->
-        <!-- <mod name="MobDismemberment" -->
-            <!--     description="Adds the ability gib mobs." -->
+        <!-- <mod name="mobdismemberment" -->
+            <!--     description="adds the ability gib mobs." -->
             <!--     website="http://ichun.us/mods/mob-dismemberment/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-2.0.0" -->
             <!--     server="no" -->
             <!--     optional="yes" -->
-            <!--     depends="iChunUtil" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/MobDismemberment2.0.0.zip" -->
-            <!--     file="MobDismemberment2.0.0.zip" -->
+            <!--     depends="ichunutil" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/mobdismemberment2.0.0.zip" -->
+            <!--     file="mobdismemberment2.0.0.zip" -->
             <!--     md5="14f14b001545f4001515fdcd13508816" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <mod name="Shatter"
-            description="Mobs shatter when you kill them."
+        <mod name="shatter"
+            description="mobs shatter when you kill them."
             website="http://ichun.us/mods/shatter/"
             type="mods"
             version="2.0.2"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files//Shatter2.0.2.zip"
-            file="Shatter2.0.2.zip"
+            url="packs/redwoodserver/files//shatter2.0.2.zip"
+            file="shatter2.0.2.zip"
             md5="d5cdea7cb854f07206dfe61c28681dae"
             download="server"
             />
-        <mod name="MouseTweaks"
+        <mod name="mousetweaks"
             website="http://www.9minecraft.net/mouse-tweaks-mod/"
-            description="Adds additional mouse inventory shortcuts."
+            description="adds additional mouse inventory shortcuts."
             type="mods"
             version="2.3.4"
             server="no"
             optional="yes"
-            url="packs/RedwoodServer/files/1.6.4/Mouse-Tweaks-Mod-1.6.4.zip"
-            file="Mouse-Tweaks-Mod-1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/mouse-tweaks-mod-1.6.4.zip"
+            file="mouse-tweaks-mod-1.6.4.zip"
             md5="079fdcddbf1009ab37d21c8f1a80ef02"
             download="server"
             />
-        <mod name="MobiusCore"
-            description="Dependency required for Opis"
+        <mod name="mobiuscore"
+            description="dependency required for opis"
             website="http://www.minecraftforum.net/topic/1570989-162-forge-mapwriter-an-open-source-mini-map/"
             type="mods"
             version="1.0.4"
@@ -498,2304 +485,2304 @@
             library="yes"
             optional="yes"
             serveroptional="no"
-            url="packs/RedwoodServer/files//MobiusCore_1.0.4.jar"
-            file="MobiusCore_1.0.4.jar"
+            url="packs/redwoodserver/files//mobiuscore_1.0.4.jar"
+            file="mobiuscore_1.0.4.jar"
             md5="506ff1ac7def67bbf9c6b090af4ae5f7"
             download="server"
             />
-        <mod name="MapWriter"
-            description="Addon that allows you to map the world by exploration. Provides minimap and large map of world ingame."
+        <mod name="mapwriter"
+            description="addon that allows you to map the world by exploration. provides minimap and large map of world ingame."
             website="http://www.minecraftforum.net/topic/1570989-162-forge-mapwriter-an-open-source-mini-map/"
             type="mods"
             version="2.0.16"
             server="no"
             optional="yes"
             group="maps"
-            url="packs/RedwoodServer/files//mapwriter-2.0.16.zip"
+            url="packs/redwoodserver/files//mapwriter-2.0.16.zip"
             file="mapwriter-2.0.16.zip"
             md5="9e65cee5aaa90c0e8eabe38628f724aa"
             download="server"
             />
-        <mod name="Opis"
-            description="MapWriter with a profiler built in. Only for use by admins/ops."
+        <mod name="opis"
+            description="mapwriter with a profiler built in. only for use by admins/ops."
             website="http://profmobius.blogspot.fr/"
             type="mods"
             version="1.1.2"
             server="yes"
             serveroptional="no"
-            depends="MobiusCore"
+            depends="mobiuscore"
             optional="yes"
             group="maps"
-            url="packs/RedwoodServer/files//Opis_1.1.2_alpha.zip"
-            file="Opis_1.1.2_alpha.zip"
+            url="packs/redwoodserver/files//opis_1.1.2_alpha.zip"
+            file="opis_1.1.2_alpha.zip"
             md5="04656d9f60e1f9ef41722d4c1c166f36"
             download="server"
             />
-        <mod name="VoxelMap"
-            description="Addon to provide a minimap."
+        <mod name="voxelmap"
+            description="addon to provide a minimap."
             website="http://www.planetminecraft.com/mod/zans-minimap/"
             type="mods"
             version="1.6.4"
             server="no"
             optional="yes"
             group="maps"
-            url="packs/RedwoodServer/files/1.6.4/ZansMinimap1.6.4.zip"
-            file="ZansMinimap1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/zansminimap1.6.4.zip"
+            file="zansminimap1.6.4.zip"
             md5="97a9934f12a01986bcdc6ec8eba97336"
             download="server"
             />
-        <!-- <mod name="ChickenChunks" -->
+        <!-- <mod name="chickenchunks" -->
             <!--     website="http://www.minecraftforum.net/topic/909223-162-smp-chickenbones-mods/" -->
-            <!--     description="This mod adds very configurable chunkloaders." -->
+            <!--     description="this mod adds very configurable chunkloaders." -->
             <!--     type="mods" -->
             <!--     version="1.6.4-1.3.3.3" -->
             <!--     optional="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/ChickenChunks%201.3.3.3.jar" -->
-            <!--     file="ChickenChunks 1.3.3.3.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/chickenchunks%201.3.3.3.jar" -->
+            <!--     file="chickenchunks 1.3.3.3.jar" -->
             <!--     md5="86000b679bbe478e810357875dc9a475" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="Translocator"
+        <mod name="translocator"
             website="http://www.chickenbones.craftsaddle.org/tls.html"
-            description="This mod adds translocators for moving items between inventories."
+            description="this mod adds translocators for moving items between inventories."
             type="mods"
             version="1.1.0.13"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Translocator%201.1.0.13.jar"
-            file="Translocator 1.1.0.13.jar"
+            url="packs/redwoodserver/files/1.6.4/translocator%201.1.0.13.jar"
+            file="translocator 1.1.0.13.jar"
             md5="33acf4d7617611afdb46d1d6a7234bdd"
             download="server"
             />
-        <mod name="Vending"
+        <mod name="vending"
             website="http://www.minecraftforum.net/topic/1747810-164smpforge-vending-block/"
-            description="This mod adds trading posts for trading items for other items."
+            description="this mod adds trading posts for trading items for other items."
             type="mods"
             version="1.1.1"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/vending-1.6.4-1.1.1.jar"
+            url="packs/redwoodserver/files/1.6.4/vending-1.6.4-1.1.1.jar"
             file="vending-1.6.4-1.1.1.jar"
             md5="8ce24e7aa9e292d623589fad822d3816"
             download="server"
             />
-        <mod name="denLib"
+        <mod name="denlib"
             website="http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/"
-            description="Dependency for various mods."
+            description="dependency for various mods."
             type="mods"
             version="3.1.35"
             library="yes"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/denLib-1.6.4-3.1.35.jar"
-            file="denLib-1.6.4-3.1.35.jar"
+            url="packs/redwoodserver/files/1.6.4/denlib-1.6.4-3.1.35.jar"
+            file="denlib-1.6.4-3.1.35.jar"
             md5="7b414345b971a82117da2ae3872991a7"
             download="server"
             />
-        <mod name="DenPipes"
-            description="Add on to Buildcraft to add more pipes and new options to gates."
+        <mod name="denpipes"
+            description="add on to buildcraft to add more pipes and new options to gates."
             website="http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/"
             type="mods"
             version="2.1.18"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/DenPipes-1.6.4-2.1.18.jar"
-            file="DenPipes-1.6.4-2.1.18.jar"
+            url="packs/redwoodserver/files/1.6.4/denpipes-1.6.4-2.1.18.jar"
+            file="denpipes-1.6.4-2.1.18.jar"
             md5="25e8d825ec6eaf26073d1ffa4f46d34d"
             download="server"
             />
-        <mod name="PluginsForForestry"
-            description="Add on to Forestry which aims to better integrate Forestry with other mods."
+        <mod name="pluginsforforestry"
+            description="add on to forestry which aims to better integrate forestry with other mods."
             website="http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/"
             type="mods"
             version="3.2.30"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PluginsforForestry-1.6.4-3.2.30.jar"
-            file="PluginsforForestry-1.6.4-3.2.30.jar"
+            url="packs/redwoodserver/files/1.6.4/pluginsforforestry-1.6.4-3.2.30.jar"
+            file="pluginsforforestry-1.6.4-3.2.30.jar"
             md5="6ffc845319e8289c5bbbb89c78de0044"
             download="server"
             />
-        <!-- <mod name="BetterStorage" -->
-            <!--     description="Adds more types of storage." -->
+        <!-- <mod name="betterstorage" -->
+            <!--     description="adds more types of storage." -->
             <!--     website="http://www.minecraftforum.net/topic/1548203-152-betterstorage-062-wip/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-0.7.0.32" -->
             <!--     optional="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/[1.6.4]BetterStorage_0.7.0.32.zip" -->
-            <!--     file="[1.6.4]BetterStorage_0.7.0.32.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/[1.6.4]betterstorage_0.7.0.32.zip" -->
+            <!--     file="[1.6.4]betterstorage_0.7.0.32.zip" -->
             <!--     md5="4a6f825aa453269fbd6f215e883abb20" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="BalkonsWeaponMod"
-            description="Adds cool weapons."
+        <mod name="balkonsweaponmod"
+            description="adds cool weapons."
             website="http://www.minecraftforum.net/topic/211517-162forge-balkons-weaponmod-v113-now-with-flintlock-pistol/"
             type="mods"
             version="1.13"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/WeaponMod.zip"
-            file="WeaponMod.zip" md5="7d17d465094440fd4409631ec5b3181b"
+            url="packs/redwoodserver/files/1.6.4/weaponmod.zip"
+            file="weaponmod.zip" md5="7d17d465094440fd4409631ec5b3181b"
             download="server"
             />
-        <!--<mod name="BechillTPS"
-            description="Allows viewing of ticks by dimension."
+        <!--<mod name="bechilltps"
+            description="allows viewing of ticks by dimension."
             website="http://www.minecraftforum.net/topic/1548779-161-bechill-mods-tps-and-void-fog-remover/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <mod name="BiblioWoods[Forestry]"
-            description="Adds ability to make Bibliocraft blocks from the new Forestry woods."
+        <mod name="bibliowoods[forestry]"
+            description="adds ability to make bibliocraft blocks from the new forestry woods."
             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
             type="mods"
             version="1.3"
             optional="no"
             server="yes"
-            depends="BiblioCraft,Forestry"
-            url="packs/RedwoodServer/files/1.6.4/BiblioWoods[Forestry][v1.3].zip"
-            file="BiblioWoods[Forestry][v1.3].zip"
+            depends="bibliocraft,forestry"
+            url="packs/redwoodserver/files/1.6.4/bibliowoods[forestry][v1.3].zip"
+            file="bibliowoods[forestry][v1.3].zip"
             md5="957b8a4255318ea4bfad3aa26e770f40"
             download="server"
             />
-        <!-- <mod name="BiblioWoods[BiomesOPlenty]" -->
-            <!--     description="Adds ability to make Bibliocraft blocks from the BiomesOPlenty woods." -->
+        <!-- <mod name="bibliowoods[biomesoplenty]" -->
+            <!--     description="adds ability to make bibliocraft blocks from the biomesoplenty woods." -->
             <!--     website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-1.3" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     depends="BiblioCraft,BiomesOPlenty" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/BiblioWoods[BiomesOPlenty][v1.3].zip" -->
-            <!--     file="BiblioWoods[BiomesOPlenty][v1.3].zip" -->
+            <!--     depends="bibliocraft,biomesoplenty" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/bibliowoods[biomesoplenty][v1.3].zip" -->
+            <!--     file="bibliowoods[biomesoplenty][v1.3].zip" -->
             <!--     md5="b4171a695cbbdda3aca2f8617b88468a" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="BiblioWoods[Natura]"
-            description="Adds ability to make Bibliocraft blocks from the Natura woods."
+        <mod name="bibliowoods[natura]"
+            description="adds ability to make bibliocraft blocks from the natura woods."
             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
             type="mods"
             version="1.1"
             optional="no"
             server="yes"
-            depends="BiblioCraft,Natura"
-            url="packs/RedwoodServer/files/1.6.4/BiblioWoods[Natura][v1.1].zip"
-            file="BiblioWoods[Natura][v1.1].zip"
+            depends="bibliocraft,natura"
+            url="packs/redwoodserver/files/1.6.4/bibliowoods[natura][v1.1].zip"
+            file="bibliowoods[natura][v1.1].zip"
             md5="3c6eefb070d5310da42dab30dd14b8c9"
             download="server"
             />
-        <mod name="BiblioWoods[ExtraBiomesXL]"
-            description="Adds ability to make Bibliocraft blocks from the ExtraBiomesXL woods."
+        <mod name="bibliowoods[extrabiomesxl]"
+            description="adds ability to make bibliocraft blocks from the extrabiomesxl woods."
             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
             type="mods"
             version="1.1"
             optional="no"
             server="yes"
-            depends="BiblioCraft,ExtraBiomesXL"
-            url="packs/RedwoodServer/files/1.6.4/BiblioWoods[ExtraBiomesXL][v1.1].zip"
-            file="BiblioWoods[ExtraBiomesXL][v1.1].zip"
+            depends="bibliocraft,extrabiomesxl"
+            url="packs/redwoodserver/files/1.6.4/bibliowoods[extrabiomesxl][v1.1].zip"
+            file="bibliowoods[extrabiomesxl][v1.1].zip"
             md5="0be9ddc9977cdf7e94a5455463af8a1e"
             download="server"
             />
-        <mod name="Discocraft"
-            description="Adds 6 new records, a disco dance floor and functioning disco ball."
+        <mod name="discocraft"
+            description="adds 6 new records, a disco dance floor and functioning disco ball."
             website="http://www.minecraftforum.net/topic/1845067-"
             type="mods"
             version="v1.2"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/DiscoCraft%20v1.2.zip"
-            file="DiscoCraft v1.2.zip"
+            url="packs/redwoodserver/files/1.6.4/discocraft%20v1.2.zip"
+            file="discocraft v1.2.zip"
             md5="3888af66274f555ede5e8a90e0e20d72"
             download="server"
             />
-        <!--<mod name="RedIO"
-            description="Allows interaction with redstone via a computercraft wired network."
+        <!--<mod name="redio"
+            description="allows interaction with redstone via a computercraft wired network."
             website="http://www.computercraft.info/forums2/index.php?/topic/13519-mc-152cc-153-redio-a-redstone-inputoutput-peripheral-for-lan-networks/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <!-- <mod name="DimensionalDoors" -->
-            <!--     description="Adds special rift worlds that you can build in and explore." -->
+        <!-- <mod name="dimensionaldoors" -->
+            <!--     description="adds special rift worlds that you can build in and explore." -->
             <!--     website="http://www.minecraftforum.net/topic/1650007-152universal-dimensional-doors-v141-eyes-in-the-darkupdatedagain/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-2.1.1" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/DimensionalDoors-1.6.2R2.1.1RC1-10.zip" -->
-            <!--     file="DimensionalDoors-1.6.2R2.1.1RC1-10.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/dimensionaldoors-1.6.2r2.1.1rc1-10.zip" -->
+            <!--     file="dimensionaldoors-1.6.2r2.1.1rc1-10.zip" -->
             <!--     md5="002320a6cda2c6e197f26a0d3de16027" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="FinndusFillies"
-            description="Horses now drop horse meat and you can now make slime balls from leather."
-            website="http://wiki.feed-the-beast.com/FinndusFillies"
+        <mod name="finndusfillies"
+            description="horses now drop horse meat and you can now make slime balls from leather."
+            website="http://wiki.feed-the-beast.com/finndusfillies"
             type="mods"
             version="1.0.0.7"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/FinndusFillies-1.6.2-universal-1.0.0.7.jar"
-            file="FinndusFillies-1.6.2-universal-1.0.0.7.jar"
+            url="packs/redwoodserver/files/1.6.4/finndusfillies-1.6.2-universal-1.0.0.7.jar"
+            file="finndusfillies-1.6.2-universal-1.0.0.7.jar"
             md5="ad00608137b33bf07083dd2be7df1f65"
             download="server"
             />
-        <mod name="ChocoCraft"
-            description="Adds Chocobos and other chocobo related items."
+        <mod name="chococraft"
+            description="adds chocobos and other chocobo related items."
             website="http://www.minecraftforum.net/topic/1119809-16x15xforge-torojimas-chococraft-303-happiness-distilled-into-avian-form/"
             type="mods"
             version="3.0.3"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Chococraft_3.0.3.zip"
-            file="Chococraft_3.0.3.zip"
+            url="packs/redwoodserver/files/1.6.4/chococraft_3.0.3.zip"
+            file="chococraft_3.0.3.zip"
             md5="6b2c71d4e72a60b5356cc8b5c814cfa2"
             download="server"
             />
-        <mod name="ExtraBiomesXL"
-            description="Extra Biomes for world generation."
+        <mod name="extrabiomesxl"
+            description="extra biomes for world generation."
             website="http://www.minecraftforum.net/topic/1090288-152-extrabiomesxl-3134/"
             type="mods"
             version="3.14.5"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/ExtrabiomesXL-universal-1.6.4-3.14.5.jar"
-            file="ExtrabiomesXL-universal-1.6.4-3.14.5.jar"
+            url="packs/redwoodserver/files/extrabiomesxl-universal-1.6.4-3.14.5.jar"
+            file="extrabiomesxl-universal-1.6.4-3.14.5.jar"
             md5="e673ad351ef00901a6014d8dc72ef71c"
             download="server"
             />
-        <!--<mod name="ForgeIRC"
-            description="Adds the ability to link a Minecraft server to an IRC channel and use the client as an IRC client."
+        <!--<mod name="forgeirc"
+            description="adds the ability to link a minecraft server to an irc channel and use the client as an irc client."
             website="http://www.minecraftforum.net/topic/1475847-152-forgeirc-v1018-soul-shards-v1036-and-recipe-remover-v11-updated-6092013/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <mod name="MoreRecords-Core"
-            description="Adds more records to the game."
+        <mod name="morerecords-core"
+            description="adds more records to the game."
             website="http://www.minecraftforum.net/topic/1658370-161-152-forge-universal-more-records-mod/"
             type="mods"
             version="2.0.0"
             library="no"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/More%20Record%20Core%202.0.0%20for%201.6.4.jar"
-            file="More Record Core 2.0.0 for 1.6.4.jar"
+            url="packs/redwoodserver/files/1.6.4/more%20record%20core%202.0.0%20for%201.6.4.jar"
+            file="more record core 2.0.0 for 1.6.4.jar"
             md5="6cef1c18ef21c94978a1280b59a800e1"
             download="server"
             />
-        <mod name="MoreRecords-PopPack"
-            description="Adds more records to the game."
+        <mod name="morerecords-poppack"
+            description="adds more records to the game."
             website="http://www.minecraftforum.net/topic/1658370-161-152-forge-universal-more-records-mod/"
             type="mods"
             version="2.0.0"
             library="no"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/forgelibs/Pop%20Pack%202.0.0%20for%201.6.4.jar"
-            file="Pop Pack 2.0.0 for 1.6.4.jar"
+            url="packs/redwoodserver/files/forgelibs/pop%20pack%202.0.0%20for%201.6.4.jar"
+            file="pop pack 2.0.0 for 1.6.4.jar"
             md5="0e1440951393e94470728c5573630679"
             download="server"
             />
-        <!--<mod name="MoreRecords-KingLunar"
-            description="Adds more records to the game."
+        <!--<mod name="morerecords-kinglunar"
+            description="adds more records to the game."
             website="http://www.minecraftforum.net/topic/1658370-161-152-forge-universal-more-records-mod/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />
-        <mod name="MoreRecords-MLP"
-            description="Adds more records to the game."
+        <mod name="morerecords-mlp"
+            description="adds more records to the game."
             website="http://www.minecraftforum.net/topic/1658370-161-152-forge-universal-more-records-mod/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <mod name="GregsLighting"
-            description="Adds a flood light for lighting large areas."
-            website="http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/GregsLighting/"
+        <mod name="gregslighting"
+            description="adds a flood light for lighting large areas."
+            website="http://www.cosc.canterbury.ac.nz/greg.ewing/minecraft/mods/gregslighting/"
             type="mods"
             version="1.9.1"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/GregsLighting-1.9.1-mc1.6.4.jar"
-            file="GregsLighting-1.9.1-mc1.6.4.jar"
+            url="packs/redwoodserver/files/1.6.4/gregslighting-1.9.1-mc1.6.4.jar"
+            file="gregslighting-1.9.1-mc1.6.4.jar"
             md5="344f0d30e56e544ec793a905cb616558"
             download="server"
             />
-        <mod name="AdvancedPowerManagement"
-            description="Adds charging benches, storage monitors and adjustable transformers for IC2."
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=7900"
+        <mod name="advancedpowermanagement"
+            description="adds charging benches, storage monitors and adjustable transformers for ic2."
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=7900"
             type="mods"
             version="2.0.238-experimental"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/APM-IC2-Ex-1.2.1-IC2-2.0.238-experimental.jar"
-            file="APM-IC2-Ex-1.2.1-IC2-2.0.238-experimental.jar"
+            url="packs/redwoodserver/files/1.6.4/apm-ic2-ex-1.2.1-ic2-2.0.238-experimental.jar"
+            file="apm-ic2-ex-1.2.1-ic2-2.0.238-experimental.jar"
             md5="56afb710f0700fd88515ee175ab35da5"
             download="server"
             />
-        <!--<mod name="GrowthCraft"
-            description="Adds more things to farm."
+        <!--<mod name="growthcraft"
+            description="adds more things to farm."
             website="http://www.minecraftforum.net/topic/1510394-152forge-growthcraft-jun-22-2013-mod-cross-supportcompatibilitythingy-update/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <mod name="SecretRoomsMod"
-            description="Adds special blocks to enable you to hide / disguise things."
+        <mod name="secretroomsmod"
+            description="adds special blocks to enable you to hide / disguise things."
             website="http://www.minecraftforum.net/topic/546192-1521v460secretroomsmodsmpforge-hidden-trapped-chests/"
             type="mods"
             version="4.6.2.319"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/forgelibs/SecretRoomsMod-universal-1.6.4-4.6.2.319.jar"
-            file="SecretRoomsMod-universal-1.6.4-4.6.2.319.jar"
+            url="packs/redwoodserver/files/forgelibs/secretroomsmod-universal-1.6.4-4.6.2.319.jar"
+            file="secretroomsmod-universal-1.6.4-4.6.2.319.jar"
             md5="41d0e3755a93ecdb59e5b873490ba72f"
             download="server"
             />
-        <!--<mod name="TickProfiler"
-            description="Allows profiling of ticks to find performance problems."
-            website="https://github.com/nallar/TickProfiler"
+        <!--<mod name="tickprofiler"
+            description="allows profiling of ticks to find performance problems."
+            website="https://github.com/nallar/tickprofiler"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <mod name="MagicBees"
-            description="Addon for Forestry to add Magic Bees."
+        <mod name="magicbees"
+            description="addon for forestry to add magic bees."
             website="http://forestry.sengir.net/forum/viewtopic.php?id=17"
             type="mods"
             version="2.1.11"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//magicbees-2.1.11.jar"
+            url="packs/redwoodserver/files//magicbees-2.1.11.jar"
             file="magicbees-2.1.11.jar"
             md5="594e0a52b72ec0e6700222b2697bfa76"
             download="server"
             />
-        <!-- <mod name="EnchantingPlus" -->
-            <!--     description="Addon to enhance the enchanting system." -->
+        <!-- <mod name="enchantingplus" -->
+            <!--     description="addon to enhance the enchanting system." -->
             <!--     website="http://www.minecraftforum.net/topic/1528282-162152151sspsmp-enchanting-plus-v116v115v114/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-1.16.5" -->
             <!--     library="yes" -->
             <!--     optional="no" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/EnchantingPlus-1.16.5.zip" -->
-            <!--     file="EnchantingPlus-1.16.5.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/enchantingplus-1.16.5.zip" -->
+            <!--     file="enchantingplus-1.16.5.zip" -->
             <!--     md5="bc8402824929f840408f2f04b0f1a629" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="BinniesMods"
-            description="Adds Extra Bees and Extra Trees to Forestry."
+        <mod name="binniesmods"
+            description="adds extra bees and extra trees to forestry."
             website="http://extratrees.accudio.com/"
             type="mods"
             version="1.8.0"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//binnie-mods-1.8.0.jar"
+            url="packs/redwoodserver/files//binnie-mods-1.8.0.jar"
             file="binnie-mods-1.8.0.jar"
             md5="67177d94f61104076432cf277631209a"
             download="server"
             />
-        <mod name="Carpenter'sBlocks"
-            description="This mod adds sloped blocks."
+        <mod name="carpenter'sblocks"
+            description="this mod adds sloped blocks."
             website="http://www.minecraftforum.net/topic/1790919-1516forge-carpenters-blocks-v153-slopes-stairs-and-more/"
             type="mods"
             version="1.9.5"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Carpenters%20Blocks%20v1.9.5%20-%20MC%201.6.zip"
-            file="Carpenters Blocks v1.9.5 - MC 1.6.zip"
+            url="packs/redwoodserver/files/1.6.4/carpenters%20blocks%20v1.9.5%20-%20mc%201.6.zip"
+            file="carpenters blocks v1.9.5 - mc 1.6.zip"
             md5="602861387e2b9371070346a778cfcf8d"
             download="server"
             />
-        <mod name="ChargePads"
-            description="Adds pads for charging IC2 tools."
+        <mod name="chargepads"
+            description="adds pads for charging ic2 tools."
             website="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/"
             type="mods"
             version="v3.0.0.94-exp"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/chargepads-1.6.2-universal-3.0.0.94-experimental.jar"
+            url="packs/redwoodserver/files/1.6.4/chargepads-1.6.2-universal-3.0.0.94-experimental.jar"
             file="chargepads-1.6.2-universal-3.0.0.94-experimental.jar"
             md5="43a76c4fe40c29bb0743d9c0f2f715fe"
             download="server"
             />
-        <mod name="ChestTransporter"
-            description="Adds a tool to move chests."
-            website="http://www.minecraftforum.net/topic/506109-15-cubex2s-mods-all-mods-updated/#ChestTransporter"
+        <mod name="chesttransporter"
+            description="adds a tool to move chests."
+            website="http://www.minecraftforum.net/topic/506109-15-cubex2s-mods-all-mods-updated/#chesttransporter"
             type="mods"
             version="1.1.7"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/chestTransporter-1.1.7-universal.zip"
-            file="chestTransporter-1.1.7-universal.zip"
+            url="packs/redwoodserver/files/1.6.4/chesttransporter-1.1.7-universal.zip"
+            file="chesttransporter-1.1.7-universal.zip"
             md5="bddcc3fc89447650bff437540aa715d1"
             download="server"
             />
-        <mod name="Railcraft"
+        <mod name="railcraft"
             version="8.3.2.0"
             type="mods"
             optional="no"
             server="yes"
-            description="Adds a lot of new tracks and carts to minecraft as well as a new steam system"
+            description="adds a lot of new tracks and carts to minecraft as well as a new steam system"
             website="http://www.railcraft.info/releases"
-            url="packs/RedwoodServer/files//Railcraft_1.6.4-8.3.2.0.jar"
-            file="Railcraft_1.6.4-8.3.2.0.jar"
+            url="packs/redwoodserver/files//railcraft_1.6.4-8.3.2.0.jar"
+            file="railcraft_1.6.4-8.3.2.0.jar"
             md5="16a8a7720b8041bd97d3c723da5fa21a"
             download="server"
             />
-        <mod name="Steve'sCarts2"
+        <mod name="steve'scarts2"
             type="mods"
-            description="Adds more carts to minecraft that will do all sorts of jobs for you!"
+            description="adds more carts to minecraft that will do all sorts of jobs for you!"
             version="2.0.0.b10"
             website="http://stevescarts2.wikispaces.com/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//StevesCarts2.0.0.b10.zip"
-            file="StevesCarts2.0.0.b10.zip"
+            url="packs/redwoodserver/files//stevescarts2.0.0.b10.zip"
+            file="stevescarts2.0.0.b10.zip"
             md5="9a40fa69737542e4ba0d8ca990bde811"
             download="server"
             />
-        <mod name="IronChests"
+        <mod name="ironchests"
             type="mods"
-            description="Different sized chests that only take up one block!"
+            description="different sized chests that only take up one block!"
             version="5.4.1.676"
             website="http://www.minecraftforum.net/topic/981855-15-and-up-forge-universalironchests-50-minecraft-15-update/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/ironchest-universal-1.6.4-5.4.1.676.zip"
+            url="packs/redwoodserver/files/1.6.4/ironchest-universal-1.6.4-5.4.1.676.zip"
             file="ironchest-universal-1.6.4-5.4.1.676.zip"
             md5="6f81be30578db80416140e7c652e9ea6"
             download="server"
             />
-        <!-- <mod name="Factorization" -->
+        <!-- <mod name="factorization" -->
         <!--     type="mods" -->
-        <!--     description="A tech mod that adds a bunch of machines to aid in processing ores and a cool new storage system" -->
+        <!--     description="a tech mod that adds a bunch of machines to aid in processing ores and a cool new storage system" -->
         <!--     version="0.8.28" -->
         <!--     website="http://www.minecraftforum.net/topic/1351802&#45;151&#45;factorization&#45;0737/" -->
         <!--     server="yes" -->
         <!--     optional="no" -->
-        <!--     url="packs/RedwoodServer/files//Factorization&#45;0.8.28.jar" -->
-        <!--     file="Factorization&#45;0.8.28.jar" -->
+        <!--     url="packs/redwoodserver/files//factorization&#45;0.8.28.jar" -->
+        <!--     file="factorization&#45;0.8.28.jar" -->
         <!--     md5="6853827ae108b965181c5af51cb72659" -->
         <!--     download="server" -->
         <!--     /> -->
-        <mod name="EnderStorage"
+        <mod name="enderstorage"
             type="mods"
-            description="You can create a network of chests, viewable from anywhere in the Minecraft world and beyond!"
-            donation="http://www.chickenbones.craftsaddle.org/Pages/donate.php"
+            description="you can create a network of chests, viewable from anywhere in the minecraft world and beyond!"
+            donation="http://www.chickenbones.craftsaddle.org/pages/donate.php"
             version="1.4.3.5"
             website="http://www.minecraftforum.net/topic/909223-147152-smp-chickenbones-mods/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/EnderStorage%201.4.3.5.jar"
-            file="EnderStorage 1.4.3.5.jar"
+            url="packs/redwoodserver/files/1.6.4/enderstorage%201.4.3.5.jar"
+            file="enderstorage 1.4.3.5.jar"
             md5="2dd5d9024752e894500bfe901b08221b"
             download="server"
             />
-        <!-- <mod name="BiomesOPlenty" -->
+        <!-- <mod name="biomesoplenty" -->
             <!--     type="mods" -->
-            <!--     description="Adds more biomes into Minecraft" -->
+            <!--     description="adds more biomes into minecraft" -->
             <!--     version="1.6.4-1.1.3.236" -->
             <!--     website="http://www.minecraftforum.net/topic/1495041-152-forge-biomes-o-plenty-v055-biome-specific-gemstones/" -->
             <!--     server="yes" -->
             <!--     optional="no" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/BiomesOPlenty-universal-1.6.4-1.1.3.236.jar" -->
-            <!--     file="BiomesOPlenty-universal-1.6.4-1.1.3.236.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/biomesoplenty-universal-1.6.4-1.1.3.236.jar" -->
+            <!--     file="biomesoplenty-universal-1.6.4-1.1.3.236.jar" -->
             <!--     md5="0e01e17b38bb31d125fe67c8b6ba03b3" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="BiblioCraft"
+        <mod name="bibliocraft"
             type="mods"
-            description="Finally we get a very nice storage mod for your tools, armor and more!"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=NLK9SWM3U77XS"
+            description="finally we get a very nice storage mod for your tools, armor and more!"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=nlk9swm3u77xs"
             version="1.5.4"
             website="http://www.minecraftforum.net/topic/1680480-15xforgesmp-bibliocraft-v131-bookcases-armor-stands-shelves-printing-presses-with-fancy-lamps-tables-and-more-updated-06042013/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//BiblioCraft[v1.5.4].zip"
-            file="BiblioCraft[v1.5.4].zip"
+            url="packs/redwoodserver/files//bibliocraft[v1.5.4].zip"
+            file="bibliocraft[v1.5.4].zip"
             md5="cb2b8a33d7bb27e22111a7915d2a121a"
             download="server"
             />
-        <mod name="TinkersConstruct"
+        <mod name="tinkersconstruct"
             type="mods"
-            description="A new way to smelt and create tools!"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=56Q7K92KRPW2N&amp;lc=US&amp;item_name=Tinkers%20Construct&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"
+            description="a new way to smelt and create tools!"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=56q7k92krpw2n&amp;lc=us&amp;item_name=tinkers%20construct&amp;bn=pp%2ddonationsbf%3abtn_donate_lg%2egif%3anonhosted"
             version="1.5.2.6"
             website="http://www.minecraftforum.net/topic/1659892-15xtinkers-construct/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//TConstruct_mc1.6.4_1.5.2.6.jar"
-            file="TConstruct_mc1.6.4_1.5.2.6.jar"
+            url="packs/redwoodserver/files//tconstruct_mc1.6.4_1.5.2.6.jar"
+            file="tconstruct_mc1.6.4_1.5.2.6.jar"
             md5="8ed1c59dac06cbdc8808d4364f6d0774"
             download="server"
             />
-        <!--<mod name="TinkersConstructRecovery"
-            description="Adds the ability to melt unconstructed parts and items from other mods in the Smeltery."
+        <!--<mod name="tinkersconstructrecovery"
+            description="adds the ability to melt unconstructed parts and items from other mods in the smeltery."
             website="http://www.minecraftforum.net/topic/1838396-15xforgetc-134-tinkers-construct-recoverycompatibility-addon-v121/"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=56Q7K92KRPW2N&amp;lc=US&amp;item_name=Tinkers%20Construct&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=56q7k92krpw2n&amp;lc=us&amp;item_name=tinkers%20construct&amp;bn=pp%2ddonationsbf%3abtn_donate_lg%2egif%3anonhosted"
             version=""
             type="mods"
-            url="packs/SolitaryCraftOrigins/files/TConstruct_1.6.2_1.4.3.jar"
-            file="TConstruct_1.6.2_1.4.3.jar"
+            url="packs/solitarycraftorigins/files/tconstruct_1.6.2_1.4.3.jar"
+            file="tconstruct_1.6.2_1.4.3.jar"
             md5="febb1f9868567a0c66fe28bbca35e0d0"
             download="server"
             />-->
-        <mod name="AppliedEnergistics"
+        <mod name="appliedenergistics"
             type="mods"
-            description="Adds in a cool way of storing items electrically!"
+            description="adds in a cool way of storing items electrically!"
             version="rv14.finale3"
             website="http://ae-mod.info/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//appeng-rv14-finale3-mc16x.jar"
+            url="packs/redwoodserver/files//appeng-rv14-finale3-mc16x.jar"
             file="appeng-rv14-finale3-mc16x.jar"
             md5="d10ac60e48a192760e76c1de3b0c73ed"
             download="server"
             />
-        <mod name="ExtraCells"
+        <mod name="extracells"
             type="mods"
-            description="Adds huge storage cells into Applied Energistics"
+            description="adds huge storage cells into applied energistics"
             website="http://www.minecraftforum.net/topic/1801643-m3gas-extracells-appliedenergistics-add-on/"
             version="1.6.7"
-            depends="AppliedEnergistics"
+            depends="appliedenergistics"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ExtraCells-1.6.7.jar"
-            file="ExtraCells-1.6.7.jar"
+            url="packs/redwoodserver/files//extracells-1.6.7.jar"
+            file="extracells-1.6.7.jar"
             md5="efc1ec7e99521cd1bc61a4049642e368"
             download="server"
             />
-        <mod name="ExtendedFuels"
+        <mod name="extendedfuels"
             website="http://www.minecraftforum.net/topic/1595711-152-extended-fuels-045-more-fuels-for-minecraft/"
             version="0.6.2"
             type="mods"
             optional="no"
             server="yes"
-            description="Adds more fuels into Minecraft!"
-            url="packs/RedwoodServer/files/1.6.4/mod_Extended_Fuels_0.6.2.jar"
-            file="mod_Extended_Fuels_0.6.2.jar"
+            description="adds more fuels into minecraft!"
+            url="packs/redwoodserver/files/1.6.4/mod_extended_fuels_0.6.2.jar"
+            file="mod_extended_fuels_0.6.2.jar"
             md5="eee921b0722912e3945656f028bfa21f"
             download="server"
             />
-        <mod name="DartCraft"
+        <mod name="dartcraft"
             website="http://www.minecraftforum.net/topic/1686840-151-152-dartcraft-beta-0117/"
             version="0.2.15"
             type="mods"
             optional="no"
             server="yes"
-            description="This mod adds engines, ores and upgradable backpacks! Amongst other awesome stuff"
-            url="packs/RedwoodServer/files/1.6.4/DartCraft Beta 0.2.15.jar"
-            file="DartCraft Beta 0.2.15.jar"
+            description="this mod adds engines, ores and upgradable backpacks! amongst other awesome stuff"
+            url="packs/redwoodserver/files/1.6.4/dartcraft beta 0.2.15.jar"
+            file="dartcraft beta 0.2.15.jar"
             md5="30f44bf308879e73b53a0949bf2ce392"
             download="server"
             />
-        <mod name="Natura"
+        <mod name="natura"
             type="mods"
-            description="This mod adds natural world gen, berry bushes and new trees!"
+            description="this mod adds natural world gen, berry bushes and new trees!"
             version="2.1.14"
             website="http://www.minecraftforum.net/topic/1753754-15xnatura/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//Natura_mc1.6.X_2.1.14.jar"
-            file="Natura_mc1.6.X_2.1.14.jar"
+            url="packs/redwoodserver/files//natura_mc1.6.x_2.1.14.jar"
+            file="natura_mc1.6.x_2.1.14.jar"
             md5="0b0712e9741829681964e5ab682c74f1"
             download="server"
             />
-        <mod name="HardcoreEnderExpansion"
+        <mod name="hardcoreenderexpansion"
             type="mods"
-            description="This mod extends the End to make it more than just an island, enjoy death... I mean the adventure."
+            description="this mod extends the end to make it more than just an island, enjoy death... i mean the adventure."
             version="1.3.1"
             website="http://www.minecraftforum.net/topic/1066990-hardcore-ender-expansion-v112-former-hardcore-enderdragon-mod-18000-dls/"
-            depends="AromaCore"
+            depends="aromacore"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/HEE_1.6.4_release-1.3.1.zip"
-            file="HEE_1.6.4_release-1.3.1.zip"
+            url="packs/redwoodserver/files/1.6.4/hee_1.6.4_release-1.3.1.zip"
+            file="hee_1.6.4_release-1.3.1.zip"
             md5="d1ea809684d8d752bcaf986156fbb309"
             download="server"
             />
-        <mod name="DimensionalWorld"
+        <mod name="dimensionalworld"
             type="mods"
-            description="This mod adds a mining dimension (no OP dense ores just a world to mine in to keep overworld tidy)."
+            description="this mod adds a mining dimension (no op dense ores just a world to mine in to keep overworld tidy)."
             version="1.0.2.12"
             website="http://www.minecraftforum.net/topic/1066990-hardcore-ender-expansion-v112-former-hardcore-enderdragon-mod-18000-dls/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//Aroma1997s Dimensional World MC.1.6.4 v.1.0.2.12.jar"
-            file="Aroma1997s Dimensional World MC.1.6.4 v.1.0.2.12.jar"
+            url="packs/redwoodserver/files//aroma1997s dimensional world mc.1.6.4 v.1.0.2.12.jar"
+            file="aroma1997s dimensional world mc.1.6.4 v.1.0.2.12.jar"
             md5="9b251ad0bf6df065ea3219d2f2973063"
             download="server"
             />
-        <mod name="ForgeMultipart"
+        <mod name="forgemultipart"
             type="mods"
-            description="Allows you to chop up blocks and place them together!"
+            description="allows you to chop up blocks and place them together!"
             version="1.0.0.236"
             website="http://www.minecraftforum.net/topic/909223-162-smp-chickenbones-mods/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//ForgeMultipart-universal-1.6.4-1.0.0.236.jar"
-            file="ForgeMultipart-universal-1.6.4-1.0.0.236.jar"
+            url="packs/redwoodserver/files//forgemultipart-universal-1.6.4-1.0.0.236.jar"
+            file="forgemultipart-universal-1.6.4-1.0.0.236.jar"
             md5="bd12cabd6a1567ceba96e5d8b058fe2a"
             download="server"
             />
-        <mod name="CodeChickenLib"
+        <mod name="codechickenlib"
             type="mods"
-            description="Library used by many mods."
+            description="library used by many mods."
             version="1.0.0.50"
             website="http://www.minecraftforum.net/topic/909223-162-smp-chickenbones-mods/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files//CodeChickenLib-universal-1.6.4-1.0.0.50.jar"
-            file="CodeChickenLib-universal-1.6.4-1.0.0.50.jar"
+            url="packs/redwoodserver/files//codechickenlib-universal-1.6.4-1.0.0.50.jar"
+            file="codechickenlib-universal-1.6.4-1.0.0.50.jar"
             md5="5a61c82117dbff356575f84206b12192"
             download="server"
             />
-        <mod name="WR-CBE"
+        <mod name="wr-cbe"
             type="mods"
-            description="Adds a way to allow you to have Wireless Redstone!"
+            description="adds a way to allow you to have wireless redstone!"
             version="1.4.0.6"
             website="http://www.minecraftforum.net/topic/909223-164-smp-chickenbones-mods/"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/WR-CBE%201.4.0.6.jar"
-            file="WR-CBE 1.4.0.6.jar"
+            url="packs/redwoodserver/files/1.6.4/wr-cbe%201.4.0.6.jar"
+            file="wr-cbe 1.4.0.6.jar"
             md5="fcba120a8d1086365b3009fe937326c2"
             download="server"
             />
-        <mod name="KeithyUtils"
+        <mod name="keithyutils"
             type="mods"
-            description="Adds a tonne of new ores, new blocks, new machines and general metallurgy goodies"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=Shadowclaimer2%40gmail%2ecom&amp;lc=US&amp;item_name=Metallurgy%20Software%EF%BF%BDcy_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
+            description="adds a tonne of new ores, new blocks, new machines and general metallurgy goodies"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=shadowclaimer2%40gmail%2ecom&amp;lc=us&amp;item_name=metallurgy%20software%ef%bf%bdcy_code=usd&amp;bn=pp%2ddonationsbf%3abtn_donatecc_lg%2egif%3anonhosted"
             website="http://www.minecraftforum.net/topic/744918-152forgesmp-metallurgy-putting-the-mine-back-in-minecraft/"
             version="1.2"
             library="yes"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/KeithyUtils_1.2.zip"
-            file="KeithyUtils_1.2.zip"
+            url="packs/redwoodserver/files/1.6.4/keithyutils_1.2.zip"
+            file="keithyutils_1.2.zip"
             md5="e6eeeb9a7c4b70604ce2b0cd84e85dc5"
             download="server"
             />
-        <mod name="Metallurgy"
+        <mod name="metallurgy"
             type="mods"
             website="http://www.minecraftforum.net/topic/744918-152forgesmp-metallurgy-putting-the-mine-back-in-minecraft/"
-            description="Adds a tonne of new ores, new blocks, new machines and general metallurgy goodies"
+            description="adds a tonne of new ores, new blocks, new machines and general metallurgy goodies"
             version="3.3.1"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=Shadowclaimer2%40gmail%2ecom&amp;lc=US&amp;item_name=Metallurgy%20Software%EF%BF%BDcy_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=shadowclaimer2%40gmail%2ecom&amp;lc=us&amp;item_name=metallurgy%20software%ef%bf%bdcy_code=usd&amp;bn=pp%2ddonationsbf%3abtn_donatecc_lg%2egif%3anonhosted"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/Metallurgy-1.6.4-3.3.1.jar"
-            file="Metallurgy-1.6.4-3.3.1.jar"
+            url="packs/redwoodserver/files/1.6.4/metallurgy-1.6.4-3.3.1.jar"
+            file="metallurgy-1.6.4-3.3.1.jar"
             md5="ee4ce03e9c78526d903613429dd40031"
             download="server"
             />
-        <mod name="DynamicLiquidTanks"
+        <mod name="dynamicliquidtanks"
             website="http://www.minecraftforum.net/topic/1861781-15x-dynamic-liquid-tanks-is-that-a-tank-or-a-tree-its-both/"
             version="0.3.2"
             type="mods"
-            description="Adds tanks you can disguise as anything you like!"
+            description="adds tanks you can disguise as anything you like!"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/DynamicLiquidTanks-v0.3.2.jar"
-            file="DynamicLiquidTanks-v0.3.2.jar"
+            url="packs/redwoodserver/files/1.6.4/dynamicliquidtanks-v0.3.2.jar"
+            file="dynamicliquidtanks-v0.3.2.jar"
             md5="1df46c0a61e845131d98ef63eeecbd35"
             download="server"
             />
-        <mod name="Render Player API - Forge"
+        <mod name="render player api - forge"
             type="mods"
             website="http://www.minecraftforum.net/topic/1457638-152forgethe-ultimate-nether-modsspsmp/"
-            description="The Player Render API for Ultimate Nether mod!"
+            description="the player render api for ultimate nether mod!"
             version="1.6.4"
             library="yes"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/RenderPlayerAPI-1.6.4.jar"
-            file="RenderPlayerAPI-1.6.4.jar"
+            url="packs/redwoodserver/files/1.6.4/renderplayerapi-1.6.4.jar"
+            file="renderplayerapi-1.6.4.jar"
             md5="8fc7ebdeed8a30c3e06fc612de2e7ec8"
             download="server"
             />
-        <!-- <mod name="The Ultimate Nether mod" -->
+        <!-- <mod name="the ultimate nether mod" -->
             <!--     type="mods" -->
             <!--     website="http://www.minecraftforum.net/topic/1457638-152forgethe-ultimate-nether-modsspsmp/" -->
-            <!--     description="Adds a tonne of new things into the Nether, enjoy exploring in there now!" -->
+            <!--     description="adds a tonne of new things into the nether, enjoy exploring in there now!" -->
             <!--     version="1.6.4-1.8.6" -->
-            <!--     depends="Render Player API - Forge" -->
+            <!--     depends="render player api - forge" -->
             <!--     server="yes" -->
             <!--     optional="no" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/UltimateNether_V.1.8.6_MC.1.6.4.zip" -->
-            <!--     file="UltimateNether_V.1.8.6_MC.1.6.4.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/ultimatenether_v.1.8.6_mc.1.6.4.zip" -->
+            <!--     file="ultimatenether_v.1.8.6_mc.1.6.4.zip" -->
             <!--     md5="4bde7ad24ac0375e42463cc01a952160" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="Netherstuffs"
-            description="Adds more trees and loads of cool items using the Nether as a base!"
+        <mod name="netherstuffs"
+            description="adds more trees and loads of cool items using the nether as a base!"
             website="http://www.minecraftforum.net/topic/1563717-152-netherstuffs-0176-enrich-your-nether-with-trees-and-add-soul-energy/"
             version="0.21"
             type="mods"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=XZ4NCDJLP279G"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=xz4ncdjlp279g"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/mod_NetherStuffs_0.21.jar"
-            file="mod_NetherStuffs_0.21.jar"
+            url="packs/redwoodserver/files/1.6.4/mod_netherstuffs_0.21.jar"
+            file="mod_netherstuffs_0.21.jar"
             md5="da27faff2faf00a6f76458df78fca73d"
             download="server"
             />
-        <mod name="Aquaculture"
-            description="Adds more things in the sea, just as it should be!"
+        <mod name="aquaculture"
+            description="adds more things in the sea, just as it should be!"
             website="http://www.minecraftforum.net/topic/1285120-152smpforge-aquaculture/"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=Shadowclaimer2%40gmail%2ecom&amp;lc=US&amp;item_name=Metallurgy%20Software%EF%BF%BDcy_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=shadowclaimer2%40gmail%2ecom&amp;lc=us&amp;item_name=metallurgy%20software%ef%bf%bdcy_code=usd&amp;bn=pp%2ddonationsbf%3abtn_donatecc_lg%2egif%3anonhosted"
             version="1.2.4"
             type="mods"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/Aquaculture_1.2.4.zip"
-            file="Aquaculture_1.2.4.zip"
+            url="packs/redwoodserver/files/1.6.4/aquaculture_1.2.4.zip"
+            file="aquaculture_1.2.4.zip"
             md5="799b10909d91b0c0f5a0bcf7c7ea9799"
             download="server"
             />
-        <mod name="CraftingSuite"
-            description="A mod that adds new level of customisation to crafting tables."
+        <mod name="craftingsuite"
+            description="a mod that adds new level of customisation to crafting tables."
             website="http://www.minecraftforum.net/topic/2076108-164smpcrafting-suite-now-with-plans-v0213forge/"
             version="0.2.1.3"
             type="mods"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/CraftingSuite-v0.2.1.3.jar"
-            file="CraftingSuite-v0.2.1.3.jar"
+            url="packs/redwoodserver/files/craftingsuite-v0.2.1.3.jar"
+            file="craftingsuite-v0.2.1.3.jar"
             md5="8390292cf911de424eb00cba5e63d434"
             download="server"
             />
 
-        <!-- <mod name="PresenceFootsteps" -->
+        <!-- <mod name="presencefootsteps" -->
             <!--     type="mods" -->
-            <!--     description="Adds a tonne of new sounds!" -->
+            <!--     description="adds a tonne of new sounds!" -->
             <!--     version="r1" -->
             <!--     optional="yes" -->
             <!--     website="http://www.minecraftforum.net/topic/1900291-162-presence-footsteps-r0-an-overly-complicated-sound-enhancement-mod/" -->
-            <!--     url="packs/SolitaryCraftOrigins/files/PresenceFootsteps_r1__1_6_2.zip" -->
-            <!--     file="PresenceFootsteps_r1__1_6_2.zip" -->
+            <!--     url="packs/solitarycraftorigins/files/presencefootsteps_r1__1_6_2.zip" -->
+            <!--     file="presencefootsteps_r1__1_6_2.zip" -->
             <!--     md5="43ae1585804fc484a2da496aaef61594" -->
             <!--     download="server" -->
             <!--     /> -->
-        <!-- <mod name="Farmcraftory" -->
-            <!--     file="FarmCraftory_MC1.6.2.zip" -->
-            <!--     url="http://adf.ly/Rmovy" -->
+        <!-- <mod name="farmcraftory" -->
+            <!--     file="farmcraftory_mc1.6.2.zip" -->
+            <!--     url="http://adf.ly/rmovy" -->
             <!--     website="http://www.minecraftforum.net/topic/655155-162152forgesmpcomicretrolutions-craftory-mods-farming-and-much-more-updated-july-9th/" -->
             <!--     download="browser" -->
             <!--     version="1.6.2-2.1.3" -->
             <!--     type="mods" -->
-            <!--     description="Adds a tonne of new farming crops into Minecraft!" -->
+            <!--     description="adds a tonne of new farming crops into minecraft!" -->
             <!--     /> -->
-        <!-- <mod name="Fruitcraftory" -->
-            <!--     file="FruitCraftory_MC1.6.2.zip" -->
-            <!--     url="http://adf.ly/Rmp1w" -->
+        <!-- <mod name="fruitcraftory" -->
+            <!--     file="fruitcraftory_mc1.6.2.zip" -->
+            <!--     url="http://adf.ly/rmp1w" -->
             <!--     website="http://www.minecraftforum.net/topic/655155-162152forgesmpcomicretrolutions-craftory-mods-farming-and-much-more-updated-july-9th/" -->
             <!--     download="browser" -->
             <!--     version="1.6.2-2.1.3" -->
             <!--     type="mods" -->
-            <!--     description="Adds a tonne of new fruit crops into Minecraft!" -->
+            <!--     description="adds a tonne of new fruit crops into minecraft!" -->
             <!--     /> -->
-        <!-- <mod name="Foodcraftory" -->
-            <!--     file="FoodCraftory_MC1.6.2.zip" -->
-            <!--     url="http://adf.ly/Rmp4W" -->
+        <!-- <mod name="foodcraftory" -->
+            <!--     file="foodcraftory_mc1.6.2.zip" -->
+            <!--     url="http://adf.ly/rmp4w" -->
             <!--     website="http://www.minecraftforum.net/topic/655155-162152forgesmpcomicretrolutions-craftory-mods-farming-and-much-more-updated-july-9th/" -->
             <!--     download="browser" -->
             <!--     version="1.6.2-2.1.3" -->
             <!--     type="mods" -->
-            <!--     description="Adds a tonne of new foods into Minecraft!" -->
+            <!--     description="adds a tonne of new foods into minecraft!" -->
             <!--     /> -->
-        <!-- <mod name="GUIcraftory" -->
-            <!--     file="GuiCraftory_MC1.6.2.zip" -->
-            <!--     url="http://adf.ly/Rmp8Q" -->
+        <!-- <mod name="guicraftory" -->
+            <!--     file="guicraftory_mc1.6.2.zip" -->
+            <!--     url="http://adf.ly/rmp8q" -->
             <!--     website="http://www.minecraftforum.net/topic/655155-162152forgesmpcomicretrolutions-craftory-mods-farming-and-much-more-updated-july-9th/" -->
             <!--     download="browser" -->
             <!--     version="1.6.2-2.1.3" -->
             <!--     type="mods" -->
-            <!--     description="Adds a tonne of new foods into Minecraft!" -->
+            <!--     description="adds a tonne of new foods into minecraft!" -->
             <!--     /> -->
-        <!-- <mod name="Wateringcraftory" -->
-            <!--     file="WateringCraftory_MC1.6.2.zip" -->
-            <!--     url="http://adf.ly/RmpBE" -->
+        <!-- <mod name="wateringcraftory" -->
+            <!--     file="wateringcraftory_mc1.6.2.zip" -->
+            <!--     url="http://adf.ly/rmpbe" -->
             <!--     website="http://www.minecraftforum.net/topic/655155-162152forgesmpcomicretrolutions-craftory-mods-farming-and-much-more-updated-july-9th/" -->
             <!--     download="browser" -->
             <!--     version="1.6.2-2.1.3" -->
             <!--     type="mods" -->
-            <!--     description="Adds a new way of watering your crops!" -->
+            <!--     description="adds a new way of watering your crops!" -->
             <!--     /> -->
-        <!-- <mod name="Energy Manipulation" -->
-            <!--     description="Adds an alternative to the old EE2 Energy Condenser!" -->
+        <!-- <mod name="energy manipulation" -->
+            <!--     description="adds an alternative to the old ee2 energy condenser!" -->
             <!--     website="http://www.minecraftforum.net/topic/1866335-162152147-energy-manipulation-110-release/" -->
             <!--     version="1.6.4-1.1.8" -->
             <!--     type="mods" -->
             <!--     server="yes" -->
             <!--     optional="no" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/EM1.6.4%201.1.8.zip" -->
-            <!--     file="EM1.6.4 1.1.8.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/em1.6.4%201.1.8.zip" -->
+            <!--     file="em1.6.4 1.1.8.zip" -->
             <!--     md5="99d8db313edf76090560500a318b98ce" -->
             <!--     download="server" -->
             <!--     /> -->
-        <!-- <mod name="InfernalMobs" -->
+        <!-- <mod name="infernalmobs" -->
         <!--     website="http://www.atomicstryker.net/infernalmobs.html" -->
-        <!--     description="Makes some mobs just that tiny bit harder...trolololool!" -->
+        <!--     description="makes some mobs just that tiny bit harder...trolololool!" -->
         <!--     version="1.4.1" -->
         <!--     optional="no" -->
         <!--     server="yes" -->
         <!--     type="mods" -->
-        <!--     url="packs/RedwoodServer/files/1.6.4/InfernalMobs_1.6.4.zip" -->
-        <!--     file="InfernalMobs_1.6.4.zip" -->
+        <!--     url="packs/redwoodserver/files/1.6.4/infernalmobs_1.6.4.zip" -->
+        <!--     file="infernalmobs_1.6.4.zip" -->
         <!--     md5="fd4e3cb7c33d6782717ee0c1cf22d1f6" -->
         <!--     download="server" -->
         <!--     /> -->
-        <mod name="BetterGrassAndLeaves"
-            description="Make Minecraft look a bit different with this Grass and Leaves mod!"
+        <mod name="bettergrassandleaves"
+            description="make minecraft look a bit different with this grass and leaves mod!"
             website="http://www.minecraftforum.net/topic/508886-162-forge-better-grass-leaves-mod-v162d/"
-            version="1.6.4D"
+            version="1.6.4d"
             optional="yes"
             type="mods"
             server="no"
-            url="packs/RedwoodServer/files/BetterGrassAndLeavesMod[v1.6.4.D].jar"
-            file="BetterGrassAndLeavesMod[v1.6.4.D].jar"
+            url="packs/redwoodserver/files/bettergrassandleavesmod[v1.6.4.d].jar"
+            file="bettergrassandleavesmod[v1.6.4.d].jar"
             md5="4bf2ed99ceb831b3d4879de1aa8339fa"
             download="server"
             />
-        <mod name="Mystcraft"
-            description="Adds a way of creating your own custom world!"
+        <mod name="mystcraft"
+            description="adds a way of creating your own custom world!"
             website="http://binarymage.com/"
             version="0.10.11.00"
             optional="no"
             server="yes"
             type="mods"
-            url="packs/RedwoodServer/files/1.6.4/mystcraft-uni-1.6.4-0.10.11.00.zip"
+            url="packs/redwoodserver/files/1.6.4/mystcraft-uni-1.6.4-0.10.11.00.zip"
             file="mystcraft-uni-1.6.4-0.10.11.00.zip"
             md5="af42012a6782cbf7afac5ec42d17d05e"
             download="server"
             />
-        <mod name="RandomThings"
-            description="Adds a bunch of really neat items and blocks to make your life easier!"
+        <mod name="randomthings"
+            description="adds a bunch of really neat items and blocks to make your life easier!"
             website="http://www.minecraftforum.net/topic/1832047-16215x-random-things-16-teleport-around-and-move-stuff/"
             version="1.8.8"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Random Things v. 1.8.8 [MC 1.6.4].jar"
-            file="Random Things v. 1.8.8 [MC 1.6.4].jar"
+            url="packs/redwoodserver/files/1.6.4/random things v. 1.8.8 [mc 1.6.4].jar"
+            file="random things v. 1.8.8 [mc 1.6.4].jar"
             md5="42d7f8b7f9bdf4fbf0577883211a7583"
             download="server"
             />
-        <mod name="ExtraUtilities"
-            description="Blocks and items that serve useful purposes."
+        <mod name="extrautilities"
+            description="blocks and items that serve useful purposes."
             website="http://www.minecraftforum.net/topic/1776056-15xforge-extra-utilities-v024b/"
             version="1.0.2"
             optional="no"
             server="yes"
             type="mods"
-            url="packs/RedwoodServer/files/1.6.4/extrautils-1.0.2.zip"
+            url="packs/redwoodserver/files/1.6.4/extrautils-1.0.2.zip"
             file="extrautils-1.0.2.zip"
             md5="ebe7ffa7897685278b1d3b66a79a7c1d"
             download="server"
             />
 
-        <mod name="MagicYarn"
-            description="Adds Magic Yarn that can be used to find your way back to entrances of mines and caves (hopefully never get lost again!)."
+        <mod name="magicyarn"
+            description="adds magic yarn that can be used to find your way back to entrances of mines and caves (hopefully never get lost again!)."
             website="http://www.atomicstryker.net/magicyarn.html"
             type="mods"
             version="1.6.4"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/MagicYarn_1.6.4.zip"
-            file="MagicYarn_1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/magicyarn_1.6.4.zip"
+            file="magicyarn_1.6.4.zip"
             md5="7f6eda5541f43a1fa4da95965a4df144"
             download="server"
             />
-        <mod name="AnimationAPI"
-            description="Addon that adds mutant versions of mobs."
+        <mod name="animationapi"
+            description="addon that adds mutant versions of mobs."
             website="http://www.minecraftforum.net/topic/1336132-152-spmp-mutant-creatures-mutant-enderman-v134/#5"
             type="mods"
             version="1.1.2"
             library="yes"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/AnimationAPI%20v1.1.2%20mc1.6.4.zip"
-            file="AnimationAPI v1.1.2 mc1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/animationapi%20v1.1.2%20mc1.6.4.zip"
+            file="animationapi v1.1.2 mc1.6.4.zip"
             md5="84d2b1fee291b4006283afa3bf25d18d"
             download="server"
             />
-        <mod name="MutantCreatures"
-            description="Addon that adds mutant versions of mobs."
+        <mod name="mutantcreatures"
+            description="addon that adds mutant versions of mobs."
             website="http://www.minecraftforum.net/topic/1336132-152-spmp-mutant-creatures-mutant-enderman-v134/#5"
             type="mods"
-            depends="AnimationAPI"
+            depends="animationapi"
             version="1.4.4"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Mutant_Creatures_v1.4.4_mc1.6.4.zip"
-            file="Mutant_Creatures_v1.4.4_mc1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/mutant_creatures_v1.4.4_mc1.6.4.zip"
+            file="mutant_creatures_v1.4.4_mc1.6.4.zip"
             md5="f99720be8a2595a5948959eba4a39a93"
             download="server"
             />
-        <mod name="NEIAddons"
-            description="This mod adds recipes for mods that do not natively support NEI."
+        <mod name="neiaddons"
+            description="this mod adds recipes for mods that do not natively support nei."
             website="http://www.minecraftforum.net/topic/1803460-nei-addons-v181-with-forestry-2280-support/"
             type="mods"
             version="1.9.4"
             optional="no"
             server="yes"
             serveroptional="no"
-            depends="NotEnoughItems"
-            url="packs/RedwoodServer/files/1.6.4/neiaddons-1.6.2-1.9.4.r51.jar"
+            depends="notenoughitems"
+            url="packs/redwoodserver/files/1.6.4/neiaddons-1.6.2-1.9.4.r51.jar"
             file="neiaddons-1.6.2-1.9.4.r51.jar"
             md5="27d539bb3c2419205ba92e0525176028"
             download="server"
             />
 
-        <mod name="Waila"
-            description="This is an addon for NEI to enable you to find out what mod an item or block is from."
+        <mod name="waila"
+            description="this is an addon for nei to enable you to find out what mod an item or block is from."
             website="http://www.minecraftforum.net/topic/1846244-152-waila-134-block-and-mod-info-ingame/"
             type="mods"
             version="1.4.4b"
             server="yes"
             optional="yes"
             serveroptional="no"
-            depends="NotEnoughItems"
-            url="packs/RedwoodServer/files//Waila_1.4.4b.zip"
-            file="Waila_1.4.4b.zip"
+            depends="notenoughitems"
+            url="packs/redwoodserver/files//waila_1.4.4b.zip"
+            file="waila_1.4.4b.zip"
             md5="ab5943849deb513b095f33737d3f8318"
             download="server"
             />
 
-        <mod name="NEIPlugins"
-            description="This mod adds recipes for mods that do not natively support NEI."
-            website="https://bitbucket.org/mistaqur/nei_plugins/wiki/Home"
+        <mod name="neiplugins"
+            description="this mod adds recipes for mods that do not natively support nei."
+            website="https://bitbucket.org/mistaqur/nei_plugins/wiki/home"
             type="mods"
             version="1.1.0.6"
             server="yes"
             optional="no"
             serveroptional="no"
-            depends="NotEnoughItems"
-            url="packs/RedwoodServer/files/NEIPlugins-1.1.0.6.jar"
-            file="NEIPlugins-1.1.0.6.jar"
+            depends="notenoughitems"
+            url="packs/redwoodserver/files/neiplugins-1.1.0.6.jar"
+            file="neiplugins-1.1.0.6.jar"
             md5="f005f1044b4fd706fef4858caef7db03"
             download="server"
             />
 
-        <mod name="ObsidiPlates"
-            description="Adds special pressure pads that do not react to mobs."
+        <mod name="obsidiplates"
+            description="adds special pressure pads that do not react to mobs."
             website="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/"
             type="mods"
             version="2.0.0.15"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/obsidiplates-1.6.2-universal-2.0.0.15.jar"
+            url="packs/redwoodserver/files/1.6.4/obsidiplates-1.6.2-universal-2.0.0.15.jar"
             file="obsidiplates-1.6.2-universal-2.0.0.15.jar"
             md5="c64ea8742cd60ef359d36bb84d4b10a5"
             download="server"
             />
 
-        <mod name="OpenBlocks"
-            description="Adds more cool blocks and items."
+        <mod name="openblocks"
+            description="adds more cool blocks and items."
             website="http://www.openperipheral.info/openblocks/"
             type="mods"
             version="1.2.2-snapshot-131"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//OpenBlocks-1.2.2-snapshot-131.jar"
-            file="OpenBlocks-1.2.2-snapshot-131.jar"
+            url="packs/redwoodserver/files//openblocks-1.2.2-snapshot-131.jar"
+            file="openblocks-1.2.2-snapshot-131.jar"
             md5="8b587bf45cb1419dc20b2196f1def5e4"
             download="server"
             />
 
-        <mod name="PaintersFlowerPot"
-            description="Adds more types of flower pots and allows more plants to be placed in them."
+        <mod name="paintersflowerpot"
+            description="adds more types of flower pots and allows more plants to be placed in them."
             website="http://www.minecraftforum.net/topic/1611327-15forge-painters-flower-pot-v156/"
             type="mods"
             version="1.59"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Painters%20Flower%20Pot%20v1.59%20-%20MC%201.6.2.zip"
-            file="Painters Flower Pot v1.59 - MC 1.6.2.zip"
+            url="packs/redwoodserver/files/1.6.4/painters%20flower%20pot%20v1.59%20-%20mc%201.6.2.zip"
+            file="painters flower pot v1.59 - mc 1.6.2.zip"
             md5="fb6db7ac52f9f8bbf46bfc3aadf3009f"
             download="server"
             />
 
-        <mod name="iChunUtil"
-            description="This mod is a shared library required by a couple of iChun’s Mods. Made for Minecraft 1.5 or later"
+        <mod name="ichunutil"
+            description="this mod is a shared library required by a couple of ichun’s mods. made for minecraft 1.5 or later"
             website="http://ichun.us/mods/ichun-util/"
             type="mods"
             version="2.4.0"
             server="yes"
             library="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/iChunUtil2.4.0.zip"
-            file="iChunUtil2.4.0.zip"
+            url="packs/redwoodserver/files/1.6.4/ichunutil2.4.0.zip"
+            file="ichunutil2.4.0.zip"
             md5="6d6decd8d8c36c82743e552f4f1e1d37"
             download="server"
             />
 
-        <mod name="PortalGun"
-            description="Adds a Portal Gun and Portal related items."
+        <mod name="portalgun"
+            description="adds a portal gun and portal related items."
             website="http://ichun.us/mods/portalgun/"
             type="mods"
             version="2.0.2"
-            depends="iChunUtil"
+            depends="ichunutil"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//PortalGun2.0.2.zip"
-            file="PortalGun2.0.2.zip"
+            url="packs/redwoodserver/files//portalgun2.0.2.zip"
+            file="portalgun2.0.2.zip"
             md5="076162ae7debc0dae697534e439ff499"
             download="server"
             />
 
-        <mod name="RedstoneInMotion"
-            description="Adds the ability to move land based on redstone signal."
+        <mod name="redstoneinmotion"
+            description="adds the ability to move land based on redstone signal."
             website="http://forums.technicpack.net/threads/1-5-x-redstone-in-motion-redpower-frames-1-1-1-0-july-1.47048/"
             type="mods"
             version="2.3.0.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/RedstoneInMotion_2.3.0.0_mc1.6.zip"
-            file="RedstoneInMotion_2.3.0.0_mc1.6.zip"
+            url="packs/redwoodserver/files/1.6.4/redstoneinmotion_2.3.0.0_mc1.6.zip"
+            file="redstoneinmotion_2.3.0.0_mc1.6.zip"
             md5="e89a540ab981fbd3823ba77d7fe96f77"
             download="server"
             />
 
-        <mod name="RopesPlus"
-            description="Adds grapling hooks and ropes to clime up / down."
+        <mod name="ropesplus"
+            description="adds grapling hooks and ropes to clime up / down."
             website="http://www.atomicstryker.net/ropesplus.html"
             type="mods"
             version="1.5.0"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/RopePlus_1.6.4.zip"
-            file="RopePlus_1.6.4.zip"
+            url="packs/redwoodserver/files/1.6.4/ropeplus_1.6.4.zip"
+            file="ropeplus_1.6.4.zip"
             md5="d1929d5ee1948225d0d5a95670ad5dc0"
             download="server"
             />
 
-        <mod name="Switches"
-            description="Adds a redstone switch (alternative to a lever)."
+        <mod name="switches"
+            description="adds a redstone switch (alternative to a lever)."
             website="http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/"
             type="mods"
             version="1.3.0.25"
             server="yes"
             optional="no"
-            url="packs/RedwoodServer/files/1.6.4/switches-1.6.4-universal-coremod-1.3.0.25.jar"
+            url="packs/redwoodserver/files/1.6.4/switches-1.6.4-universal-coremod-1.3.0.25.jar"
             file="switches-1.6.4-universal-coremod-1.3.0.25.jar"
             md5="b6785f4c62986b27b6a2e06476af0730"
             download="server"
             />
 
-        <mod name="JABBA"
+        <mod name="jabba"
             type="mods"
-            description="Adds improved upgradable barrels and a 'dolly' which can be used to move various blocks without having to destroy them."
+            description="adds improved upgradable barrels and a 'dolly' which can be used to move various blocks without having to destroy them."
             website="http://www.minecraftforum.net/topic/2182366-16x-jabba-103-just-another-better-barrel-attempt/"
             version="1.0.3"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//JABBA_1.0.3.zip"
-            file="JABBA_1.0.3.zip"
+            url="packs/redwoodserver/files//jabba_1.0.3.zip"
+            file="jabba_1.0.3.zip"
             md5="142b9440b195d15c6f918155b8050027"
             download="server"
             />
 
-        <mod name="TwilightForest"
-            description="Adds a new dimension... The Twilight Forest."
+        <mod name="twilightforest"
+            description="adds a new dimension... the twilight forest."
             website="http://www.minecraftforum.net/topic/561673-152-the-twilight-forest-v1182-lost-halls-of-the-knights/"
             type="mods"
             version="1.20.3"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/twilightforest-1.20.3.jar"
+            url="packs/redwoodserver/files/twilightforest-1.20.3.jar"
             file="twilightforest-1.20.3.jar"
             md5="f36991512e147b9a1cabe1a0e8ff9049"
             download="server"
             />
 
-        <!-- <mod name="Somnia" -->
-            <!--     description="The world will run while you sleep!" -->
+        <!-- <mod name="somnia" -->
+            <!--     description="the world will run while you sleep!" -->
             <!--     website="http://www.minecraftforum.net/topic/1938500-162forgesmp-somnia-simulating-the-world-while-you-sleep/" -->
             <!--     type="mods" -->
             <!--     version="pre2b" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/Somnia-Pre2b.jar" -->
-            <!--     file="Somnia-Pre2b.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/somnia-pre2b.jar" -->
+            <!--     file="somnia-pre2b.jar" -->
             <!--     md5="950b3221697197e9a9ff7b8809ea58fa" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="World State Saves" -->
-            <!--     description="You can now saves and set auto saves for your world in SSP!" -->
+        <!-- <mod name="world state saves" -->
+            <!--     description="you can now saves and set auto saves for your world in ssp!" -->
             <!--     website="http://www.minecraftforum.net/topic/1548243-162-worldstatecheckpoints-ssp-world-save-points/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-r04" -->
-            <!--     depends="bspkrsCore" -->
+            <!--     depends="bspkrscore" -->
             <!--     server="no" -->
             <!--     optional="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/[1.6.4]WorldStateCheckpoints.Forge.1.6.4.r04.zip" -->
-            <!-- file="[1.6.4]WorldStateCheckpoints.Forge.1.6.4.r04.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/[1.6.4]worldstatecheckpoints.forge.1.6.4.r04.zip" -->
+            <!-- file="[1.6.4]worldstatecheckpoints.forge.1.6.4.r04.zip" -->
             <!-- md5="b26b857da3f09f13f5791eaef4de40e7" -->
             <!-- download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="TrussMod" -->
-            <!--     description="Red Power 2 Style Frames!!" -->
+        <!-- <mod name="trussmod" -->
+            <!--     description="red power 2 style frames!!" -->
             <!--     website="http://www.minecraftforum.net/topic/1852349-truss-mod-rp2-style-frames/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-beta-30" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/TrussMod-beta-1.6.4-30.jar" -->
-            <!--     file="TrussMod-beta-1.6.4-30.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/trussmod-beta-1.6.4-30.jar" -->
+            <!--     file="trussmod-beta-1.6.4-30.jar" -->
             <!--     md5="08c9d8e539fb82279238c67e223f9c13" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="Whole Tree Axe" -->
-            <!--     description="An axe which cuts down the whole tree in one!" -->
-            <!--     website="http://www.minecraftforum.net/topic/506109-162-cubex2s-mods-everything-updated/#WholeTreeAxe" -->
+        <!-- <mod name="whole tree axe" -->
+            <!--     description="an axe which cuts down the whole tree in one!" -->
+            <!--     website="http://www.minecraftforum.net/topic/506109-162-cubex2s-mods-everything-updated/#wholetreeaxe" -->
             <!--     type="mods" -->
             <!--     version="1.6.2-1.1.6" -->
-            <!--     group="TreeChopping" -->
+            <!--     group="treechopping" -->
             <!--     optional="yes" -->
-            <!--     url="packs/SolitaryCraft/files/wholeTreeAxe-1.1.6-universal.zip" -->
-            <!--     file="wholeTreeAxe-1.1.6-universal.zip" -->
+            <!--     url="packs/solitarycraft/files/wholetreeaxe-1.1.6-universal.zip" -->
+            <!--     file="wholetreeaxe-1.1.6-universal.zip" -->
             <!--     md5="4bf0634e6de521bcc9e606bdadaca6fd" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="Treecapitator" -->
-            <!--     description="An axe which cuts down the whole tree in one!" -->
+        <!-- <mod name="treecapitator" -->
+            <!--     description="an axe which cuts down the whole tree in one!" -->
             <!--     website="http://www.minecraftforum.net/topic/1009577-162-daftpvfs-mods-treecapitator-ingameinfo-crystalwing-startinginv-floatingruins/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-r06" -->
-            <!--     group="TreeChopping" -->
+            <!--     group="treechopping" -->
             <!--     optional="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/[1.6.4]TreeCapitator.Forge.1.6.4.r06.Universal.jar" -->
-            <!--     file="[1.6.4]TreeCapitator.Forge.1.6.4.r06.Universal.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/[1.6.4]treecapitator.forge.1.6.4.r06.universal.jar" -->
+            <!--     file="[1.6.4]treecapitator.forge.1.6.4.r06.universal.jar" -->
             <!--     md5="789d676ae760ce728926d9a38fc7443d" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="Treefeller" -->
-            <!--     description="Allows all axes to chop trees down instantly!" -->
+        <!-- <mod name="treefeller" -->
+            <!--     description="allows all axes to chop trees down instantly!" -->
             <!--     website="http://www.minecraftforum.net/topic/1219795-updated-162-treefeller-sspsmp/" -->
             <!--     type="mods" -->
-            <!--     version="1.6.2-1.0Beta" -->
-            <!--     group="TreeChopping" -->
+            <!--     version="1.6.2-1.0beta" -->
+            <!--     group="treechopping" -->
             <!--     optional="yes" -->
-            <!--     url="packs/SolitaryCraft/files/mod_TreeFellerBeta_1.0.zip" -->
-            <!--     file="mod_TreeFellerBeta_1.0.zip" -->
+            <!--     url="packs/solitarycraft/files/mod_treefellerbeta_1.0.zip" -->
+            <!--     file="mod_treefellerbeta_1.0.zip" -->
             <!--     md5="fff0b825344c6b3293c39dd2fe8aa58a" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <mod name="Morph"
-            description="Allows you to change the shape and appearance of yourself!"
+        <mod name="morph"
+            description="allows you to change the shape and appearance of yourself!"
             website="http://ichun.us/morph-beta-0-1-0-released/"
             type="mods"
             version="0.6.0"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Morph-Beta-0.6.0.zip"
-            file="Morph-Beta-0.6.0.zip"
+            url="packs/redwoodserver/files/1.6.4/morph-beta-0.6.0.zip"
+            file="morph-beta-0.6.0.zip"
             md5="da8a31822217a67f25bf5dce54520d71"
             download="server"
             />
 
-        <mod name="BILLUND"
-            description="Lego and Minecraft finally meet!"
+        <mod name="billund"
+            description="lego and minecraft finally meet!"
             website="http://www.computercraft.info/billund/"
             type="mods"
             version="1.01"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/BILLUND1.01.zip"
-            file="BILLUND1.01.zip"
+            url="packs/redwoodserver/files/1.6.4/billund1.01.zip"
+            file="billund1.01.zip"
             md5="7a407ffe32ae7f1c32c27c89fc490510"
             download="server"
             />
 
-        <mod name="Chisel"
-            description="You can now create all sorts of decorative blocks!"
+        <mod name="chisel"
+            description="you can now create all sorts of decorative blocks!"
             website="http://www.minecraftforum.net/topic/1749374-162smpforge-chisel/"
             type="mods"
             version="1.5.0fix"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/forgelibs/chisel-1.6.4-1.5.0fix.jar"
+            url="packs/redwoodserver/files/forgelibs/chisel-1.6.4-1.5.0fix.jar"
             file="chisel-1.6.4-1.5.0fix.jar"
             md5="643a4cce13eab1af9a378977febc609b"
             download="server"
             />
 
-        <!-- <mod name="SoulShards" -->
-            <!--     description="Craftable spawners by collecting the souls of mobs!" -->
+        <!-- <mod name="soulshards" -->
+            <!--     description="craftable spawners by collecting the souls of mobs!" -->
             <!--     website="http://www.minecraftforum.net/topic/1475847-162-forgeirc-v1018-soul-shards-v1039-and-recipe-remover-v11-updated-9162013/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-2.0.13" -->
             <!--     optional="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/SoulShards-2.0.13-universal-srg.jar" -->
-            <!--     file="SoulShards-2.0.13-universal-srg.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/soulshards-2.0.13-universal-srg.jar" -->
+            <!--     file="soulshards-2.0.13-universal-srg.jar" -->
             <!--     md5="6f584efeabb20c27458feed40a19e5c1" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <mod name="SuperCraftingFrame"
-            description="A special kind of frame...that crafts!"
+        <mod name="supercraftingframe"
+            description="a special kind of frame...that crafts!"
             website="http://www.minecraftforum.net/topic/1870830-edgarallens-mods-supercraftingframe/"
             type="mods"
             version="1.6.2.7"
             optional="no"
             server="yes"
-            url="packs/SolitaryCraft/files/SuperCraftingFrame-1.6.2.7.jar"
-            file="SuperCraftingFrame-1.6.2.7.jar"
+            url="packs/solitarycraft/files/supercraftingframe-1.6.2.7.jar"
+            file="supercraftingframe-1.6.2.7.jar"
             md5="5241bc98632201d64b0112e16e31e6b6"
             download="server"
             />
-        <!-- <mod name="Gany'sNetherMod" -->
-            <!--     description="More interesting stuff to add into the nether!" -->
+        <!-- <mod name="gany'snethermod" -->
+            <!--     description="more interesting stuff to add into the nether!" -->
             <!--     website="http://www.minecraftforum.net/topic/1934065-16x-ganys-nether-v130-ganys-mods/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-1.4.1" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/Ganys%20Nether%20v1.4.1.jar" -->
-            <!--     file="Ganys Nether v1.4.1.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/ganys%20nether%20v1.4.1.jar" -->
+            <!--     file="ganys nether v1.4.1.jar" -->
             <!--     md5="b4ecd928be6a3465fa11b48c427bce4c" -->
             <!--     download="server" -->
             <!--     /> -->
 
 
-        <!-- Buildcraft -->
-        <mod name="Buildcraft"
-            description="Automation in Minecraft. Adds pipes, quarries and lots lots more!"
+        <!-- buildcraft -->
+        <mod name="buildcraft"
+            description="automation in minecraft. adds pipes, quarries and lots lots more!"
             website="http://www.mod-buildcraft.com/"
             type="mods"
             version="4.2.2"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//buildcraft-A-1.6.4-4.2.2.jar"
-            file="buildcraft-A-1.6.4-4.2.2.jar"
+            url="packs/redwoodserver/files//buildcraft-a-1.6.4-4.2.2.jar"
+            file="buildcraft-a-1.6.4-4.2.2.jar"
             md5="3d2b0dad2291f1c0bb0c5b8c96303b68"
             download="server"
             />
-        <mod name="BigReactors"
-            description="Adds the ability to make cool multiblock reactors that create buildcraft power."
+        <mod name="bigreactors"
+            description="adds the ability to make cool multiblock reactors that create buildcraft power."
             website="http://www.big-reactors.com/"
             type="mods"
-            version="0.2.14A"
-            url="packs/RedwoodServer/files//BigReactors-0.2.14A.jar"
-            file="BigReactors-0.2.14A.jar"
+            version="0.2.14a"
+            url="packs/redwoodserver/files//bigreactors-0.2.14a.jar"
+            file="bigreactors-0.2.14a.jar"
             md5="c9a58454801d19bdc04e686bc7432779"
             download="server"
             />
-        <mod name="AdditionalBuildcraftObjects"
-            website="http://www.siedler25.org/uploads/minecraft/AdditionalBuildcraftObjects/3.7.0/"
+        <mod name="additionalbuildcraftobjects"
+            website="http://www.siedler25.org/uploads/minecraft/additionalbuildcraftobjects/3.7.0/"
             version="1.0.6.182"
             type="mods"
-            depends="Buildcraft"
+            depends="buildcraft"
             optional="no"
             server="yes"
-            description="Giving you more pipes to work with in Buildcraft"
-            url="packs/RedwoodServer/files/forgelibs/buildcraft-Z-additional-buildcraft-objects-1.0.6.182.jar"
-            file="buildcraft-Z-additional-buildcraft-objects-1.0.6.182.jar"
+            description="giving you more pipes to work with in buildcraft"
+            url="packs/redwoodserver/files/forgelibs/buildcraft-z-additional-buildcraft-objects-1.0.6.182.jar"
+            file="buildcraft-z-additional-buildcraft-objects-1.0.6.182.jar"
             md5="26e52ee0db4a5cede2fc4d2d2d0f3738"
             download="server"
             />
-        <mod name="AdditionalBuildcraftPipes"
-            website="https://github.com/tcooc/AdditionalPipesBC"
+        <mod name="additionalbuildcraftpipes"
+            website="https://github.com/tcooc/additionalpipesbc"
             version="2.6.0"
             type="mods"
-            linked="Buildcraft"
-            description="Giving you more pipes to work with in Buildcraft"
+            linked="buildcraft"
+            description="giving you more pipes to work with in buildcraft"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//AdditionalPipes2.6.0-BC4.2.1.jar"
-            file="AdditionalPipes2.6.0-BC4.2.1.jar"
+            url="packs/redwoodserver/files//additionalpipes2.6.0-bc4.2.1.jar"
+            file="additionalpipes2.6.0-bc4.2.1.jar"
             md5="c4fe04262ed63cb14bf34e6b2ef3be57"
             download="server"
             />
-        <mod name="EnderIO"
+        <mod name="enderio"
             website="http://www.minecraftforum.net/topic/1937619-162152-ender-io-how-many-pipes-in-one-block-now-with-mj-storage-blocks-youtube-tutorial/page__st__0"
-            description="This mod adds multi pipes and the Ender IO."
+            description="this mod adds multi pipes and the ender io."
             type="mods"
             version="0.7.1"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//EnderIO-1.6.4-0.7.1.178.jar"
-            file="EnderIO-1.6.4-0.7.1.178.jar"
+            url="packs/redwoodserver/files//enderio-1.6.4-0.7.1.178.jar"
+            file="enderio-1.6.4-0.7.1.178.jar"
             md5="61a4ecfeff7a13c0734eaf4bbdb00386"
             download="server"
             />
 
-        <mod name="GateCopy"
-            description="Allows you to create a clipboard for copying settings between Buildcraft Gates."
+        <mod name="gatecopy"
+            description="allows you to create a clipboard for copying settings between buildcraft gates."
             website="http://www.minecraftforum.net/topic/1253666-162152forge-denoflions-mods-threads-condensed/"
             type="mods"
             version="3.1.4"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/GateCopy-1.6.4-3.1.4.jar"
-            file="GateCopy-1.6.4-3.1.4.jar"
+            url="packs/redwoodserver/files/1.6.4/gatecopy-1.6.4-3.1.4.jar"
+            file="gatecopy-1.6.4-3.1.4.jar"
             md5="db327d476cab4d22977a0db1aa93dbf2"
             download="server"
             />
-        <mod name="LogisticsPipes"
-            description="Adds Buildcraft pipes capable of requesting items from remote inventories and automatically crafting."
-            website="https://github.com/RS485/LogisticsPipes"
+        <mod name="logisticspipes"
+            description="adds buildcraft pipes capable of requesting items from remote inventories and automatically crafting."
+            website="https://github.com/rs485/logisticspipes"
             type="mods"
             version="0.7.4-98"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/LogisticsPipes-MC1.6.4-0.7.4.dev.98.jar"
-            file="LogisticsPipes-MC1.6.4-0.7.4.dev.98.jar"
+            url="packs/redwoodserver/files/1.6.4/logisticspipes-mc1.6.4-0.7.4.dev.98.jar"
+            file="logisticspipes-mc1.6.4-0.7.4.dev.98.jar"
             md5="7c75c4365dd74902eaf78365ff3fcdb3"
             download="server"
             />
 
-        <!-- Computercraft -->
-        <mod name="OpenComputers"
+        <!-- computercraft -->
+        <mod name="opencomputers"
             type="mods"
-            description="Adds programmable computers to Minecraft"
+            description="adds programmable computers to minecraft"
             website="http://www.minecraftforum.net/topic/2201440-opencomputers-v11/"
             version="1.1.3"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//OpenComputers-1.1.3.zip"
-            file="OpenComputers-1.1.3.zip"
+            url="packs/redwoodserver/files//opencomputers-1.1.3.zip"
+            file="opencomputers-1.1.3.zip"
             md5="a85d4411f91e9ed5b8858f730afcfacc"
             download="server"
             />
-        <mod name="ComputerCraft"
+        <mod name="computercraft"
             type="mods"
-            description="Adds programmable computers to Minecraft"
+            description="adds programmable computers to minecraft"
             website="http://www.minecraftforum.net/topic/892282-152-computercraft-153-now-with-disco-floors/"
             version="1.58"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ComputerCraft1.58.zip"
-            file="ComputerCraft1.58.zip"
+            url="packs/redwoodserver/files//computercraft1.58.zip"
+            file="computercraft1.58.zip"
             md5="e2bed275489ffa7741ee247a11dbf142"
             download="server"
             />
-        <mod name="ImmibisPeripherals"
-            description="Adds more peripherals for computercraft."
+        <mod name="immibisperipherals"
+            description="adds more peripherals for computercraft."
             website="http://dl.dropboxusercontent.com/u/2944265/mods/autobuilt/index.html"
             type="mods"
             version="57.0.1"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//immibis-peripherals-57.0.1.jar"
+            url="packs/redwoodserver/files//immibis-peripherals-57.0.1.jar"
             file="immibis-peripherals-57.0.1.jar"
             md5="c1a415f2fd83845b9bbc4d56afec0d36"
             download="server"
             />
-        <!--<mod name="MiscPeripherals"
-            description="Addon for ComputerCraft that adds misc peripherals."
+        <!--<mod name="miscperipherals"
+            description="addon for computercraft that adds misc peripherals."
             website="http://www.computercraft.info/forums2/index.php?/topic/4587-cc153mc152-miscperipherals-33/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <!--<mod name="OpenCCSensors"
-            description="Adds sensors for use with ComputerCraft computers."
+        <!--<mod name="openccsensors"
+            description="adds sensors for use with computercraft computers."
             website="http://www.openperipheral.info/openccsensors/"
             type="mods"
             version=""
             library="yes"
             server="no"
             optional="yes"
-            url="packs/SolitaryCraftOrigins/files/forestry-A-2.3.0.1.jar"
-            file="forestry-A-2.3.0.1.jar"
+            url="packs/solitarycraftorigins/files/forestry-a-2.3.0.1.jar"
+            file="forestry-a-2.3.0.1.jar"
             md5="39ebd4def1ae7aebf06236e727a5fcbe"
             download="server"
             />-->
-        <mod name="RedIO"
-            description="Adds the ability to trigger and read redstone via Computercraft networks."
+        <mod name="redio"
+            description="adds the ability to trigger and read redstone via computercraft networks."
             website="http://www.computercraft.info/forums2/index.php?/topic/13519-mc-16xcc157mc-152cc-153-redio-a-redstone-inputoutput-peripheral-for-lan-networks-updated-11132013/"
             type="mods"
             version="1.1"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/[CC1.57]RedIO[v1.1].zip"
-            file="[CC1.57]RedIO[v1.1].zip"
+            url="packs/redwoodserver/files/[cc1.57]redio[v1.1].zip"
+            file="[cc1.57]redio[v1.1].zip"
             md5="10fe3c0ac514a6eec6f872c27d84329f"
             download="server"
             />
-        <mod name="OpenModsLib"
-            description="Library for use with OpenPeripherals and OpenBlocks."
+        <mod name="openmodslib"
+            description="library for use with openperipherals and openblocks."
             website="http://www.openperipheral.info/openperipheral/"
             type="mods"
             version="0.1-snapshot-96"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//OpenModsLib-0.1-snapshot-96.jar"
-            file="OpenModsLib-0.1-snapshot-96.jar"
+            url="packs/redwoodserver/files//openmodslib-0.1-snapshot-96.jar"
+            file="openmodslib-0.1-snapshot-96.jar"
             md5="e05852da9221c19fc07860b3fcabcca7"
             download="server"
             />
-        <mod name="OpenPeripheralCore"
-            description="Adds more peripherals for computercraft and makes most blocks into peripherals."
+        <mod name="openperipheralcore"
+            description="adds more peripherals for computercraft and makes most blocks into peripherals."
             website="http://www.openperipheral.info/openperipheral/"
             type="mods"
             version="0.2.1-snapshot-32"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//OpenPeripheralCore-0.2.1-snapshot-32.jar"
-            file="OpenPeripheralCore-0.2.1-snapshot-32.jar"
+            url="packs/redwoodserver/files//openperipheralcore-0.2.1-snapshot-32.jar"
+            file="openperipheralcore-0.2.1-snapshot-32.jar"
             md5="8fbb29d80511106ba1b2e774b6300f93"
             download="server"
             />
-        <mod name="OpenPeripheralAddons"
-            description="Adds more peripherals for computercraft and makes most blocks into peripherals."
+        <mod name="openperipheraladdons"
+            description="adds more peripherals for computercraft and makes most blocks into peripherals."
             website="http://www.openperipheral.info/openperipheral/"
             type="mods"
             version="0.1-snapshot-37"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//OpenPeripheralAddons-0.1-snapshot-37.jar"
-            file="OpenPeripheralAddons-0.1-snapshot-37.jar"
+            url="packs/redwoodserver/files//openperipheraladdons-0.1-snapshot-37.jar"
+            file="openperipheraladdons-0.1-snapshot-37.jar"
             md5="5e635c6e9cbbfbd0498a39c94abfc1f7"
             download="server"
             />
-        <!-- <mod name="CCTransport" -->
-            <!--     description="Adds a single stack buffer to computers for moving items programatically." -->
+        <!-- <mod name="cctransport" -->
+            <!--     description="adds a single stack buffer to computers for moving items programatically." -->
             <!--     website="http://www.computercraft.info/forums2/index.php?/topic/15384&#45;cctransport&#45;v101&#45;inventory&#45;management&#45;add&#45;on&#45;for&#45;openperipherals/" -->
             <!--     type="mods" -->
             <!--     version="1.0.1" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     depends="OpenPeripheral" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/CCTransport&#45;1.0.1.jar" -->
-            <!--     file="CCTransport&#45;1.0.1.jar" -->
+            <!--     depends="openperipheral" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/cctransport&#45;1.0.1.jar" -->
+            <!--     file="cctransport&#45;1.0.1.jar" -->
             <!--     md5="afd7267ba8d5c275fe3b586c886894d6" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="CCAdvHTTP"
-            description="Adds a peripheral block with a better HTTP API for ComputerCraft."
+        <mod name="ccadvhttp"
+            description="adds a peripheral block with a better http api for computercraft."
             website="http://www.computercraft.info/forums2/index.php?/topic/15697-ccadvhttp-advanced-http/"
             type="mods"
             version="0.5.0"
             optional="no"
             server="yes"
-            depends="OpenPeripheral"
-            url="packs/RedwoodServer/files/1.6.4/CCAdvHTTP-0.5.0.jar"
-            file="CCAdvHTTP-0.5.0.jar"
+            depends="openperipheral"
+            url="packs/redwoodserver/files/1.6.4/ccadvhttp-0.5.0.jar"
+            file="ccadvhttp-0.5.0.jar"
             md5="7bf35c57cc9d3e05dbb8d940f2f5c6e2"
             download="server"
             />
-        <mod name="CCScanner"
-            description="Adds scanner for scanning printed pages and books. You can then interact with the data gained in programs."
+        <mod name="ccscanner"
+            description="adds scanner for scanning printed pages and books. you can then interact with the data gained in programs."
             website="http://www.computercraft.info/forums2/index.php?/topic/15639-ccscanner-10-scan-printed-pages-164157/"
             type="mods"
             version="1.0"
             optional="no"
             server="yes"
-            depends="ComputerCraft"
-            url="packs/RedwoodServer/files/1.6.4/ccscanner-1.0.jar"
+            depends="computercraft"
+            url="packs/redwoodserver/files/1.6.4/ccscanner-1.0.jar"
             file="ccscanner-1.0.jar"
             md5="f9be93f62ff07a6191162583629c77f8"
             download="server"
             />
-        <!-- <mod name="Bioscanner" -->
-            <!--     description="Adds biometric security, keypads and programmable redstone blocks for use with ComputerCraft." -->
+        <!-- <mod name="bioscanner" -->
+            <!--     description="adds biometric security, keypads and programmable redstone blocks for use with computercraft." -->
             <!--     website="http://www.computercraft.info/forums2/index.php?/topic/6634-cc-155mc-162-gophers-peripherals-v21-biolock-new-keypad-locks/" -->
             <!--     type="mods" -->
             <!--     version="1.6.4-2.1.3" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     depends="ComputerCraft" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/BioLock_v2.1.3_1.6.2.zip" -->
-            <!--     file="BioLock_v2.1.3_1.6.2.zip" -->
+            <!--     depends="computercraft" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/biolock_v2.1.3_1.6.2.zip" -->
+            <!--     file="biolock_v2.1.3_1.6.2.zip" -->
             <!--     md5="ddb81cec77c0088207487a736cac837e" -->
             <!--     download="server" -->
             <!--     /> -->
-        <!-- Industrial Craft 2 -->
-        <mod name="IndustrialCraft2"
-            description="Industrialize your ore processing and go with some nuclear power!"
-            website="http://ic2api.player.to:8080/job/IC2_lf/changes"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=RHLW3YE3T848Q"
-            authors="Alblaka,Player,RichardG,Thunderdark,GregoriusT,alexthesax,Drashian,Elementalist,Feanturi,Lurch1985,SirusKing,tahu44"
+        <!-- industrial craft 2 -->
+        <mod name="industrialcraft2"
+            description="industrialize your ore processing and go with some nuclear power!"
+            website="http://ic2api.player.to:8080/job/ic2_lf/changes"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=rhlw3ye3t848q"
+            authors="alblaka,player,richardg,thunderdark,gregoriust,alexthesax,drashian,elementalist,feanturi,lurch1985,sirusking,tahu44"
             version="2_2.0.361-experimental"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//industrialcraft-2_2.0.361-experimental.jar"
+            url="packs/redwoodserver/files//industrialcraft-2_2.0.361-experimental.jar"
             file="industrialcraft-2_2.0.361-experimental.jar"
             md5="bca3e51ef764452b88422d7ce6c46f48"
             download="server"
             />
-        <mod name="AdvancedReactors"
-            description="Adding in new reactors into IC2!"
-            website="http://ic2api.player.to:8080/job/IC2_lf/changes"
-            depends="IndustrialCraft2"
+        <mod name="advancedreactors"
+            description="adding in new reactors into ic2!"
+            website="http://ic2api.player.to:8080/job/ic2_lf/changes"
+            depends="industrialcraft2"
             version="1.0.5"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/AdvancedReactors-1.6.2_1.0.5-exp.jar"
-            file="AdvancedReactors-1.6.2_1.0.5-exp.jar"
+            url="packs/redwoodserver/files/1.6.4/advancedreactors-1.6.2_1.0.5-exp.jar"
+            file="advancedreactors-1.6.2_1.0.5-exp.jar"
             md5="559dee852335b2042ee26601a98bce07"
             download="server"
             />
-        <mod name="GregTech"
-            description="Delays endgame massively and genrally makes life hard for you, but a lot of fun new machines to play with"
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=7156"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5TSWPMD6NLHBN"
-            authors="Gregorius Techneticies"
+        <mod name="gregtech"
+            description="delays endgame massively and genrally makes life hard for you, but a lot of fun new machines to play with"
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=7156"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=5tswpmd6nlhbn"
+            authors="gregorius techneticies"
             version="4.07q"
             type="mods"
-            depends="IndustrialCraft2"
+            depends="industrialcraft2"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//gregtechmod 4.07q.zip"
+            url="packs/redwoodserver/files//gregtechmod 4.07q.zip"
             file="gregtechmod 4.07q.zip"
             md5="23b56807bd361cb42bc4a9df6b1ab8ee"
             download="server"
             />
-        <mod name="AdvancedMachines"
-            description="Adds faster machines to Industrialcraft"
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=4907"
+        <mod name="advancedmachines"
+            description="adds faster machines to industrialcraft"
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=4907"
             version="5.2.3"
             type="mods"
-            depends="IndustrialCraft2"
+            depends="industrialcraft2"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/AdvancedMachines_1.6.4%20-%205.2.3.zip"
-            file="AdvancedMachines_1.6.4 - 5.2.3.zip"
+            url="packs/redwoodserver/files/1.6.4/advancedmachines_1.6.4%20-%205.2.3.zip"
+            file="advancedmachines_1.6.4 - 5.2.3.zip"
             md5="28c700698cefd77a8456d669ccee7486"
             download="server"
             />
-        <!--<mod name="AdvancedSolarPanels"
+        <!--<mod name="advancedsolarpanels"
             type="mods"
-            description="Industrialcraft energy in the form of Solar Panels!"
+            description="industrialcraft energy in the form of solar panels!"
             optional="yes"
-            depends="IndustrialCraft2"
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=3291"
+            depends="industrialcraft2"
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=3291"
             version="3.3.10"
-            url="packs/RedwoodServer/files/1.6.4/mod_AdvancedSolarPanels_3_3_10_IC_EXP.zip"
-            file="mod_AdvancedSolarPanels_3_3_10_IC_EXP.zip"
+            url="packs/redwoodserver/files/1.6.4/mod_advancedsolarpanels_3_3_10_ic_exp.zip"
+            file="mod_advancedsolarpanels_3_3_10_ic_exp.zip"
             md5="42f5e84e6090409ec3413836405a7657"
             download="server"
             />-->
-        <mod name="NuclearControl"
+        <mod name="nuclearcontrol"
             type="mods"
-            description="Control your nuclear goings on with this mod!"
-            depends="IndustrialCraft2"
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=5915"
+            description="control your nuclear goings on with this mod!"
+            depends="industrialcraft2"
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=5915"
             version="1.6.2e"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//IC2NuclearControl-1.6.2e-ic2-experimental.zip"
-            file="IC2NuclearControl-1.6.2e-ic2-experimental.zip"
+            url="packs/redwoodserver/files//ic2nuclearcontrol-1.6.2e-ic2-experimental.zip"
+            file="ic2nuclearcontrol-1.6.2e-ic2-experimental.zip"
             md5="e70955cad99fa6b4cd0f66de357bacb3"
             download="server"
             />
-        <mod name="GravitationSuite"
+        <mod name="gravitationsuite"
             type="mods"
-            description="A suit that let's you fly creative style"
-            depends="IndustrialCraft2"
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=6915"
+            description="a suit that let's you fly creative style"
+            depends="industrialcraft2"
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=6915"
             version="1.9.8"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/mod_zGraviSuite_1_9_8_MC_1_6_4_IC_EXP.zip"
-            file="mod_zGraviSuite_1_9_8_MC_1_6_4_IC_EXP.zip"
+            url="packs/redwoodserver/files/1.6.4/mod_zgravisuite_1_9_8_mc_1_6_4_ic_exp.zip"
+            file="mod_zgravisuite_1_9_8_mc_1_6_4_ic_exp.zip"
             md5="a74da90012db6f06303e3c1428f99066"
             download="server"
             />
-        <!--<mod name="FrogCraft"
+        <!--<mod name="frogcraft"
             type="mods"
-            linked="Industrial Craft 2"
-            description="A suit that let's you fly creative style"
-            website="http://forum.industrial-craft.net/index.php?page=Thread&amp;threadID=9458"
+            linked="industrial craft 2"
+            description="a suit that let's you fly creative style"
+            website="http://forum.industrial-craft.net/index.php?page=thread&amp;threadid=9458"
             version="1.6.2"
             optional="no"
             server="yes"
-            url="packs/SolitaryCraft/files/FrogCraft162.zip"
-            file="FrogCraft162.zip"
+            url="packs/solitarycraft/files/frogcraft162.zip"
+            file="frogcraft162.zip"
             md5="a632d7f5931e960ef2e0ffa38a21b58d"
             download="server"
             />-->
 
-        <!-- Modular Powersuits -->
+        <!-- modular powersuits -->
 
-        <mod name="ModularPowersuits Library 1 - Numina"
-            description="Adds Modular Power suits armour."
+        <mod name="modularpowersuits library 1 - numina"
+            description="adds modular power suits armour."
             website="http://machinemuse.net/download.php"
             type="mods"
             version="0.0.1-32"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Numina-1.6.2-0.0.1-32.jar"
-            file="Numina-1.6.2-0.0.1-32.jar"
+            url="packs/redwoodserver/files/1.6.4/numina-1.6.2-0.0.1-32.jar"
+            file="numina-1.6.2-0.0.1-32.jar"
             md5="d8156307525984e21b8a99938923b7c9"
             download="server"
             />
 
-        <mod name="ModularPowersuits Library 2 - Slick-util"
-            description="Adds Modular Power suits armour."
+        <mod name="modularpowersuits library 2 - slick-util"
+            description="adds modular power suits armour."
             website="http://machinemuse.net/download.php"
             type="mods"
             version="1.6.4"
-            url="packs/RedwoodServer/files/1.6.4/slick-util%20(2).jar"
+            url="packs/redwoodserver/files/1.6.4/slick-util%20(2).jar"
             file="slick-util (2).jar"
             md5="0b9db0b296b5eb1df8d11eb30dc87b8f"
             download="server"
             />
 
-        <mod name="ModularPowersuits"
-            description="Adds Modular Power suits armour."
+        <mod name="modularpowersuits"
+            description="adds modular power suits armour."
             website="http://machinemuse.net/download.php"
             type="mods"
             version="0.9.0-76"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ModularPowersuits-1.6.2-0.9.0-76.jar"
-            file="ModularPowersuits-1.6.2-0.9.0-76.jar"
+            url="packs/redwoodserver/files//modularpowersuits-1.6.2-0.9.0-76.jar"
+            file="modularpowersuits-1.6.2-0.9.0-76.jar"
             md5="97ca440147358aadcf485c824704aad6"
             download="server"
             />
 
-        <!--<mod name="ModularPowersuits-Addons"
-            description="Adds more modules for the Modular Power suits armour."
+        <!--<mod name="modularpowersuits-addons"
+            description="adds more modules for the modular power suits armour."
             website="http://machinemuse.net/download.php"
             type="mods"
             version=""
-            url="packs/SolitaryCraftOrigins/files/ModularPowersuits-1.6.2-0.8.0-646.jar"
-            file="ModularPowersuits-1.6.2-0.8.0-646.jar"
+            url="packs/solitarycraftorigins/files/modularpowersuits-1.6.2-0.8.0-646.jar"
+            file="modularpowersuits-1.6.2-0.8.0-646.jar"
             md5="d8f809ebe38220ad6a4d3626be01d31a"
             download="server"
             />-->
-        <!-- PowerCrystals Mods -->
-        <mod name="PowerCrystalsCore"
+        <!-- powercrystals mods -->
+        <mod name="powercrystalscore"
             website="http://www.minecraftforum.net/topic/2016680-162164-powercrystals-mods-minefactoryreloaded-powercrystalscore-and-netherores-updated/"
             version="1.1.8"
             type="mods"
-            description="Needed for Minefactory Reloaded"
+            description="needed for minefactory reloaded"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/PowerCrystalsCore-1.1.8-9.jar"
-            file="PowerCrystalsCore-1.1.8-9.jar"
+            url="packs/redwoodserver/files/powercrystalscore-1.1.8-9.jar"
+            file="powercrystalscore-1.1.8-9.jar"
             md5="11ce6aeaa3a73761580f9a541345ef4b"
             download="server"
             />
-        <mod name="MinefactoryReloaded"
+        <mod name="minefactoryreloaded"
             website="http://www.minecraftforum.net/topic/2016680-162164-powercrystals-mods-minefactoryreloaded-powercrystalscore-and-netherores-updated/"
-            description="Adds efficient farms, a redstone network and compact storage systems."
+            description="adds efficient farms, a redstone network and compact storage systems."
             version="2.7.4-255"
             type="mods"
-            depends="PowerCrystalsCore"
+            depends="powercrystalscore"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//MineFactoryReloaded-2.7.4-255.jar"
-            file="MineFactoryReloaded-2.7.4-255.jar"
+            url="packs/redwoodserver/files//minefactoryreloaded-2.7.4-255.jar"
+            file="minefactoryreloaded-2.7.4-255.jar"
             md5="c8f1dca675db22a7739f4fe013bd50da"
             download="server"
             />
 
-        <!-- Thaumcraft -->
-        <mod name="Thaumcraft"
+        <!-- thaumcraft -->
+        <mod name="thaumcraft"
             website="http://www.minecraftforum.net/topic/2011841-thaumcraft-404c-updated-10112013/"
             version="4.0.5b"
             type="mods"
-            description="The best magical mod around, adds tonnes of magical Items and machines into minecraft and much more involved!"
-            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=88PFJA73AEFFW&amp;lc=ZA&amp;item_name=ThaumCraft&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted"
+            description="the best magical mod around, adds tonnes of magical items and machines into minecraft and much more involved!"
+            donation="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=88pfja73aeffw&amp;lc=za&amp;item_name=thaumcraft&amp;currency_code=usd&amp;bn=pp%2ddonationsbf%3abtn_donate_lg%2egif%3anonhosted"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/forgelibs/Thaumcraft4.0.5b.zip"
-            file="Thaumcraft4.0.5b.zip"
+            url="packs/redwoodserver/files/forgelibs/thaumcraft4.0.5b.zip"
+            file="thaumcraft4.0.5b.zip"
             md5="c83fdf939e5f229260e7d0a785b86b12"
             download="server"
             />
-        <mod name="ThaumicTinkerer"
-            description="Adds in more Thaumcraft research and cool new items!"
+        <mod name="thaumictinkerer"
+            description="adds in more thaumcraft research and cool new items!"
             website="http://www.minecraftforum.net/topic/1813058-thaumic-tinkerer-thaumcraft-addon-evolve-knowledge-v101/"
             version="2.1-66"
             type="mods"
-            depends="Thaumcraft"
+            depends="thaumcraft"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ThaumicTinkerer 2.1-66.jar"
-            file="ThaumicTinkerer 2.1-66.jar"
+            url="packs/redwoodserver/files//thaumictinkerer 2.1-66.jar"
+            file="thaumictinkerer 2.1-66.jar"
             md5="e63f229867af1df7000c19eb93f070bd"
             download="server"
             />
 
-        <mod name="ThaumicTinkererKAMI"
-            description="Adds in more Thaumcraft research and cool new items!"
+        <mod name="thaumictinkererkami"
+            description="adds in more thaumcraft research and cool new items!"
             website="http://www.minecraftforum.net/topic/1813058-thaumic-tinkerer-thaumcraft-addon-evolve-knowledge-v101/"
             version="1.0"
             type="mods"
-            depends="Thaumcraft"
+            depends="thaumcraft"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ThaumicTinkererKAMI.jar"
-            file="ThaumicTinkererKAMI.jar"
+            url="packs/redwoodserver/files//thaumictinkererkami.jar"
+            file="thaumictinkererkami.jar"
             md5="b540261eb28521d965b89a9095a8d5dc"
             download="server"
             />
 
-        <!-- Immibis Mods -->
-        <mod name="ImmibisCore"
-            description="Needed for MicroBlocks and Redlogic"
+        <!-- immibis mods -->
+        <mod name="immibiscore"
+            description="needed for microblocks and redlogic"
             website="http://immibis.com/mcmoddl/"
             version="57.1.92"
             type="mods"
             library="yes"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//immibis-core-57.1.92.jar"
+            url="packs/redwoodserver/files//immibis-core-57.1.92.jar"
             file="immibis-core-57.1.92.jar"
             md5="a0d01e04dd5840d45dbb7106e4d9c067"
             download="server"
             />
-        <!-- <mod name="RedLogic" -->
-            <!--     description="Adds in an equivalent to Red Power's logic gates and wires!" -->
+        <!-- <mod name="redlogic" -->
+            <!--     description="adds in an equivalent to red power's logic gates and wires!" -->
             <!--     website="http://immibis.com/mcmoddl/" -->
             <!--     version="57.2.1" -->
             <!--     type="mods" -->
-            <!--     depends="ImmibisCore" -->
+            <!--     depends="immibiscore" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/redlogic-57.2.1.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/redlogic-57.2.1.jar" -->
             <!--     file="redlogic-57.2.1.jar" -->
             <!--     md5="0f271334792363d48f4eff278cf855f8" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="TubeStuff"
-            description="Adds in a load of tube stuff!"
+        <mod name="tubestuff"
+            description="adds in a load of tube stuff!"
             website="http://immibis.com/mcmoddl/"
             version="57.1.3"
             type="mods"
-            depends="ImmibisCore"
+            depends="immibiscore"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//tubestuff-57.1.3.jar"
+            url="packs/redwoodserver/files//tubestuff-57.1.3.jar"
             file="tubestuff-57.1.3.jar"
             md5="c7b971f9b42254faca0039eeac2a3691"
             download="server"
             />
-        <mod name="InfiniTubes"
-            description="Adds in a load of tube stuff!"
+        <mod name="infinitubes"
+            description="adds in a load of tube stuff!"
             website="http://immibis.com/mcmoddl/"
             version="57.0.5"
             type="mods"
-            depends="ImmibisCore"
+            depends="immibiscore"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//infinitubes-57.0.5.jar"
+            url="packs/redwoodserver/files//infinitubes-57.0.5.jar"
             file="infinitubes-57.0.5.jar"
             md5="0bbd903117ed9142e687f4e4de462520"
             download="server"
             />
 
-        <!-- <mod name="WPML" -->
-            <!--     description="A library for Seasons Mod" -->
+        <!-- <mod name="wpml" -->
+            <!--     description="a library for seasons mod" -->
             <!--     website="http://www.minecraftforum.net/topic/1482770-164-the-seasons-mod-v1122-smp-fewer-bugs/" -->
             <!--     version="1.6.4-0.7-1.6.4" -->
-            <!--     depends="WPML" -->
+            <!--     depends="wpml" -->
             <!--     type="mods" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/WPML-0.7-1.6.4.jar" -->
-            <!--     file="WPML-0.7-1.6.4.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/wpml-0.7-1.6.4.jar" -->
+            <!--     file="wpml-0.7-1.6.4.jar" -->
             <!--     md5="972771250a61baad2a2b1717041aca0c" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="SeasonsMod" -->
-            <!--     description="Adds seasons to your minecraft world" -->
+        <!-- <mod name="seasonsmod" -->
+            <!--     description="adds seasons to your minecraft world" -->
             <!--     website="http://www.minecraftforum.net/topic/1482770-164-the-seasons-mod-v1122-smp-fewer-bugs/" -->
             <!--     version="1.6.4-1.12.2" -->
-            <!--     depends="WPML" -->
+            <!--     depends="wpml" -->
             <!--     type="extract" -->
             <!--     extractto="mods" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/Seasons_Mod_v1.12.2.zip" -->
-            <!--     file="Seasons_Mod_v1.12.2.zip" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/seasons_mod_v1.12.2.zip" -->
+            <!--     file="seasons_mod_v1.12.2.zip" -->
             <!--     md5="0af569920821da91fe27acc30aa9469e" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <!-- <mod name="ZombieAwareness" -->
-            <!--     description="Makes Zombies Harder!!!" -->
+        <!-- <mod name="zombieawareness" -->
+            <!--     description="makes zombies harder!!!" -->
             <!--     website="http://www.coros.us/mods/zombieawareness" -->
             <!--     version="1.6.4-1.9" -->
             <!--     type="mods" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/Zombie%20Awareness%20v1.9%20Mod%20for%20MC%20v1.6.2%20extracted.zip" -->
-            <!--     file="Zombie Awareness v1.9 Mod for MC v1.6.2 extracted.zip" -->
+            <!--     url="packs/redwoodserver/files/zombie%20awareness%20v1.9%20mod%20for%20mc%20v1.6.2%20extracted.zip" -->
+            <!--     file="zombie awareness v1.9 mod for mc v1.6.2 extracted.zip" -->
             <!--     md5="b0e0c178804e18fd4d8e56fa54186951" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <mod name="VoxelSniper"
-            description="Enables easy sculpting of landscapes."
-            website="http://www.voxelwiki.com/minecraft/VoxelSniper"
+        <mod name="voxelsniper"
+            description="enables easy sculpting of landscapes."
+            website="http://www.voxelwiki.com/minecraft/voxelsniper"
             version="5.168.7"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/VoxelSniper-5.168.7-SNAPSHOT.jar"
-            file="VoxelSniper-5.168.7-SNAPSHOT.jar"
+            url="packs/redwoodserver/files/voxelsniper-5.168.7-snapshot.jar"
+            file="voxelsniper-5.168.7-snapshot.jar"
             md5="f50146f69d3920ca053f027f4f7975a0"
             download="server"
             />
 
-        <!-- <mod name="AdvancedDarkness" -->
-            <!--     description="A mod that edits the way darkness appears and keeps things...interesting" -->
+        <!-- <mod name="advanceddarkness" -->
+            <!--     description="a mod that edits the way darkness appears and keeps things...interesting" -->
             <!--     website="http://www.minecraftforum.net/topic/1872209-162-forgejar-advanced-darkness-15/" -->
             <!--     version="1.6.4-1.5" -->
             <!--     type="mods" -->
             <!--     optional="no" -->
             <!--     server="yes" -->
-            <!--     url="packs/RedwoodServer/files/1.6.4/Advanced%20Darkness(1.6.2,%20v1.5)%20FORGE.jar" -->
-            <!--     file="Advanced Darkness(1.6.2, v1.5) FORGE.jar" -->
+            <!--     url="packs/redwoodserver/files/1.6.4/advanced%20darkness(1.6.2,%20v1.5)%20forge.jar" -->
+            <!--     file="advanced darkness(1.6.2, v1.5) forge.jar" -->
             <!--     md5="c0cf26e2aff4414a1c007dc4469f8a21" -->
             <!--     download="server" -->
             <!--     /> -->
 
-        <mod name="DimensionalAnchors"
-            description="Adds highly customisable chunkloaders."
+        <mod name="dimensionalanchors"
+            description="adds highly customisable chunkloaders."
             website="http://www.minecraftforum.net/topic/833003-162164-custom-npcs-splanmp/"
             version="57.1.9"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//dimensional-anchor-57.1.9.jar"
+            url="packs/redwoodserver/files//dimensional-anchor-57.1.9.jar"
             file="dimensional-anchor-57.1.9.jar"
             md5="86c967f056192f0cb9b2dee86d966fdf"
             download="server"
             />
 
-        <mod name="Reliquary"
-            description="Adds magical swag, and a weapon, and stuff."
-            website="https://github.com/TrainerGuy22/Reliquary"
+        <mod name="reliquary"
+            description="adds magical swag, and a weapon, and stuff."
+            website="https://github.com/trainerguy22/reliquary"
             version="1.1.1"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Reliquary-1.6.4-1.1.1.jar"
-            file="Reliquary-1.6.4-1.1.1.jar"
+            url="packs/redwoodserver/files/1.6.4/reliquary-1.6.4-1.1.1.jar"
+            file="reliquary-1.6.4-1.1.1.jar"
             md5="43b1629c43a06fdf8b2438a62c8170a0"
             download="server"
             />
 
-        <mod name="LightBridges"
-            description="A mod that adds Light Bridges and Doors"
+        <mod name="lightbridges"
+            description="a mod that adds light bridges and doors"
             website="http://kristians-applications.decode.org.nz/lbd/download.html"
             version="1.7"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Light%20bridges%20and%20doors%20V1.7.zip"
-            file="Light bridges and doors V1.7.zip"
+            url="packs/redwoodserver/files/1.6.4/light%20bridges%20and%20doors%20v1.7.zip"
+            file="light bridges and doors v1.7.zip"
             md5="9c5ee46cc37ce5e8453f1941d66b9aa8"
             download="server"
             />
 
-        <!-- <mod name="StargateTech2" -->
-        <!--     description="A stargates and technical shizzwazz" -->
+        <!-- <mod name="stargatetech2" -->
+        <!--     description="a stargates and technical shizzwazz" -->
         <!--     website="http://mod&#45;stargatetech.com/" -->
         <!--     version="0.6.1" -->
         <!--     type="mods" -->
         <!--     optional="no" -->
         <!--     server="yes" -->
-        <!--     url="packs/RedwoodServer/files/1.6.4/StargateTech2&#45;Alpha&#45;0&#45;6&#45;1&#45;MC164&#45;Forge965.jar" -->
-        <!--     file="StargateTech2&#45;Alpha&#45;0&#45;6&#45;1&#45;MC164&#45;Forge965.jar" -->
+        <!--     url="packs/redwoodserver/files/1.6.4/stargatetech2&#45;alpha&#45;0&#45;6&#45;1&#45;mc164&#45;forge965.jar" -->
+        <!--     file="stargatetech2&#45;alpha&#45;0&#45;6&#45;1&#45;mc164&#45;forge965.jar" -->
         <!--     md5="1030ac094c5ffc4c3d5ac97e8a9bfd31" -->
         <!--     download="server" -->
         <!--     /> -->
 
-        <mod name="qCraft"
-            description="Quantum mechanics in Minecraft"
+        <mod name="qcraft"
+            description="quantum mechanics in minecraft"
             website="http://qcraft.org/downloads/"
             version="1.1"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/qCraft1.1.zip"
-            file="qCraft1.1.zip"
+            url="packs/redwoodserver/files/1.6.4/qcraft1.1.zip"
+            file="qcraft1.1.zip"
             md5="809eb0c95706f3e2807ee1cd62add838"
             download="server"
             />
 
-        <!--Project Red-->
+        <!--project red-->
 
-        <mod name="ProjectRed"
-            description="A mod that is trying to replace everything from RedPower"
+        <mod name="projectred"
+            description="a mod that is trying to replace everything from redpower"
             website="http://www.minecraftforum.net/topic/1885652-164forge-multipart-projectred-v40512-10172013/"
             version="4.2.2.19"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ProjectRedBase-1.6.4-4.2.2.19.jar"
-            file="ProjectRedBase-1.6.4-4.2.2.19.jar"
+            url="packs/redwoodserver/files//projectredbase-1.6.4-4.2.2.19.jar"
+            file="projectredbase-1.6.4-4.2.2.19.jar"
             md5="b980fad71dd0dc377e66045db698ec71"
             download="server"
             />
 
-        <mod name="ProjectRedCompat"
-            description="A mod that is trying to replace everything from RedPower"
+        <mod name="projectredcompat"
+            description="a mod that is trying to replace everything from redpower"
             website="http://www.minecraftforum.net/topic/1885652-164forge-multipart-projectred-v40512-10172013/"
             version="4.2.2.19"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ProjectRedCompat-1.6.4-4.2.2.19.jar"
-            file="ProjectRedCompat-1.6.4-4.2.2.19.jar"
+            url="packs/redwoodserver/files//projectredcompat-1.6.4-4.2.2.19.jar"
+            file="projectredcompat-1.6.4-4.2.2.19.jar"
             md5="36b4d92ef35918b363898b41335778a5"
             download="server"
             />
 
-        <mod name="ProjectRedIntegration"
-            description="A mod that is trying to replace everything from RedPower"
+        <mod name="projectredintegration"
+            description="a mod that is trying to replace everything from redpower"
             website="http://www.minecraftforum.net/topic/1885652-164forge-multipart-projectred-v40512-10172013/"
             version="4.2.2.19"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ProjectRedIntegration-1.6.4-4.2.2.19.jar"
-            file="ProjectRedIntegration-1.6.4-4.2.2.19.jar"
+            url="packs/redwoodserver/files//projectredintegration-1.6.4-4.2.2.19.jar"
+            file="projectredintegration-1.6.4-4.2.2.19.jar"
             md5="b6d4b9082b0f00d37f3705663c1fc5c7"
             download="server"
             />
 
-        <mod name="ProjectRedWorld"
-            description="A mod that is trying to replace everything from RedPower"
+        <mod name="projectredworld"
+            description="a mod that is trying to replace everything from redpower"
             website="http://www.minecraftforum.net/topic/1885652-164forge-multipart-projectred-v40512-10172013/"
             version="4.2.2.19"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ProjectRedWorld-1.6.4-4.2.2.19.jar"
-            file="ProjectRedWorld-1.6.4-4.2.2.19.jar"
+            url="packs/redwoodserver/files//projectredworld-1.6.4-4.2.2.19.jar"
+            file="projectredworld-1.6.4-4.2.2.19.jar"
             md5="086448d857d4cf3d95bf43de09170e0e"
             download="server"
             />
 
-        <mod name="ProjectRedLighting"
-            description="A mod that is trying to replace everything from RedPower"
+        <mod name="projectredlighting"
+            description="a mod that is trying to replace everything from redpower"
             website="http://www.minecraftforum.net/topic/1885652-164forge-multipart-projectred-v40512-10172013/"
             version="4.2.2.19"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files//ProjectRedLighting-1.6.4-4.2.2.19.jar"
-            file="ProjectRedLighting-1.6.4-4.2.2.19.jar"
+            url="packs/redwoodserver/files//projectredlighting-1.6.4-4.2.2.19.jar"
+            file="projectredlighting-1.6.4-4.2.2.19.jar"
             md5="7d02992161fced5098cd825a3dc4d991"
             download="server"
             />
 
-        <mod name="Galacticraft"
-            description="Now fly...to the moon"
+        <mod name="galacticraft"
+            description="now fly...to the moon"
             website="http://www.micdoodle8.com/mods/galacticraft/"
             version="2.0.8.908"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Galacticraft-1.6.4-2.0.8.908.jar"
-            file="Galacticraft-1.6.4-2.0.8.908.jar"
+            url="packs/redwoodserver/files/1.6.4/galacticraft-1.6.4-2.0.8.908.jar"
+            file="galacticraft-1.6.4-2.0.8.908.jar"
             md5="772ba88f55671e22f20a8ed8d1347164"
             download="server"
             />
 
-        <mod name="Galacticraft-Planets"
-            description="Now fly...to the moon"
+        <mod name="galacticraft-planets"
+            description="now fly...to the moon"
             website="http://www.micdoodle8.com/mods/galacticraft/"
             version="2.0.8.908"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/Galacticraft-Planets-1.6.4-2.0.8.908.jar"
-            file="Galacticraft-Planets-1.6.4-2.0.8.908.jar"
+            url="packs/redwoodserver/files/1.6.4/galacticraft-planets-1.6.4-2.0.8.908.jar"
+            file="galacticraft-planets-1.6.4-2.0.8.908.jar"
             md5="38de7f31a507b9685f317ad148a0c163"
             download="server"
             />
 
-        <mod name="MicdoodleCore"
-            description="Now fly...to the moon"
+        <mod name="micdoodlecore"
+            description="now fly...to the moon"
             website="http://www.micdoodle8.com/mods/galacticraft/"
             version="2.0.8.908"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/MicdoodleCore-1.6.4-2.0.8.908.jar"
-            file="MicdoodleCore-1.6.4-2.0.8.908.jar"
+            url="packs/redwoodserver/files/1.6.4/micdoodlecore-1.6.4-2.0.8.908.jar"
+            file="micdoodlecore-1.6.4-2.0.8.908.jar"
             md5="fa834ede2b361f856ea1d09150abc8a9"
             download="server"
             />
 
-        <mod name="TabbyChat"
-            description="Does summat with chats"
+        <mod name="tabbychat"
+            description="does summat with chats"
             website="http://www.minecraftforum.net/topic/1540451-164-tabbychat-v1902-smp-chat-overhaul/"
             version="1.10.00"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/TabbyChat-1.10.00.jar"
-            file="TabbyChat-1.10.00.jar"
+            url="packs/redwoodserver/files/1.6.4/tabbychat-1.10.00.jar"
+            file="tabbychat-1.10.00.jar"
             md5="beff943f7e9df52cede5646a32f1e6c0"
             download="server"
             />
 
-        <mod name="EmasherResource"
-            description="Adds a tonne of stuff, can't describe the amazingness"
-            website="http://emashersmods.wikispaces.com/Downloads"
+        <mod name="emasherresource"
+            description="adds a tonne of stuff, can't describe the amazingness"
+            website="http://emashersmods.wikispaces.com/downloads"
             version="1.2.1.8"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/EmasherResource-1.2.1.8.zip"
-            file="EmasherResource-1.2.1.8.zip"
+            url="packs/redwoodserver/files/1.6.4/emasherresource-1.2.1.8.zip"
+            file="emasherresource-1.2.1.8.zip"
             md5="e05e3b144ba56e20c08d3de75288c72a"
             download="server"
             />
 
-        <mod name="EngineersToolbox"
-            description="Adds a tonne of stuff, can't describe the amazingness"
-            website="http://emashersmods.wikispaces.com/Downloads"
+        <mod name="engineerstoolbox"
+            description="adds a tonne of stuff, can't describe the amazingness"
+            website="http://emashersmods.wikispaces.com/downloads"
             version="1.1.6.6"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/EngineersToolbox-1.1.6.6.zip"
-            file="EngineersToolbox-1.1.6.6.zip"
+            url="packs/redwoodserver/files/1.6.4/engineerstoolbox-1.1.6.6.zip"
+            file="engineerstoolbox-1.1.6.6.zip"
             md5="382c4e180ae3410c6c4639d3ee11edb6"
             download="server"
             />
 
-        <mod name="bcTools"
-            description="Adds buildcraft tools"
+        <mod name="bctools"
+            description="adds buildcraft tools"
             website="http://www.minecraftforum.net/topic/1647902-buildcraft-addon-buildcraft-tools-development-page/"
             version="1.4-a-12"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/bcTools-v1.4-a-12.jar"
-            file="bcTools-v1.4-a-12.jar"
+            url="packs/redwoodserver/files/1.6.4/bctools-v1.4-a-12.jar"
+            file="bctools-v1.4-a-12.jar"
             md5="80020dbd2a7c574201d677cefa09c9c0"
             download="server"
             />
 
-        <mod name="PneumaticCraft"
-            description="Adds tools and machines powered by compressed air."
+        <mod name="pneumaticcraft"
+            description="adds tools and machines powered by compressed air."
             website="http://www.minecraftforum.net/topic/1841226-164forgesspsmptechmodwip-pneumaticcraft/"
             version="1.0.6"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/PneumaticCraft-1.0.6.zip"
-            file="PneumaticCraft-1.0.6.zip"
+            url="packs/redwoodserver/files/1.6.4/pneumaticcraft-1.0.6.zip"
+            file="pneumaticcraft-1.0.6.zip"
             md5="9907aaf2e01ba77e98bf2a3b69a350db"
             download="server"
             />
 
-            <!--<mod name="ExtraTiC"
-            description="Integeration between Metallurgy and Tinkers Construct"
+            <!--<mod name="extratic"
+            description="integeration between metallurgy and tinkers construct"
             website="http://www.minecraftforum.net/topic/1985397-164forge-extratic-tinkers-construct-metallurgy-add-on/"
             version="1.6.4-0.7.0"
-            depends="TinkersConstruct"
+            depends="tinkersconstruct"
             type="mods"
-            url="packs/RedwoodServer/files/1.6.4/ExtraTiC-1.6.4-0.7.0.jar"
-            file="ExtraTiC-1.6.4-0.7.0.jar"
+            url="packs/redwoodserver/files/1.6.4/extratic-1.6.4-0.7.0.jar"
+            file="extratic-1.6.4-0.7.0.jar"
             md5="e5a687e162143532389545a1aac76585"
             download="server"
             />-->
 
-        <mod name="ToolBeltMod"
-            description="Allow players to see your dildo's hanging around your waist"
+        <mod name="toolbeltmod"
+            description="allow players to see your dildo's hanging around your waist"
             website="http://www.minecraftforum.net/topic/2012366-164162-aesthetic-smpssp-toolbelt-show-off-your-items/"
             version="1.6.4-3"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/ToolBelts%201.6.4%20v3.zip"
-            file="ToolBelts 1.6.4 v3.zip"
+            url="packs/redwoodserver/files/1.6.4/toolbelts%201.6.4%20v3.zip"
+            file="toolbelts 1.6.4 v3.zip"
             md5="b4acaeb1e885842ecbc1260d945efaf8"
             download="server"
             />
 
-        <mod name="LiquidXP"
-            description="Allows you to store xp in liquid form"
+        <mod name="liquidxp"
+            description="allows you to store xp in liquid form"
             website="http://immibis.com/mcmoddl/"
             version="57.0.0"
             type="mods"
             optional="no"
             server="yes"
-            url="packs/RedwoodServer/files/1.6.4/liquid-xp-57.0.0.jar"
+            url="packs/redwoodserver/files/1.6.4/liquid-xp-57.0.0.jar"
             file="liquid-xp-57.0.0.jar"
             md5="13a7ed4a74157460490e753ff396dfc2"
             download="server"
             />
 
-        <!-- Thermal Expansion -->
-        <mod name="CoFHCore"
+        <!-- thermal expansion -->
+        <mod name="cofhcore"
             website="http://www.teamcofh.com/"
             version="2.0.0.2"
             library="yes"
             type="mods"
-            description="A tech mod that allows you to make compact ore processing facilities"
-            url="packs/RedwoodServer/files/1.6.4/CoFHCore-2.0.0.2.jar"
-            file="CoFHCore-2.0.0.2.jar"
+            description="a tech mod that allows you to make compact ore processing facilities"
+            url="packs/redwoodserver/files/1.6.4/cofhcore-2.0.0.2.jar"
+            file="cofhcore-2.0.0.2.jar"
             md5="ade9ade85b385827f56de0432d290665"
             download="server"
             />
-        <mod name="ThermalExpansion"
+        <mod name="thermalexpansion"
             website="http://www.teamcofh.com/"
             version="3.0.0.2"
             type="mods"
-            depends="Cofh Core"
-            description="A tech mod that allows you to make compact ore processing facilities"
-            url="packs/RedwoodServer/files/1.6.4/ThermalExpansion-3.0.0.2.jar"
-            file="ThermalExpansion-3.0.0.2.jar"
+            depends="cofh core"
+            description="a tech mod that allows you to make compact ore processing facilities"
+            url="packs/redwoodserver/files/1.6.4/thermalexpansion-3.0.0.2.jar"
+            file="thermalexpansion-3.0.0.2.jar"
             md5="3dec4e88dfbb07b7c79f41d89a7faca5"
             download="server"
             />
-        <mod name="Power Boxes"
+        <mod name="power boxes"
             website="http://www.minecraftforum.net/topic/1953987-164-power-boxes-112-get-the-cables-now-while-theyre-hot-1000-downloads/"
             version="1.1.2"
             type="mods"
-            description="Power Conversion and Storage in One Mod"
-            url="packs/RedwoodServer/files/1.6.4/PowerBoxes_1.1.2.zip"
-            file="PowerBoxes_1.1.2.zip"
+            description="power conversion and storage in one mod"
+            url="packs/redwoodserver/files/1.6.4/powerboxes_1.1.2.zip"
+            file="powerboxes_1.1.2.zip"
             md5="10ca20ce352aec420206f17c7fd9ab5b"
             download="server"
             />
-        <mod name="Morpheus"
+        <mod name="morpheus"
             website="http://www.minecraftforum.net/topic/1953987-164-power-boxes-112-get-the-cables-now-while-theyre-hot-1000-downloads/"
             version="1.2.32"
             type="mods"
             server="yes"
             client="no"
             optional="no"
-            description="Adds sleep voting to servers. Also notifies people that there are people wanting to sleep and allows sleeping even if some are not in a bed (based on a percentage of how many people are on (default 50%))."
-            url="packs/RedwoodServer/files//Morpheus-1.6.4-1.2.32.jar"
-            file="Morpheus-1.6.4-1.2.32.jar"
+            description="adds sleep voting to servers. also notifies people that there are people wanting to sleep and allows sleeping even if some are not in a bed (based on a percentage of how many people are on (default 50%))."
+            url="packs/redwoodserver/files//morpheus-1.6.4-1.2.32.jar"
+            file="morpheus-1.6.4-1.2.32.jar"
             md5="1493f287af37618e3bc6ca3bc9744a7a"
             download="server"
             />
-        <mod name="PlayerBeacons"
+        <mod name="playerbeacons"
             website="http://kihirakreations.co.uk/mcmods/player-beacons/"
             version="1.2.0a"
             type="mods"
-            description="Dimension wide buffs!"
-            url="packs/RedwoodServer/files//PlayerBeacons-1.6.2-1.2.0a.zip"
-            file="PlayerBeacons-1.6.2-1.2.0a.zip"
+            description="dimension wide buffs!"
+            url="packs/redwoodserver/files//playerbeacons-1.6.2-1.2.0a.zip"
+            file="playerbeacons-1.6.2-1.2.0a.zip"
             md5="6078a2832a96f377d5561369b440879d"
             download="server"
             />
-        <mod name="Steve'sFactoryManager"
-            website="http://stevesfactorymanager.wikispaces.com/Download"
-            version="A29"
+        <mod name="steve'sfactorymanager"
+            website="http://stevesfactorymanager.wikispaces.com/download"
+            version="a29"
             type="mods"
-            description="Unique Inventory Management!"
-            url="packs/RedwoodServer/files/1.6.4/StevesFactoryManagerA29.zip"
-            file="StevesFactoryManagerA29.zip"
+            description="unique inventory management!"
+            url="packs/redwoodserver/files/1.6.4/stevesfactorymanagera29.zip"
+            file="stevesfactorymanagera29.zip"
             md5="0c0acd1709bf30fedb5d2603a5b4fee2"
             download="server"
             />
-        <mod name="Witchery"
+        <mod name="witchery"
             website="http://www.minecraftforum.net/topic/1992544-"
             version="0-13-1"
             type="mods"
-            description="Extending Minecraft with Witchcraft"
-            url="packs/RedwoodServer/files/1.6.4/Witchery_0-13-1_164.zip"
-            file="Witchery_0-13-1_164.zip"
+            description="extending minecraft with witchcraft"
+            url="packs/redwoodserver/files/1.6.4/witchery_0-13-1_164.zip"
+            file="witchery_0-13-1_164.zip"
             md5="e41498bd464f8f1cb436602396c90bad"
             download="server"
             />
-        <mod name="Lycanite'sMobs"
+        <mod name="lycanite'smobs"
             website="http://www.minecraftforum.net/topic/1966252-"
             version="1.4.1"
             type="mods"
-            description="Lycanites Mobs is a project that adds a wide range of new mobs to Minecraft."
-            url="packs/RedwoodServer/files/1.6.4/LycanitesMobsComplete 1.4.1 [1.6.4].jar"
-            file="LycanitesMobsComplete 1.4.1 [1.6.4].jar"
+            description="lycanites mobs is a project that adds a wide range of new mobs to minecraft."
+            url="packs/redwoodserver/files/1.6.4/lycanitesmobscomplete 1.4.1 [1.6.4].jar"
+            file="lycanitesmobscomplete 1.4.1 [1.6.4].jar"
             md5="aeae01ac3a183f8736f60cb2718d5cde"
             download="server"
             />
-        <mod name="HungerOverhaul"
+        <mod name="hungeroverhaul"
             website="http://www.minecraftforum.net/topic/1813158-"
             version="2l-build3"
             type="mods"
-            description="Making food worth less and also give bonuses"
-            url="packs/RedwoodServer/files/1.6.4/hungeroverhaul-1.6.X-2l-build3.zip"
-            file="hungeroverhaul-1.6.X-2l-build3.zip"
+            description="making food worth less and also give bonuses"
+            url="packs/redwoodserver/files/1.6.4/hungeroverhaul-1.6.x-2l-build3.zip"
+            file="hungeroverhaul-1.6.x-2l-build3.zip"
             md5="770f92c1e4fdbc1f24faa5dcc96ec202"
             download="server"
             />
-        <mod name="DungeonPack"
+        <mod name="dungeonpack"
             website="http://www.minecraftforum.net/topic/1340914-164smpbukkitforgedungeonpack24-dungeons3-bosses2-npc-villages-mod-support/"
             version="1.6.4"
             type="mods"
-            description="DungeonPack adds a lot of new dungeons."
-            url="packs/RedwoodServer/files/1.6.4/DungeonPack 1.6.4.zip"
-            file="DungeonPack 1.6.4.zip"
+            description="dungeonpack adds a lot of new dungeons."
+            url="packs/redwoodserver/files/1.6.4/dungeonpack 1.6.4.zip"
+            file="dungeonpack 1.6.4.zip"
             md5="eb71455e612d99a4c084ba3d3faf416d"
             download="server"
             />
-		<mod name="Mariculture"
+		<mod name="mariculture"
 			website="http://www.minecraftforum.net/topic/2049315-16xforgesmp-mariculture-114e/"
 			version="1.1.4e"
 			type="mods"
-			description="Adds alot of water based fun!"
-			url="packs/RedwoodServer/files/1.6.4/Mariculture-1.6.X-v1.1.4e.zip"
-			file="Mariculture-1.6.X-v1.1.4e.zip"
+			description="adds alot of water based fun!"
+			url="packs/redwoodserver/files/1.6.4/mariculture-1.6.x-v1.1.4e.zip"
+			file="mariculture-1.6.x-v1.1.4e.zip"
 			md5="a73572e4a2e32bd85b71831dc447721b"
 			download="server"
 			/>
@@ -2803,7 +2790,7 @@
 </mods>
 <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
     <!--<actions>
-         <action mod="Optifine,Optifix" action="createzip" saveas="OptiFinePatched.jar" type="mods" after="delete" client="yes" server="no" />
+         <action mod="optifine,optifix" action="createzip" saveas="optifinepatched.jar" type="mods" after="delete" client="yes" server="no" />
      </actions>-->
 </version>
 
