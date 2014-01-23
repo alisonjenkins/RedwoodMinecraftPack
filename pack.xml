@@ -1379,18 +1379,18 @@
             <!--     md5="99d8db313edf76090560500a318b98ce" -->
             <!--     download="server" -->
             <!--     /> -->
-        <mod name="InfernalMobs"
-            website="http://www.atomicstryker.net/infernalmobs.html"
-            description="Makes some mobs just that tiny bit harder...trolololool!"
-            version="1.4.1"
-            optional="no"
-            server="yes"
-            type="mods"
-            url="packs/RedwoodServer/files/1.6.4/InfernalMobs_1.6.4.zip"
-            file="InfernalMobs_1.6.4.zip"
-            md5="fd4e3cb7c33d6782717ee0c1cf22d1f6"
-            download="server"
-            />
+        <!-- <mod name="InfernalMobs" -->
+        <!--     website="http://www.atomicstryker.net/infernalmobs.html" -->
+        <!--     description="Makes some mobs just that tiny bit harder...trolololool!" -->
+        <!--     version="1.4.1" -->
+        <!--     optional="no" -->
+        <!--     server="yes" -->
+        <!--     type="mods" -->
+        <!--     url="packs/RedwoodServer/files/1.6.4/InfernalMobs_1.6.4.zip" -->
+        <!--     file="InfernalMobs_1.6.4.zip" -->
+        <!--     md5="fd4e3cb7c33d6782717ee0c1cf22d1f6" -->
+        <!--     download="server" -->
+        <!--     /> -->
         <mod name="BetterGrassAndLeaves"
             description="Make Minecraft look a bit different with this Grass and Leaves mod!"
             website="http://www.minecraftforum.net/topic/508886-162-forge-better-grass-leaves-mod-v162d/"
