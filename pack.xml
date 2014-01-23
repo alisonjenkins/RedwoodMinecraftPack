@@ -2801,6 +2801,16 @@
             md5="eb71455e612d99a4c084ba3d3faf416d"
             download="server"
             />
+		<mod name="Mariculture"
+			website="http://www.minecraftforum.net/topic/2049315-16xforgesmp-mariculture-114e/"
+			version="1.1.4e"
+			type="mods"
+			description="Adds alot of water based fun!"
+			url="packs/RedwoodServer/files/1.6.4/Mariculture-1.6.X-v1.1.4e.zip"
+			file="Mariculture-1.6.X-v1.1.4e.zip"
+			md5="a73572e4a2e32bd85b71831dc447721b"
+			download="server"
+			/>
 
 </mods>
 <!-- https://www.dropbox.com/s/9sk91d00p8q5kmw/optifinefml.7z -->
