@@ -1,25 +1,15 @@
 Updated:
-- Galacticraft Galaxy Map key to be ';'.
+- HungerOverhaul configs reworked to give us seeds and make crops worth
+growing.
 
 Downgraded:
 - None.
 
 Added:
-- CraftingSuite 0.2.1.3.
-- DeadlyWorld 1.0.1.
-- HungerOverhaul 21-build3
-- Lycanite'sMobs 1.4.1
-- Mariculture 1.1.4e
-- Witchery 0.13.1
+- None.
 
 Removed:
-- CraftGuide.
-- Factorization.
-- InfernalMobs (temporarily).
-- StargateTech2.
-- MCPC-Plus.
-- Underground Biomes.
-- Xact Crafting Table.
+- None.
 
 Fixed:
 - None.
