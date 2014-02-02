@@ -1,6 +1,7 @@
 Updated:
-- HungerOverhaul configs reworked to give us seeds and make crops worth
-growing.
+- DeadlyWorld config to reduce the spawning of hostile spawners, Silverfish and water veins.
+- HungerOverhaul config to changed egg drop delay to vanilla setting and adjust plant growth time.
+- Lycanites Mobs config to stop restricting vanilla spawns and to make its own mobs despawn naturally.
 
 Downgraded:
 - None.
