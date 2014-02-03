@@ -1,7 +1,5 @@
 Updated:
-- DeadlyWorld config to reduce the spawning of hostile spawners, Silverfish and water veins.
-- HungerOverhaul config to changed egg drop delay to vanilla setting and adjust plant growth time.
-- Lycanites Mobs config to stop restricting vanilla spawns and to make its own mobs despawn naturally.
+- OpenBlocks config to disable XP consumption for elevator block usage.
 
 Downgraded:
 - None.
